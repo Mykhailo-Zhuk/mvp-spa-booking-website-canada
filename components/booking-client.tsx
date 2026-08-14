@@ -278,7 +278,7 @@ export default function BookingClient({
         {phase === "paying" ? (
           <span className="flex items-center gap-2"><span className="animate-spin">⏳</span> {t(locale, "book.paying")}</span>
         ) : (
-          `${t(locale, "book.payNow")} · ${cad(total)}`
+          `${t(locale, "common.payNow")} · ${cad(total)}`
         )}
       </button>
       <p className="text-center text-[11px] text-forest/50">

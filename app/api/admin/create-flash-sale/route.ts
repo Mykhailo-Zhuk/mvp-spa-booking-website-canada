@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { requireAdmin } from "@/lib/auth";
 import { round2 } from "@/lib/taxes";
+import { geofenceNotify } from "@/lib/demo/notify";
 
 export const dynamic = "force-dynamic";
 
@@ -56,18 +57,14 @@ export async function POST(req: Request) {
     }),
   ]);
 
-  // Task 4.3 trigger: fan out geo push to customers within 10 km of the spa.
-  const notify = await fetch(`${new URL(req.url).origin}/api/notify/geofence`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      lat: 51.1784,
-      lng: -115.5708,
-      radiusM: 10000,
-      title: `🔥 -${percent}% aujourd'hui !`,
-      body: `${slot.service.name} today — book before the slot is gone!`,
-    }),
-  }).then((r) => r.json().catch(() => null));
+  // Task 4.3 trigger: fan out geo push to customers within 10 km of the spa (shared lib,
+  // no cookie forwarding needed).
+  const notify = await geofenceNotify(prisma, {
+    center: { lat: 51.1784, lng: -115.5708 },
+    radiusM: 10000,
+    title: `🔥 -${percent}% today!`,
+    body: `${slot.service.name} today — book before the slot is gone!`,
+  }).catch(() => null);
 
   return NextResponse.json({
     ok: true,

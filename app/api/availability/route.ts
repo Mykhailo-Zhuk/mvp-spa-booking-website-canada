@@ -35,7 +35,7 @@ export async function GET(req: Request) {
       // Flash-sale price override (plan Task 4.2 keeps original_price)
       const activeFlash = s.promotion && s.promotion.isActive && s.promotion.endTime > new Date();
       const price = activeFlash ? s.promotion!.discountedPrice : s.price;
-      const originalPrice = activeFlash ? s.price : null;
+      const originalPrice = activeFlash ? s.promotion!.originalPrice : null;
       return {
         id: s.id,
         startTime: s.startTime.toISOString(),

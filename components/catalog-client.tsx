@@ -2,7 +2,7 @@
 
 // US#1 (Наталя) — catalog with filters + real slot grid + sticky price calculator.
 // Mobile-first: big touch targets, sticky footer with live HST + tip totals.
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { t, type Locale } from "@/lib/i18n";
@@ -28,7 +28,8 @@ const GENDERS = ["any", "female", "male"] as const;
 export default function CatalogClient({ locale, base, services }: { locale: Locale; base: string; services: ServiceOption[] }) {
   const searchParams = useSearchParams();
   const initialService = searchParams.get("service") ?? "";
-  const [date, setDate] = useState(() => isoDay(new Date()));
+  const initialDate = searchParams.get("date") ?? isoDay(new Date());
+  const [date, setDate] = useState<string>(initialDate);
   const [gender, setGender] = useState<(typeof GENDERS)[number]>("any");
   const [serviceId, setServiceId] = useState<string>(initialService);
   const [province, setProvince] = useState<string>(DEFAULT_PROVINCE);
@@ -39,6 +40,7 @@ export default function CatalogClient({ locale, base, services }: { locale: Loca
   const [price, setPrice] = useState<{ slotId: string; data: PriceRes } | null>(null);
 
   const days = useMemo(() => Array.from({ length: 7 }, (_, i) => addDays(new Date(), i)), []);
+  const autoAdvanced = useRef(false);
 
   // Fetch real slots on every filter change (plan Task 1.1: AJAX update + spinner).
   useEffect(() => {
@@ -51,6 +53,13 @@ export default function CatalogClient({ locale, base, services }: { locale: Loca
       .then((r) => r.json())
       .then((d) => {
         if (cancelled) return;
+        const free = (d.slots ?? []).filter((s: Slot) => !s.isBooked);
+        // If the chosen day has no free slots left, jump to the next day (once).
+        if (!autoAdvanced.current && date === isoDay(new Date()) && free.length === 0) {
+          autoAdvanced.current = true;
+          setDate(isoDay(addDays(new Date(), 1)));
+          return;
+        }
         setSlots(d.slots ?? []);
         setSelected(null);
         setPrice(null);

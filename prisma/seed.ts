@@ -101,10 +101,12 @@ async function main() {
         data: {
           email: `guest${i + 1}@demo.ca`,
           name,
+          phone: `+1 403 555 02${String(i + 1).padStart(2, "0")}`,
           province: "AB",
-          latitude: 51.05 + (i % 4) * 0.045,
-          longitude: -115.9 + (i % 3) * 0.12,
-          pushToken: `demo-token-guest${i + 1}`,
+          // All within ~9 km of the spa (51.1784, -115.5708) so the 10 km geofence catches them.
+          latitude: 51.11 + (i % 4) * 0.03,
+          longitude: -115.6 + (i % 3) * 0.03,
+          pushToken: i === 7 ? "demo-token-offline-guest8" : `demo-token-guest${i + 1}`,
         },
       }),
     ),
@@ -262,13 +264,15 @@ async function main() {
     return randState / 0x7fffffff;
   };
 
-  for (let day = 1; day <= 7; day++) {
+  const currentHour = new Date().getHours();
+  for (let day = 0; day <= 7; day++) {
     const weekday = at(day, 0).getDay();
     for (const therapist of therapists) {
       const serviceSlugs = specialtyToServices[therapist.specialty] ?? ["back-massage"];
       for (const slug of serviceSlugs) {
         const service = services[slug];
-        for (let hour = 10; hour <= 18; hour++) {
+        for (let hour = 10; hour <= 20; hour++) {
+          if (day === 0 && hour <= currentHour) continue; // skip past slots today
           const start = at(day, hour);
           const end = new Date(start.getTime() + service.durationMin * 60000);
           // Higher chance of being booked on weekends
@@ -294,9 +298,10 @@ async function main() {
   // Package service slots (rotating therapists, packages aren't therapist-bound in demo)
   const packageTherapists = [therapists[1], therapists[2], therapists[6]];
   for (const { svc } of pkgServices) {
-    for (let day = 1; day <= 7; day++) {
+    for (let day = 0; day <= 7; day++) {
       const weekday = at(day, 0).getDay();
-      for (let hour = 10; hour <= 18; hour += 2) {
+      for (let hour = 10; hour <= 20; hour += 2) {
+        if (day === 0 && hour <= currentHour) continue;
         for (const therapist of packageTherapists) {
           const start = at(day, hour);
           const end = new Date(start.getTime() + svc.durationMin * 60000);
