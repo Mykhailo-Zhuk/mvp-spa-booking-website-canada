@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* Rocky Mountain Serenity — Canadian spa palette */
+@theme {
+  --color-cream: #faf7f2;
+  --color-sand: #ece4d5;
+  --color-forest: #1f3d2b;
+  --color-pine: #2f5d3f;
+  --color-moss: #7ba05b;
+  --color-ember: #c96f4a;
+  --color-gold: #f59e0b;
+  --color-snow: #f6f8f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-forest);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 48px minimum touch targets (plan: big buttons for winter gloves) */
+button,
+a {
+  @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pine;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

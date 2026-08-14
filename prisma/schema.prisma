@@ -1,0 +1,179 @@
+// Spa Booking Website — Canada
+// Prisma schema (SQLite, demo-mode). Models cover all 4 user stories:
+// US#1 slots/bookings, US#2 packages/translations, US#3 guest guides/faq, US#4 promotions/occupancy/notifications.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model User {
+  id                 String    @id @default(cuid())
+  email              String    @unique
+  name               String
+  phone              String?
+  province           String    @default("ON")
+  latitude           Float?
+  longitude          Float?
+  pushToken          String?
+  isAdmin            Boolean   @default(false)
+  firstBookingAt     DateTime?
+  totalBookingsCount Int       @default(0)
+  createdAt          DateTime  @default(now())
+  bookings           Booking[]
+  notifications      NotificationLog[]
+}
+
+model Therapist {
+  id          String  @id @default(cuid())
+  name        String
+  gender      String // female | male | nonbinary
+  specialty   String
+  bio         String?
+  avatarEmoji String
+  slots       Slot[]
+}
+
+model Service {
+  id              String           @id @default(cuid())
+  name            String
+  slug            String           @unique
+  category        String // massage | ritual | facial | package
+  description     String
+  basePrice       Float
+  durationMin     Int
+  icon            String
+  slots           Slot[]
+  guestGuideSteps GuestGuideStep[]
+  faqs            Faq[]
+  bookings        Booking[]
+}
+
+model Slot {
+  id              String     @id @default(cuid())
+  therapistId     String
+  therapist       Therapist  @relation(fields: [therapistId], references: [id])
+  serviceId       String
+  service         Service    @relation(fields: [serviceId], references: [id])
+  startTime       DateTime
+  endTime         DateTime
+  isBooked        Boolean    @default(false)
+  price           Float
+  originalPrice   Float?
+  isFlashSale     Boolean    @default(false)
+  flashSaleEndsAt DateTime?
+  bookings        Booking[]
+  promotion       Promotion?
+
+  @@unique([therapistId, serviceId, startTime])
+  @@index([startTime])
+}
+
+model Booking {
+  id          String   @id @default(cuid())
+  bookingCode String   @unique
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  slotId      String
+  slot        Slot     @relation(fields: [slotId], references: [id])
+  serviceId   String
+  service     Service  @relation(fields: [serviceId], references: [id])
+  basePrice   Float
+  taxRate     Float
+  taxAmount   Float
+  tipAmount   Float
+  totalPaid   Float
+  status      String   @default("confirmed") // confirmed | failed | cancelled
+  voucherUrl  String?
+  createdAt   DateTime @default(now())
+}
+
+model Package {
+  id            String            @id @default(cuid())
+  slug          String            @unique
+  titleEn       String
+  titleFr       String
+  descriptionEn String
+  descriptionFr String
+  price         Float
+  durationMin   Int
+  imageEmoji    String
+  inclusions    PackageInclusion[]
+}
+
+model PackageInclusion {
+  id         String  @id @default(cuid())
+  packageId  String
+  package    Package @relation(fields: [packageId], references: [id])
+  itemNameEn String
+  itemNameFr String
+  icon       String
+  tooltip    String
+
+  @@index([packageId])
+}
+
+model GuestGuideStep {
+  id                  String  @id @default(cuid())
+  serviceId           String
+  service             Service @relation(fields: [serviceId], references: [id])
+  stepNumber          Int
+  icon                String
+  title               String
+  description         String
+  estimatedDurationMin Int?
+
+  @@index([serviceId])
+}
+
+model Faq {
+  id           String  @id @default(cuid())
+  serviceId    String
+  service      Service @relation(fields: [serviceId], references: [id])
+  question     String
+  answer       String
+  viewCount    Int     @default(0)
+  helpfulCount Int     @default(0)
+
+  @@index([serviceId])
+}
+
+model Promotion {
+  id              String   @id @default(cuid())
+  slotId          String   @unique
+  slot            Slot     @relation(fields: [slotId], references: [id])
+  originalPrice   Float
+  discountedPrice Float
+  discountPercent Int
+  startTime       DateTime @default(now())
+  endTime         DateTime
+  isActive        Boolean  @default(true)
+}
+
+model OccupancyStat {
+  id            String @id @default(cuid())
+  date          String // ISO date (yyyy-mm-dd)
+  weekday       Int // 0 = Sunday ... 6 = Saturday
+  hour          Int // 0-23
+  serviceId     String
+  bookingsCount Int
+  capacity      Int
+  fillRate      Float // 0..1
+
+  @@index([weekday, hour])
+}
+
+model NotificationLog {
+  id        String   @id @default(cuid())
+  type      String // push | sms | inapp
+  title     String
+  body      String
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id])
+  delivered Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
