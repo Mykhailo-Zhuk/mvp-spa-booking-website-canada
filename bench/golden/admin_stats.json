@@ -1,0 +1,15 @@
+{
+  "status": 200,
+  "type": "json",
+  "json": {
+    "revenue_today": 0,
+    "revenue_today_label": "$0.00",
+    "flash_revenue_today": 0,
+    "active_promos": [],
+    "delivery": {
+      "push_delivered": 0,
+      "sms_delivered": 0,
+      "total": 0
+    }
+  }
+}

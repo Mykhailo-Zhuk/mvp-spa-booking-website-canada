@@ -78,13 +78,40 @@ async function call(c) {
   return { status: res.status, text };
 }
 
-// HTML pages embed content-hashed asset URLs; strip them so the golden hash
-// tracks page CONTENT, not the build fingerprint.
+// HTML pages embed the build fingerprint in several places (asset URLs, and the
+// buildId inside the RSC flight payload). `next build` mints a NEW buildId every
+// run at the same string length, which shows up as identical byte counts but a
+// different hash. Strip it wherever it appears, plus content-hashed asset paths,
+// so the golden hash tracks page CONTENT rather than the build.
+//
+// MUST be read AFTER the build step: this script performs the build itself, so
+// capturing it at module load would read the PREVIOUS build's id and normalize
+// nothing.
+let BUILD_ID = null;
+function loadBuildId() {
+  const p = path.join(ROOT, ".next", "BUILD_ID");
+  BUILD_ID = existsSync(p) ? readFileSync(p, "utf8").trim() : null;
+}
+
 function normalize(c, text) {
   if (c.type !== "html") return text;
-  return text
+  let out = text
     .replace(/\/_next\/static\/[A-Za-z0-9._~%/-]+/g, "/_next/static/ASSET")
     .replace(/"buildId":"[^"]*"/g, '"buildId":"BUILD"');
+  if (BUILD_ID) out = out.split(BUILD_ID).join("BUILD");
+  return out;
+}
+
+/** First differing offset + context, so an HTML mismatch is diagnosable. */
+function diffHint(a, b) {
+  const n = Math.min(a.length, b.length);
+  for (let i = 0; i < n; i++) {
+    if (a[i] !== b[i]) {
+      const s = Math.max(0, i - 60);
+      return `first diff @${i}: got …${JSON.stringify(a.slice(s, i + 60))} want …${JSON.stringify(b.slice(s, i + 60))}`;
+    }
+  }
+  return a.length === b.length ? "identical" : `length differs ${a.length} vs ${b.length}`;
 }
 
 function median(xs) {
@@ -101,6 +128,7 @@ if (!NO_BUILD) {
   log(`building…`);
   await run("npm", ["run", "build"]);
 }
+loadBuildId();
 
 mkdirSync(GOLDEN_DIR, { recursive: true });
 const goldenPath = (name) => path.join(GOLDEN_DIR, `${name}.json`);
@@ -139,8 +167,11 @@ try {
     const goldenValue = { status: first.status, type: c.type };
 
     if (c.type === "html") {
-      goldenValue.sha256 = createHash("sha256").update(normalize(c, first.text)).digest("hex");
+      const normalized = normalize(c, first.text);
+      goldenValue.sha256 = createHash("sha256").update(normalized).digest("hex");
       goldenValue.bytes = first.text.length;
+      // Stored only so a future mismatch can be diffed; not compared directly.
+      goldenValue.normalized = normalized;
     } else {
       try {
         goldenValue.json = JSON.parse(first.text);
@@ -159,7 +190,10 @@ try {
         goldenFailures.push(`${c.name}: status ${goldenValue.status} != golden ${want.status}`);
       } else if (c.type === "html") {
         if (want.sha256 !== goldenValue.sha256) {
-          goldenFailures.push(`${c.name}: HTML content hash differs (bytes ${goldenValue.bytes} vs ${want.bytes})`);
+          const hint = want.normalized ? diffHint(normalize(c, first.text), want.normalized) : "";
+          goldenFailures.push(
+            `${c.name}: HTML content hash differs (bytes ${goldenValue.bytes} vs ${want.bytes})${hint ? " — " + hint : ""}`,
+          );
         }
       } else if (JSON.stringify(want.json) !== JSON.stringify(goldenValue.json)) {
         goldenFailures.push(`${c.name}: JSON response differs from golden`);

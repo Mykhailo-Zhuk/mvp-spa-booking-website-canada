@@ -1,0 +1,537 @@
+{
+  "status": 200,
+  "type": "json",
+  "json": {
+    "date": "2026-09-21",
+    "slots": [
+      {
+        "id": "cmu7ftxw4008qbx304njxjcsh",
+        "startTime": "2026-09-21T07:00:00.000Z",
+        "startLabel": "10:00",
+        "endTime": "2026-09-21T08:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "name": "Олена Коваль",
+          "gender": "female",
+          "avatarEmoji": "🧖‍♀️"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7fty8e00bsbx30re9wyura",
+        "startTime": "2026-09-21T07:00:00.000Z",
+        "startLabel": "10:00",
+        "endTime": "2026-09-21T08:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7ftxw8008rbx30u0qkxwxw",
+        "startTime": "2026-09-21T08:00:00.000Z",
+        "startLabel": "11:00",
+        "endTime": "2026-09-21T09:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "name": "Олена Коваль",
+          "gender": "female",
+          "avatarEmoji": "🧖‍♀️"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7fty8i00btbx30mkc4vv8w",
+        "startTime": "2026-09-21T08:00:00.000Z",
+        "startLabel": "11:00",
+        "endTime": "2026-09-21T09:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7ftxwc008sbx308rad68jx",
+        "startTime": "2026-09-21T09:00:00.000Z",
+        "startLabel": "12:00",
+        "endTime": "2026-09-21T10:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "name": "Олена Коваль",
+          "gender": "female",
+          "avatarEmoji": "🧖‍♀️"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7fty8m00bubx307sd852yj",
+        "startTime": "2026-09-21T09:00:00.000Z",
+        "startLabel": "12:00",
+        "endTime": "2026-09-21T10:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7ftxwg008tbx30p7xj8yv0",
+        "startTime": "2026-09-21T10:00:00.000Z",
+        "startLabel": "13:00",
+        "endTime": "2026-09-21T11:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "name": "Олена Коваль",
+          "gender": "female",
+          "avatarEmoji": "🧖‍♀️"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7fty8q00bvbx3034pajicd",
+        "startTime": "2026-09-21T10:00:00.000Z",
+        "startLabel": "13:00",
+        "endTime": "2026-09-21T11:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7ftxwl008ubx30s5e3e7hi",
+        "startTime": "2026-09-21T11:00:00.000Z",
+        "startLabel": "14:00",
+        "endTime": "2026-09-21T12:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "name": "Олена Коваль",
+          "gender": "female",
+          "avatarEmoji": "🧖‍♀️"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7fty8u00bwbx30azxcwuhf",
+        "startTime": "2026-09-21T11:00:00.000Z",
+        "startLabel": "14:00",
+        "endTime": "2026-09-21T12:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7ftxwp008vbx30lfs4g2hq",
+        "startTime": "2026-09-21T12:00:00.000Z",
+        "startLabel": "15:00",
+        "endTime": "2026-09-21T13:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "name": "Олена Коваль",
+          "gender": "female",
+          "avatarEmoji": "🧖‍♀️"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7fty8y00bxbx30ou9t5rgt",
+        "startTime": "2026-09-21T12:00:00.000Z",
+        "startLabel": "15:00",
+        "endTime": "2026-09-21T13:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7ftxwt008wbx30ww0d6ynv",
+        "startTime": "2026-09-21T13:00:00.000Z",
+        "startLabel": "16:00",
+        "endTime": "2026-09-21T14:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "name": "Олена Коваль",
+          "gender": "female",
+          "avatarEmoji": "🧖‍♀️"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7fty9100bybx30u1v8w5qi",
+        "startTime": "2026-09-21T13:00:00.000Z",
+        "startLabel": "16:00",
+        "endTime": "2026-09-21T14:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7ftxwx008xbx302nak0pkr",
+        "startTime": "2026-09-21T14:00:00.000Z",
+        "startLabel": "17:00",
+        "endTime": "2026-09-21T15:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "name": "Олена Коваль",
+          "gender": "female",
+          "avatarEmoji": "🧖‍♀️"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7fty9500bzbx30go2lzm3c",
+        "startTime": "2026-09-21T14:00:00.000Z",
+        "startLabel": "17:00",
+        "endTime": "2026-09-21T15:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7ftxx1008ybx30xmbytqdj",
+        "startTime": "2026-09-21T15:00:00.000Z",
+        "startLabel": "18:00",
+        "endTime": "2026-09-21T16:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "name": "Олена Коваль",
+          "gender": "female",
+          "avatarEmoji": "🧖‍♀️"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7fty9800c0bx302o78qvyx",
+        "startTime": "2026-09-21T15:00:00.000Z",
+        "startLabel": "18:00",
+        "endTime": "2026-09-21T16:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7ftxx5008zbx30r5wmip4r",
+        "startTime": "2026-09-21T16:00:00.000Z",
+        "startLabel": "19:00",
+        "endTime": "2026-09-21T17:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "name": "Олена Коваль",
+          "gender": "female",
+          "avatarEmoji": "🧖‍♀️"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7fty9c00c1bx30dgi6ufh9",
+        "startTime": "2026-09-21T16:00:00.000Z",
+        "startLabel": "19:00",
+        "endTime": "2026-09-21T17:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7ftxx80090bx30r7h22n2k",
+        "startTime": "2026-09-21T17:00:00.000Z",
+        "startLabel": "20:00",
+        "endTime": "2026-09-21T18:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "name": "Олена Коваль",
+          "gender": "female",
+          "avatarEmoji": "🧖‍♀️"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu7fty9f00c2bx30ki9gsjot",
+        "startTime": "2026-09-21T17:00:00.000Z",
+        "startLabel": "20:00",
+        "endTime": "2026-09-21T18:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu7ftwxe000nbx304nt6r8q1",
+          "name": "Масаж гарячим камінням",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      }
+    ]
+  }
+}

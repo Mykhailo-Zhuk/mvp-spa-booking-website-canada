@@ -1,0 +1,15 @@
+{
+  "status": 200,
+  "type": "json",
+  "json": {
+    "service_name": "Масаж гарячим камінням",
+    "base_price": 120,
+    "tax_rate": 0.13,
+    "tax": 15.6,
+    "tax_label": "HST 13%",
+    "suggested_tip": 18,
+    "tip_percent": 0.15,
+    "tip": 18,
+    "total": 153.6
+  }
+}
