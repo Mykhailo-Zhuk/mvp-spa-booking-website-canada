@@ -2,15 +2,26 @@
 // Pipeline: restore frozen dev.db -> next build -> next start -> warmup -> measure -> kill.
 //
 // Output contract (parsed by the experiment loop):
-//   RESULT\t<metric>\t<median1>,<median2>,...     metric = SUM of per-case medians (lower is better)
+//   RESULT\t<cpuMetric>\t<wallMetric>\t<wallMedians...>
+//   CPUCASES\t<cpu1>,<cpu2>,...
 //   GOLDEN\t<PASS|FAIL>[ \t <reason>]
+//
+// PRIMARY metric is server CPU milliseconds consumed by the fixed request set,
+// not wall-clock. This machine is a desktop whose ambient load drifts double
+// digits over minutes (identical code measured 227 ms and 196 ms half an hour
+// apart), which makes wall-clock comparisons across experiments invalid. CPU
+// time is a far better proxy for "work the server had to do": it is measured in
+// the server's own process group, so contention from unrelated desktop apps
+// inflates wall-clock without inflating this.
+//
+// Wall-clock medians are still collected and reported as a secondary signal.
 //
 // Flags:
 //   --record-golden   write bench/golden/*.json from this run instead of comparing
 //   --no-build        reuse the existing .next build (fast iteration; used by baseline repeats)
 //   --skip-golden     don't compare (still restores + measures)
 import { spawn } from "node:child_process";
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
 import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -120,6 +131,28 @@ function median(xs) {
   return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
 }
 
+// CPU milliseconds burned by the server's whole process group so far.
+// The server is spawned detached, so it leads its own process group and we can
+// attribute every descendant (npm wrapper + next-server) with one filter.
+const CLK_TCK = 100; // Linux USER_HZ
+function serverCpuMs(pgid) {
+  let ticks = 0;
+  for (const entry of readdirSync("/proc")) {
+    if (!/^\d+$/.test(entry)) continue;
+    let stat;
+    try {
+      stat = readFileSync(`/proc/${entry}/stat`, "utf8");
+    } catch {
+      continue; // process vanished mid-scan
+    }
+    // comm (field 2) may contain spaces and parens — parse from the LAST ')'
+    const fields = stat.slice(stat.lastIndexOf(")") + 2).split(" ");
+    if (Number(fields[2]) !== pgid) continue; // field 5 = pgrp
+    ticks += Number(fields[11]) + Number(fields[12]); // fields 14,15 = utime,stime
+  }
+  return (ticks * 1000) / CLK_TCK;
+}
+
 // ---------------------------------------------------------------- main
 restore();
 log(`db restored from pristine fixture`);
@@ -155,6 +188,7 @@ try {
   log(`server ready on ${ORIGIN}`);
 
   const medians = [];
+  const cpuMs = [];
   const goldenFailures = [];
 
   for (const c of CFG.cases) {
@@ -200,19 +234,28 @@ try {
       }
     }
 
+    // Warmup is deliberately excluded from the CPU delta — it primes Prisma's
+    // plan cache and hot-slots' one-off promo-expiry write, which we don't want
+    // to charge to the measured phase.
+    const cpuBefore = serverCpuMs(server.pid);
     const samples = [];
     for (let i = 0; i < CFG.measuredIterations; i++) {
       const t0 = performance.now();
       await call(c);
       samples.push(performance.now() - t0);
     }
+    const caseCpu = serverCpuMs(server.pid) - cpuBefore;
+
     const med = median(samples);
     medians.push(med);
-    log(`  ${String(med.toFixed(2)).padStart(8)} ms  ${c.name}`);
+    cpuMs.push(caseCpu);
+    log(`  ${String(med.toFixed(2)).padStart(8)} ms wall  ${String(caseCpu.toFixed(1)).padStart(7)} ms cpu  ${c.name}`);
   }
 
-  const metric = medians.reduce((a, b) => a + b, 0);
-  log(`RESULT\t${metric.toFixed(3)}\t${medians.map((m) => m.toFixed(2)).join(",")}`);
+  const wallMetric = medians.reduce((a, b) => a + b, 0);
+  const cpuMetric = cpuMs.reduce((a, b) => a + b, 0);
+  log(`CPUCASES\t${cpuMs.map((m) => m.toFixed(1)).join(",")}`);
+  log(`RESULT\t${cpuMetric.toFixed(3)}\t${wallMetric.toFixed(3)}\t${medians.map((m) => m.toFixed(2)).join(",")}`);
   log(`GOLDEN\t${goldenFailures.length ? "FAIL" : "PASS"}${goldenFailures.length ? "\t" + goldenFailures.join(" | ") : ""}`);
 } catch (err) {
   console.error(`FATAL: ${err.message}`);
