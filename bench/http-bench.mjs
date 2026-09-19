@@ -31,6 +31,13 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const GOLDEN_DIR = path.join(ROOT, "bench", "golden");
 const PORT = 3100;
 const ORIGIN = `http://127.0.0.1:${PORT}`;
+
+// The goldens encode wall-clock-relative responses, so the server is run with a
+// frozen clock at the instant they were recorded (see bench/freeze-clock.cjs).
+// TZ is pinned too because formatTime/isoDay are local-time functions and the
+// recorded "10:00" label depends on it.
+const FROZEN_TZ = "Europe/Kiev";
+const FROZEN_NOW = "2026-09-18T21:02:11.000Z";
 const CFG = JSON.parse(readFileSync(path.join(ROOT, "bench", "cases.json"), "utf8"));
 
 const argv = process.argv.slice(2);
@@ -166,10 +173,24 @@ loadBuildId();
 mkdirSync(GOLDEN_DIR, { recursive: true });
 const goldenPath = (name) => path.join(GOLDEN_DIR, `${name}.json`);
 
+// A server left behind by a killed earlier run would answer /en below, so
+// waitForServer() would return immediately and this run would silently measure
+// the PREVIOUS commit's code. Refuse loudly instead.
+try {
+  await fetch(`${ORIGIN}/en`, { redirect: "manual" });
+  fail(`port ${PORT} is already answering — kill the stale server before benchmarking`);
+} catch {}
+
 const server = spawn("npm", ["start", "--", "-p", String(PORT)], {
   cwd: ROOT,
   stdio: ["ignore", "pipe", "pipe"],
   detached: true,
+  env: {
+    ...process.env,
+    TZ: FROZEN_TZ,
+    BENCH_FROZEN_NOW: FROZEN_NOW,
+    NODE_OPTIONS: `${process.env.NODE_OPTIONS ?? ""} --require ${path.join(ROOT, "bench", "freeze-clock.cjs")}`.trim(),
+  },
 });
 let serverLog = "";
 server.stdout.on("data", (d) => (serverLog += d));

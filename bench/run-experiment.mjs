@@ -38,7 +38,15 @@ let goldenFailed = null;
 
 for (let i = 0; i < ROUNDS; i++) {
   const args = ["bench/http-bench.mjs", ...(i === 0 ? [] : ["--no-build"])];
-  const r = spawnSync("node", args, { cwd: ROOT, encoding: "utf8", maxBuffer: 64 * 1024 * 1024 });
+  // Without a timeout a wedged round blocks forever, and the outer kill leaves the
+  // detached server orphaned on port 3100 — which the next run would then measure.
+  const r = spawnSync("node", args, {
+    cwd: ROOT,
+    encoding: "utf8",
+    maxBuffer: 64 * 1024 * 1024,
+    timeout: 900_000,
+    killSignal: "SIGKILL",
+  });
   const out = `${r.stdout || ""}${r.stderr || ""}`;
   process.stderr.write(out.split("\n").filter((l) => /ms wall/.test(l)).join("\n") + "\n");
 
