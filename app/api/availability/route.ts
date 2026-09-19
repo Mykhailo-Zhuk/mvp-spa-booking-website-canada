@@ -19,6 +19,7 @@ export async function GET(req: Request) {
 
   const start = new Date(`${date}T00:00:00`);
   const end = new Date(start.getTime() + 24 * 3600 * 1000);
+  const now = new Date();
 
   const where: Record<string, unknown> = { startTime: { gte: start, lt: end } };
   if (gender && gender !== "any") where.therapist = { gender };
@@ -35,7 +36,7 @@ export async function GET(req: Request) {
     date,
     slots: slots.map((s) => {
       // Flash-sale price override (plan Task 4.2 keeps original_price)
-      const activeFlash = s.promotion && s.promotion.isActive && s.promotion.endTime > new Date();
+      const activeFlash = s.promotion && s.promotion.isActive && s.promotion.endTime > now;
       const price = activeFlash ? s.promotion!.discountedPrice : s.price;
       const originalPrice = activeFlash ? s.promotion!.originalPrice : null;
       return {
