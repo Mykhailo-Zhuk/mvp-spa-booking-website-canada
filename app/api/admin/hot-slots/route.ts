@@ -59,7 +59,7 @@ export async function GET() {
         price: activeFlash ? s.promotion!.discountedPrice : s.price,
         originalPrice: activeFlash ? s.promotion!.originalPrice : null,
         isFlashSale: !!activeFlash,
-        service: { id: s.service.id, name: s.service.name, icon: s.service.icon },
+        service: { id: s.service.id, name: s.service.nameEn, icon: s.service.icon },
         therapist: { name: s.therapist.name, avatarEmoji: s.therapist.avatarEmoji },
       };
     })

@@ -18,11 +18,11 @@ export default function FaqAccordion({ serviceId, locale }: { serviceId: string;
   const [openId, setOpenId] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch(`/api/faq/${serviceId}`)
+    fetch(`/api/faq/${serviceId}?locale=${locale}`)
       .then((r) => r.json())
       .then((d) => setFaqs(d.faqs ?? []))
       .catch(() => {});
-  }, [serviceId]);
+  }, [serviceId, locale]);
 
   if (faqs.length === 0) return null;
 

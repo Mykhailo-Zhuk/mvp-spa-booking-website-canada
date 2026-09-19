@@ -2,7 +2,7 @@ import { notFound, redirect } from "next/navigation";
 import BookingClient from "@/components/booking-client";
 import { prisma } from "@/lib/prisma";
 import { getCurrentUser } from "@/lib/auth";
-import type { Locale } from "@/lib/i18n";
+import { tri, type Locale } from "@/lib/i18n";
 
 export const dynamic = "force-dynamic";
 
@@ -43,7 +43,7 @@ export default async function BookPage({
         isFlashSale: !!activeFlash,
         isBooked: slot.isBooked,
         therapist: { name: slot.therapist.name, avatarEmoji: slot.therapist.avatarEmoji, gender: slot.therapist.gender },
-        service: { name: slot.service.name, slug: slot.service.slug, icon: slot.service.icon, basePrice: slot.service.basePrice },
+        service: { name: tri(slot.service.nameEn, slot.service.nameFr, slot.service.nameUk, locale), slug: slot.service.slug, icon: slot.service.icon, basePrice: slot.service.basePrice },
       }}
       user={{ id: user.id, name: user.name, email: user.email, province: user.province }}
       locale={locale}

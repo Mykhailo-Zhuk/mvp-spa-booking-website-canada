@@ -21,11 +21,11 @@ export default function GuestGuide({ serviceId, locale }: { serviceId: string; l
   const trackRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    fetch(`/api/guest-guide/${serviceId}`)
+    fetch(`/api/guest-guide/${serviceId}?locale=${locale}`)
       .then((r) => r.json())
       .then((d) => setSteps(d.steps ?? []))
       .catch(() => {});
-  }, [serviceId]);
+  }, [serviceId, locale]);
 
   if (steps.length === 0) return null;
 

@@ -19,12 +19,12 @@ export default function BookingsList({ userId, locale }: { userId: string; local
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`/api/bookings?userId=${userId}`)
+    fetch(`/api/bookings?userId=${userId}&locale=${locale}`)
       .then((r) => r.json())
       .then((d) => setRows(d.bookings ?? []))
       .catch(() => {})
       .finally(() => setLoading(false));
-  }, [userId]);
+  }, [userId, locale]);
 
   const download = async (b: BookingRow) => {
     await generateVoucherPdf({
@@ -46,7 +46,7 @@ export default function BookingsList({ userId, locale }: { userId: string; local
         <div className="flex h-32 items-center justify-center text-forest/50"><span className="animate-spin text-2xl">⏳</span></div>
       ) : rows.length === 0 ? (
         <div className="rounded-2xl border border-sand bg-white px-4 py-10 text-center text-sm text-forest/60">
-          No bookings yet — <Link href={`/${locale}/services`} className="text-pine underline">find a treatment</Link>
+          {t(locale, "book.noBookings")} — <Link href={`/${locale}/services`} className="text-pine underline">{t(locale, "book.findTreatment")}</Link>
         </div>
       ) : (
         <div className="space-y-3">

@@ -47,6 +47,7 @@ export default function CatalogClient({ locale, base, services }: { locale: Loca
     let cancelled = false;
     const q = new URLSearchParams({ date, gender });
     if (serviceId) q.set("serviceId", serviceId);
+    q.set("locale", locale);
     // eslint-disable-next-line react-hooks/set-state-in-effect -- idiomatic fetch-on-filter-change spinner
     setLoading(true);
     fetch(`/api/availability?${q}`)
@@ -178,7 +179,7 @@ export default function CatalogClient({ locale, base, services }: { locale: Loca
                 <span className="text-2xl">{s.therapist.avatarEmoji}</span>
                 <span className="min-w-0 flex-1">
                   <span className="block text-sm font-bold text-forest">
-                    {s.startLabel} · {s.durationMin} мин
+                    {s.startLabel} · {s.durationMin} {t(locale, "common.min")}
                   </span>
                   <span className="block truncate text-xs text-forest/60">
                     {s.therapist.name} · {s.service.name}

@@ -8,7 +8,7 @@ import { LOCALES, type Locale } from "@/lib/i18n";
 
 function swapLocale(pathname: string, locale: Locale): string {
   const segments = pathname.split("/");
-  if (segments[1] === "en" || segments[1] === "fr") segments[1] = locale;
+  if (segments[1] === "en" || segments[1] === "fr" || segments[1] === "uk") segments[1] = locale;
   else segments.splice(1, 0, locale);
   return segments.join("/") || `/${locale}`;
 }
@@ -39,7 +39,7 @@ export default function LangSwitcher({ locale }: { locale: Locale }) {
         aria-label="Language / Langue"
         className="flex h-11 min-w-11 items-center justify-center gap-1 rounded-full bg-sand px-3 text-sm font-semibold text-forest"
       >
-        🌐 <span className="hidden sm:inline">{locale === "en" ? "EN" : "FR"}</span>
+        🌐 <span className="hidden sm:inline">{locale.toUpperCase()}</span>
       </button>
       {open && (
         <div className="absolute right-0 top-12 z-50 w-40 overflow-hidden rounded-2xl border border-sand bg-white shadow-xl">
@@ -51,7 +51,7 @@ export default function LangSwitcher({ locale }: { locale: Locale }) {
                 l === locale ? "bg-cream text-pine" : "text-forest"
               }`}
             >
-              {l === "en" ? "🇬🇧 English" : "🇫🇷 Français"}
+              {l === "en" ? "🇬🇧 English" : l === "fr" ? "🇫🇷 Français" : "🇺🇦 Українська"}
             </button>
           ))}
         </div>

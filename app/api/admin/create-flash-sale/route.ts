@@ -63,7 +63,7 @@ export async function POST(req: Request) {
     center: { lat: 51.1784, lng: -115.5708 },
     radiusM: 10000,
     title: `🔥 -${percent}% today!`,
-    body: `${slot.service.name} today — book before the slot is gone!`,
+    body: `${slot.service.nameEn} today — book before the slot is gone!`,
   }).catch(() => null);
 
   return NextResponse.json({

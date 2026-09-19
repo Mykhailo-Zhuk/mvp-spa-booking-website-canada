@@ -26,12 +26,12 @@ export async function POST(req: Request) {
     if (!slot) return NextResponse.json({ error: "slot not found" }, { status: 404 });
     const activeFlash = slot.promotion && slot.promotion.isActive && slot.promotion.endTime > new Date();
     basePrice = activeFlash ? slot.promotion!.discountedPrice : slot.price;
-    serviceName = slot.service.name;
+    serviceName = slot.service.nameEn;
   } else if (body.serviceId) {
     const service = await prisma.service.findUnique({ where: { id: body.serviceId } });
     if (!service) return NextResponse.json({ error: "service not found" }, { status: 404 });
     basePrice = service.basePrice;
-    serviceName = service.name;
+    serviceName = service.nameEn;
   }
 
   const breakdown = calculatePrice(basePrice, {

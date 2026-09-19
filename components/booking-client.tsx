@@ -79,6 +79,7 @@ export default function BookingClient({
         province,
         tipPercent: tipOn ? 0.15 : 0,
         cardLast4: card.last4,
+        locale,
       }),
     });
     const data = await res.json();

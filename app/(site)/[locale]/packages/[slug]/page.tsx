@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import InclusionsGrid from "@/components/inclusions-grid";
 import { prisma } from "@/lib/prisma";
-import { t, dbText, type Locale } from "@/lib/i18n";
+import { t, tri, type Locale } from "@/lib/i18n";
 import { cad, formatDate, formatTime } from "@/lib/format";
 
 export const dynamic = "force-dynamic";
@@ -34,12 +34,12 @@ export default async function PackagePage({
       })
     : null;
 
-  const title = dbText(pkg.titleFr, pkg.titleEn, locale);
-  const description = dbText(pkg.descriptionFr, pkg.descriptionEn, locale);
+  const title = tri(pkg.titleEn, pkg.titleFr, pkg.titleUk, locale);
+  const description = tri(pkg.descriptionEn, pkg.descriptionFr, pkg.descriptionUk, locale);
   const inclusions = pkg.inclusions.map((i) => ({
     id: i.id,
     icon: i.icon,
-    name: dbText(i.itemNameFr, i.itemNameEn, locale),
+    name: tri(i.itemNameEn, i.itemNameFr, i.itemNameUk, locale),
     tooltip: i.tooltip, // English tooltips (demo keeps tooltips EN)
   }));
 

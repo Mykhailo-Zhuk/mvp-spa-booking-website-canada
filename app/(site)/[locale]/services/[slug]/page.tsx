@@ -5,7 +5,7 @@ import GuestGuide from "@/components/guest-guide";
 import FaqAccordion from "@/components/faq-accordion";
 import { prisma } from "@/lib/prisma";
 import { getCurrentUser } from "@/lib/auth";
-import { t, type Locale } from "@/lib/i18n";
+import { t, tri, type Locale } from "@/lib/i18n";
 import { cad } from "@/lib/format";
 
 export const dynamic = "force-dynamic";
@@ -36,13 +36,13 @@ export default async function ServicePage({
         <div className="flex items-center gap-4">
           <span className="grid h-16 w-16 place-items-center rounded-2xl bg-cream/10 text-4xl">{service.icon}</span>
           <div>
-            <h1 className="text-2xl font-bold">{service.name}</h1>
+            <h1 className="text-2xl font-bold">{tri(service.nameEn, service.nameFr, service.nameUk, locale)}</h1>
             <p className="mt-1 text-sm text-cream/70">
               {service.durationMin} min · {cad(service.basePrice)} <span className="text-cream/40">+ taxes</span>
             </p>
           </div>
         </div>
-        <p className="mt-4 text-sm leading-relaxed text-cream/85">{service.description}</p>
+        <p className="mt-4 text-sm leading-relaxed text-cream/85">{tri(service.descriptionEn, service.descriptionFr, service.descriptionUk, locale)}</p>
       </section>
 
       {/* Newbie badge (US#3 Task 3.3) */}
@@ -74,7 +74,7 @@ export default async function ServicePage({
         href={`${base}/services?service=${service.id}`}
         className="flex h-14 items-center justify-center rounded-full bg-ember text-base font-bold text-white"
       >
-        {t(locale, "common.book")} {service.name} →
+        {t(locale, "common.book")} {tri(service.nameEn, service.nameFr, service.nameUk, locale)} →
       </Link>
     </div>
   );

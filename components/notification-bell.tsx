@@ -3,6 +3,7 @@
 // In-app notification bell (plan mobile-first: notifications duplicated in-app because
 // many Canadians disable push). Shows demo inapp notifications for the signed-in user.
 import { useEffect, useState } from "react";
+import { t, type Locale } from "@/lib/i18n";
 
 interface Notice {
   id: string;
@@ -11,16 +12,16 @@ interface Notice {
   createdAt: string;
 }
 
-export default function NotificationBell({ userId }: { userId: string }) {
+export default function NotificationBell({ userId, locale }: { userId: string; locale: Locale }) {
   const [open, setOpen] = useState(false);
   const [items, setItems] = useState<Notice[]>([]);
 
   useEffect(() => {
-    fetch(`/api/notifications?userId=${userId}`)
+    fetch(`/api/notifications?userId=${userId}&locale=${locale}`)
       .then((r) => r.json())
       .then((d) => setItems(d.notifications ?? []))
       .catch(() => {});
-  }, [userId]);
+  }, [userId, locale]);
 
   return (
     <div className="relative">
@@ -38,9 +39,9 @@ export default function NotificationBell({ userId }: { userId: string }) {
       </button>
       {open && (
         <div className="absolute right-0 top-12 z-50 w-80 max-w-[90vw] overflow-hidden rounded-2xl border border-sand bg-white shadow-xl">
-          <div className="border-b border-sand bg-cream px-4 py-2 text-sm font-semibold text-forest">Notifications</div>
+          <div className="border-b border-sand bg-cream px-4 py-2 text-sm font-semibold text-forest">{t(locale, "notif.title")}</div>
           <div className="max-h-80 overflow-y-auto">
-            {items.length === 0 && <div className="px-4 py-6 text-center text-sm text-forest/50">Nothing yet</div>}
+            {items.length === 0 && <div className="px-4 py-6 text-center text-sm text-forest/50">{t(locale, "notif.empty")}</div>}
             {items.map((n) => (
               <div key={n.id} className="border-b border-sand/60 px-4 py-3">
                 <div className="text-sm font-semibold text-forest">{n.title}</div>

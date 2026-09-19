@@ -40,10 +40,14 @@ model Therapist {
 
 model Service {
   id              String           @id @default(cuid())
-  name            String
   slug            String           @unique
   category        String // massage | ritual | facial | package
-  description     String
+  nameEn          String
+  nameFr          String
+  nameUk          String
+  descriptionEn   String
+  descriptionFr   String
+  descriptionUk   String
   basePrice       Float
   durationMin     Int
   icon            String
@@ -97,8 +101,10 @@ model Package {
   slug          String            @unique
   titleEn       String
   titleFr       String
+  titleUk       String
   descriptionEn String
   descriptionFr String
+  descriptionUk String
   price         Float
   durationMin   Int
   imageEmoji    String
@@ -111,6 +117,7 @@ model PackageInclusion {
   package    Package @relation(fields: [packageId], references: [id])
   itemNameEn String
   itemNameFr String
+  itemNameUk String
   icon       String
   tooltip    String
 
@@ -123,8 +130,12 @@ model GuestGuideStep {
   service             Service @relation(fields: [serviceId], references: [id])
   stepNumber          Int
   icon                String
-  title               String
-  description         String
+  titleEn             String
+  titleFr             String
+  titleUk             String
+  descriptionEn       String
+  descriptionFr       String
+  descriptionUk       String
   estimatedDurationMin Int?
 
   @@index([serviceId])
@@ -134,8 +145,12 @@ model Faq {
   id           String  @id @default(cuid())
   serviceId    String
   service      Service @relation(fields: [serviceId], references: [id])
-  question     String
-  answer       String
+  questionEn   String
+  questionFr   String
+  questionUk   String
+  answerEn     String
+  answerFr     String
+  answerUk     String
   viewCount    Int     @default(0)
   helpfulCount Int     @default(0)
 
@@ -170,8 +185,12 @@ model OccupancyStat {
 model NotificationLog {
   id        String   @id @default(cuid())
   type      String // push | sms | inapp
-  title     String
-  body      String
+  titleEn   String
+  titleFr   String
+  titleUk   String
+  bodyEn    String
+  bodyFr    String
+  bodyUk    String
   userId    String?
   user      User?    @relation(fields: [userId], references: [id])
   delivered Boolean  @default(false)

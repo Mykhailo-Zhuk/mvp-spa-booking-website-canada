@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { formatTime } from "@/lib/format";
+import { tri, type Locale } from "@/lib/i18n";
 
 export const dynamic = "force-dynamic";
 
@@ -12,6 +13,7 @@ export async function GET(req: Request) {
   const gender = searchParams.get("gender");
   const serviceId = searchParams.get("serviceId");
   const therapistId = searchParams.get("therapistId");
+  const locale = (searchParams.get("locale") ?? "en") as Locale;
 
   if (!date) return NextResponse.json({ error: "date required (YYYY-MM-DD)" }, { status: 400 });
 
@@ -47,7 +49,7 @@ export async function GET(req: Request) {
         price,
         originalPrice,
         therapist: { id: s.therapist.id, name: s.therapist.name, gender: s.therapist.gender, avatarEmoji: s.therapist.avatarEmoji },
-        service: { id: s.service.id, name: s.service.name, slug: s.service.slug, icon: s.service.icon, basePrice: s.service.basePrice },
+        service: { id: s.service.id, name: tri(s.service.nameEn, s.service.nameFr, s.service.nameUk, locale), slug: s.service.slug, icon: s.service.icon, basePrice: s.service.basePrice },
       };
     }),
   });

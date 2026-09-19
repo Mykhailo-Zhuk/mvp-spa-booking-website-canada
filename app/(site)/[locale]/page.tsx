@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 import { getCurrentUser } from "@/lib/auth";
-import { t, type Locale } from "@/lib/i18n";
+import { t, tri, type Locale } from "@/lib/i18n";
 import { cad, formatTime } from "@/lib/format";
 
 export const dynamic = "force-dynamic";
@@ -49,7 +49,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 className="shrink-0 rounded-2xl border border-cream/20 bg-cream/10 px-3 py-2 text-xs"
               >
                 <span className="font-bold">{formatTime(s.startTime)}</span>
-                <span className="ml-1 text-cream/70">{s.service.name}</span>
+                <span className="ml-1 text-cream/70">{tri(s.service.nameEn, s.service.nameFr, s.service.nameUk, locale)}</span>
               </Link>
             ))}
           </div>
@@ -82,7 +82,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               className="rounded-2xl border border-sand bg-white p-4 transition hover:border-pine/40"
             >
               <div className="text-3xl">{s.icon}</div>
-              <div className="mt-2 text-sm font-bold leading-tight">{s.name}</div>
+              <div className="mt-2 text-sm font-bold leading-tight">{tri(s.nameEn, s.nameFr, s.nameUk, locale)}</div>
               <div className="mt-1 text-xs text-forest/60">
                 {s.durationMin} min · {cad(s.basePrice)}
               </div>
@@ -104,10 +104,10 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               <span className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-sand text-3xl">{p.imageEmoji}</span>
               <div className="min-w-0 flex-1">
                 <div className="truncate text-sm font-bold">
-                  {locale === "fr" ? p.titleFr : p.titleEn}
+                  {tri(p.titleEn, p.titleFr, p.titleUk, locale)}
                 </div>
                 <div className="mt-0.5 text-xs text-forest/60">
-                  {locale === "fr" ? p.descriptionFr.slice(0, 80) : p.descriptionEn.slice(0, 80)}…
+                  {tri(p.descriptionEn, p.descriptionFr, p.descriptionUk, locale).slice(0, 80)}…
                 </div>
               </div>
               <div className="text-right">

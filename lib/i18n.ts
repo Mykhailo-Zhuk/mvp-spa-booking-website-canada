@@ -1,8 +1,15 @@
 // US#2 (Девід) — bilingual UI. Static strings live here; package/service content
 // is translated in the DB. Missing DB translations fall back with an "[EN]" tag (plan Task 2.1).
 
-export type Locale = "en" | "fr";
-export const LOCALES: Locale[] = ["en", "fr"];
+export type Locale = "en" | "fr" | "uk";
+export const LOCALES: Locale[] = ["en", "fr", "uk"];
+
+/** Pick the string for the active locale from three DB columns, EN as fallback. */
+export function tri(en: string, fr: string, uk: string, locale: Locale): string {
+  if (locale === "fr") return fr || en || "";
+  if (locale === "uk") return uk || en || "";
+  return en;
+}
 
 type Dict = Record<string, string>;
 
@@ -31,6 +38,10 @@ const en: Dict = {
   "common.close": "Close",
   "common.optional": "optional",
   "common.seeAll": "See all",
+  "common.min": "min",
+  // Notifications
+  "notif.title": "Notifications",
+  "notif.empty": "Nothing yet",
   // Home
   "home.hero.title": "Rocky Mountain Serenity",
   "home.hero.subtitle": "Book a real spa appointment in under 2 minutes — final price with taxes, no phone calls.",
@@ -82,6 +93,8 @@ const en: Dict = {
   "book.addedToCalendar": "Added to your calendar ✓",
   "book.downloadVoucher": "Download voucher (PDF)",
   "book.seeBookings": "My bookings",
+  "book.noBookings": "No bookings yet",
+  "book.findTreatment": "find a treatment",
   "book.qrHint": "Show this QR at reception",
   "book.paymentFailed": "Payment declined. Try another card.",
   "book.demoSuccess": "Demo: payment succeeded via simulated Stripe sheet.",
@@ -147,6 +160,10 @@ const fr: Dict = {
   "common.close": "Fermer",
   "common.optional": "facultatif",
   "common.seeAll": "Voir tout",
+  "common.min": "min",
+  // Notifications
+  "notif.title": "Notifications",
+  "notif.empty": "Rien pour l'instant",
   "home.hero.title": "Rocky Mountain Serenity",
   "home.hero.subtitle": "Réservez un vrai rendez-vous spa en moins de 2 minutes — prix final taxes comprises, sans appel.",
   "home.hero.cta": "Réserver un soin",
@@ -194,6 +211,8 @@ const fr: Dict = {
   "book.addedToCalendar": "Ajouté à votre calendrier ✓",
   "book.downloadVoucher": "Télécharger le bon (PDF)",
   "book.seeBookings": "Mes réservations",
+  "book.noBookings": "Aucune réservation",
+  "book.findTreatment": "trouver un soin",
   "book.qrHint": "Montrez ce QR à la réception",
   "book.paymentFailed": "Paiement refusé. Essayez une autre carte.",
   "book.demoSuccess": "Démo : paiement réussi via la feuille Stripe simulée.",
@@ -233,7 +252,122 @@ const fr: Dict = {
   "admin.slot": "Créneau",
 };
 
-const dictionaries: Record<Locale, Dict> = { en, fr };
+const uk: Dict = {
+  "nav.home": "Головна",
+  "nav.services": "Послуги",
+  "nav.bookings": "Мої бронювання",
+  "nav.profile": "Профіль",
+  "nav.admin": "Адмін",
+  "nav.signIn": "Увійти",
+  "nav.signOut": "Вийти",
+  "nav.lang": "Мова",
+  "common.book": "Забронювати",
+  "common.pay": "Сплатити",
+  "common.payNow": "Сплатити зараз",
+  "common.back": "Назад",
+  "common.cancel": "Скасувати",
+  "common.confirm": "Підтвердити",
+  "common.loading": "Завантаження…",
+  "common.free": "Безкоштовно",
+  "common.included": "Включено",
+  "common.notIncluded": "Оплачується окремо",
+  "common.download": "Завантажити",
+  "common.close": "Закрити",
+  "common.optional": "необов’язково",
+  "common.seeAll": "Дивитися всі",
+  "common.min": "хв",
+  // Notifications
+  "notif.title": "Сповіщення",
+  "notif.empty": "Поки нічого",
+  "home.hero.title": "Rocky Mountain Serenity",
+  "home.hero.subtitle": "Забронюйте справжній сеанс у спа менш ніж за 2 хвилини — кінцева ціна з податками, без дзвінків.",
+  "home.hero.cta": "Забронювати сеанс",
+  "home.popular": "Популярні процедури",
+  "home.packages": "Фірмові пакети",
+  "home.newGuest": "Вперше тут?",
+  "home.newGuestSub": "Перегляньте гід гостя з 5 кроків перед бронюванням.",
+  "catalog.title": "Доступно сьогодні",
+  "catalog.subtitle": "Реальні вільні слоти реальних фахівців — ціна з податками.",
+  "catalog.date": "Дата",
+  "catalog.therapistGender": "Стать фахівця",
+  "catalog.any": "Будь-хто",
+  "catalog.female": "Жінка",
+  "catalog.male": "Чоловік",
+  "catalog.serviceType": "Тип послуги",
+  "catalog.allServices": "Усі послуги",
+  "catalog.freeSlots": "Вільні слоти",
+  "catalog.booked": "Заброньовано",
+  "catalog.available": "Доступно",
+  "catalog.noSlots": "Немає вільних слотів за цим фільтром. Спробуйте інший день.",
+  "catalog.taxNote": "З податками",
+  "catalog.perSession": "за сеанс",
+  "price.base": "Базова ціна",
+  "price.tax": "Податок",
+  "price.tip": "Чайові",
+  "price.tipToggle": "Додати рекомендовані чайові 15%",
+  "price.tipIncluded": "З чайовими",
+  "price.total": "Разом",
+  "price.taxIncluded": "Податки включені",
+  "price.province": "Провінція",
+  "price.selectTreatment": "Оберіть вільний слот, щоб побачити ціну",
+  "book.confirm": "Підтвердити бронювання",
+  "book.summary": "Підсумок бронювання",
+  "book.service": "Послуга",
+  "book.therapist": "Фахівець",
+  "book.dateTime": "Дата й час",
+  "book.duration": "Тривалість",
+  "book.contact": "Контакт",
+  "book.payWith": "Сплатити за допомогою",
+  "book.demoPay": "Демо-оплата (симульований Stripe)",
+  "book.paying": "Обробка платежу…",
+  "book.success": "Оплату успішно проведено!",
+  "book.code": "Код бронювання",
+  "book.addToCalendar": "Додати до Google Календаря",
+  "book.addedToCalendar": "Додано до вашого календаря ✓",
+  "book.downloadVoucher": "Завантажити ваучер (PDF)",
+  "book.seeBookings": "Мої бронювання",
+  "book.noBookings": "Бронювань поки немає",
+  "book.findTreatment": "знайти процедуру",
+  "book.qrHint": "Покажіть цей QR на ресепшені",
+  "book.paymentFailed": "У платіж відмовлено. Спробуйте іншу картку.",
+  "book.demoSuccess": "Демо: оплату успішно проведено через симульований Stripe.",
+  "pkg.duration": "тривалість",
+  "pkg.whatIncluded": "Що ВКЛЮЧЕНО",
+  "pkg.tapForDetails": "Торкніться елемента для деталей",
+  "pkg.notIncludedNote": "Оплачується окремо: шампанське +15$",
+  "pkg.ecoGreen": "Включено: ",
+  "pkg.missingTranslation": "Переклад відсутній",
+  "guide.title": "Ваш візит крок за кроком",
+  "guide.subtitle": "Від входу до виходу — без сюрпризів.",
+  "guide.step": "Крок",
+  "guide.faq": "Часті запитання",
+  "guide.newbieBadge": "🎓 Вперше тут? Ось що потрібно знати",
+  "guide.welcomeBack": "З поверненням!",
+  "guide.seeGuide": "Переглянути покроковий гід",
+  "admin.title": "Панель власника",
+  "admin.hotSlots": "🔥 Гарячі слоти",
+  "admin.hotSlotsSub": "Прогнозоване заповнення < 30% — ці крісла будуть пустувати.",
+  "admin.fillRate": "Прогнозоване заповнення",
+  "admin.flash": "🔥 Активувати знижку",
+  "admin.flashModal": "Створити флеш-розпродаж",
+  "admin.discount": "Знижка",
+  "admin.duration": "Тривалість акції",
+  "admin.newPrice": "Нова ціна",
+  "admin.risk": "Ризик втрати доходу",
+  "admin.activate": "Активувати",
+  "admin.activePromos": "Активні флеш-розпродажі",
+  "admin.revenueToday": "Дохід сьогодні",
+  "admin.delivery": "Доставка сповіщень",
+  "admin.delivered": "доставлено",
+  "admin.noHot": "Зараз немає гарячих слотів 🎉",
+  "admin.deactivated": "Акцію завершено",
+  "admin.hours": "год",
+  "admin.perSlot": "за слот",
+  "admin.last7": "останні 7 днів",
+  "admin.slot": "Слот",
+};
+
+const dictionaries: Record<Locale, Dict> = { en, fr, uk };
 
 export function t(locale: Locale, key: string): string {
   return dictionaries[locale][key] ?? en[key] ?? key;

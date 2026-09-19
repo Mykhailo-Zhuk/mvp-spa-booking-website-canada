@@ -46,7 +46,7 @@ export async function GET() {
       originalPrice: p.originalPrice,
       discountedPrice: p.discountedPrice,
       endTime: p.endTime.toISOString(),
-      service: p.slot?.service.name ?? "—",
+      service: p.slot?.service.nameEn ?? "—",
     })),
     delivery: {
       push_delivered: pushLogs.filter((l) => l.delivered).length,

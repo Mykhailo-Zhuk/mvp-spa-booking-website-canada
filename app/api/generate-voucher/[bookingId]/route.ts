@@ -1,13 +1,15 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import { tri, type Locale } from "@/lib/i18n";
 
 export const dynamic = "force-dynamic";
 
-// US#2 Task 2.3 — /api/generate-voucher/:bookingId
+// US#2 Task 2.3 — /api/generate-voucher/:bookingId?locale=
 // Demo: returns all voucher data (production would render + store the PDF in S3/Cloudinary
 // and return voucher_url). Client renders the A6 PDF from this payload.
-export async function GET(_req: Request, ctx: { params: Promise<{ bookingId: string }> }) {
+export async function GET(req: Request, ctx: { params: Promise<{ bookingId: string }> }) {
   const { bookingId } = await ctx.params;
+  const locale = (new URL(req.url).searchParams.get("locale") ?? "en") as Locale;
   const booking = await prisma.booking.findUnique({
     where: { id: bookingId },
     include: { slot: { include: { service: true, therapist: true } }, user: true },
@@ -16,7 +18,7 @@ export async function GET(_req: Request, ctx: { params: Promise<{ bookingId: str
 
   return NextResponse.json({
     booking_code: booking.bookingCode,
-    service: booking.slot.service.name,
+    service: tri(booking.slot.service.nameEn, booking.slot.service.nameFr, booking.slot.service.nameUk, locale),
     therapist: booking.slot.therapist.name,
     start_time: booking.slot.startTime.toISOString(),
     end_time: booking.slot.endTime.toISOString(),

@@ -2,11 +2,12 @@ import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { calculatePrice, DEFAULT_PROVINCE } from "@/lib/taxes";
 import { processDemoPayment } from "@/lib/demo/payment";
+import { tri, type Locale } from "@/lib/i18n";
 
 export const dynamic = "force-dynamic";
 
 // US#1 Task 1.3 — /api/book
-// Body: { slotId, userId, province, tipPercent, cardLast4 }
+// Body: { slotId, userId, province, tipPercent, cardLast4, locale }
 // Flow: simulate payment → atomically book slot → create booking with unique booking_code
 // → bump user totals. Declined payment leaves the slot available (plan scenario).
 export async function POST(req: Request) {
@@ -16,7 +17,9 @@ export async function POST(req: Request) {
     province?: string;
     tipPercent?: number;
     cardLast4?: string;
+    locale?: string;
   };
+  const locale = (body.locale ?? "en") as Locale;
 
   if (!body.slotId || !body.userId) {
     return NextResponse.json({ error: "slotId and userId required" }, { status: 400 });
@@ -85,7 +88,7 @@ export async function POST(req: Request) {
     booking: {
       id: booking.booking.id,
       booking_code: booking.bookingCode,
-      service: slot.service.name,
+      service: tri(slot.service.nameEn, slot.service.nameFr, slot.service.nameUk, locale),
       start_time: slot.startTime.toISOString(),
       therapist: slot.therapist.name,
       therapist_gender: slot.therapist.gender,

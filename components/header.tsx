@@ -21,7 +21,7 @@ export default function Header({ user, locale, base }: { user: User | null; loca
         </Link>
 
         <div className="flex items-center gap-2">
-          {user && <NotificationBell userId={user.id} />}
+          {user && <NotificationBell userId={user.id} locale={locale} />}
           <LangSwitcher locale={locale} />
           {user?.isAdmin && (
             <Link
