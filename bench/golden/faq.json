@@ -4,25 +4,25 @@
   "json": {
     "faqs": [
       {
-        "id": "cmu7ftwzn001bbx300bxf2rgh",
-        "question": "Чи потрібен купальник?",
-        "answer": "Так, купальник обов'язковий для ритуалу та парної. Якщо забули — у нас є одноразові за $5.",
+        "id": "cmu8a1c42001bbl306nge1m0p",
+        "question": "Do I need a swimsuit?",
+        "answer": "Yes, a swimsuit is required for the ritual and sauna. Forgot yours? We have disposable ones for $5.",
         "viewCount": 214,
         "helpfulCount": 190,
         "popularityScore": 89
       },
       {
-        "id": "cmu7ftwzn001cbx30ni2vn6ny",
-        "question": "Чи є локери?",
-        "answer": "Так, безкоштовні локери з ключем. Цінні речі залиште вдома або в сейфі на ресепшені.",
+        "id": "cmu8a1c42001cbl309nd8ifti",
+        "question": "Are there lockers?",
+        "answer": "Yes, free lockers with a key. Leave valuables at home or in the safe at reception.",
         "viewCount": 168,
         "helpfulCount": 141,
         "popularityScore": 84
       },
       {
-        "id": "cmu7ftwzn001dbx30x1fe0566",
-        "question": "Скільки триває весь ритуал?",
-        "answer": "90 хвилин: 5 хв зустріч, 10 хв роздягальня, 10 хв душ, 60 хв ритуал і відпочинок.",
+        "id": "cmu8a1c42001dbl307d74nrt2",
+        "question": "How long does the whole ritual take?",
+        "answer": "90 minutes: 5 min welcome, 10 min changing, 10 min shower, 60 min ritual and relaxation.",
         "viewCount": 97,
         "helpfulCount": 88,
         "popularityScore": 91

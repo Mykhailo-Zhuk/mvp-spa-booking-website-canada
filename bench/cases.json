@@ -15,7 +15,7 @@
       "name": "availability_filtered",
       "type": "json",
       "method": "GET",
-      "path": "/api/availability?date=2026-09-21&serviceId=cmu7ftwxe000nbx304nt6r8q1&gender=female"
+      "path": "/api/availability?date=2026-09-21&serviceId=cmu8a1c2a000mbl30vm1x1b9j&gender=female"
     },
     {
       "name": "admin_stats",
@@ -36,19 +36,19 @@
       "type": "json",
       "method": "POST",
       "path": "/api/calculate-price",
-      "body": { "slotId": "cmu7ftxw8008rbx30u0qkxwxw", "province": "ON", "tipPercent": 0.15 }
+      "body": { "slotId": "cmu8a1cov0072bl307ohm7qi4", "province": "ON", "tipPercent": 0.15 }
     },
     {
       "name": "faq",
       "type": "json",
       "method": "GET",
-      "path": "/api/faq/cmu7ftwxt000rbx30sqd87j28"
+      "path": "/api/faq/cmu8a1c2s000rbl30o03kb6sn"
     },
     {
       "name": "package_details",
       "type": "json",
       "method": "GET",
-      "path": "/api/package-details/cmu7ftwy3000tbx30x8evfnb0"
+      "path": "/api/package-details/cmu8a1c31000tbl30jjxiifro"
     },
     {
       "name": "page_home",

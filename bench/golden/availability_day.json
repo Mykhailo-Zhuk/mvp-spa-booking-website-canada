@@ -5,247 +5,7 @@
     "date": "2026-09-21",
     "slots": [
       {
-        "id": "cmu7ftxw4008qbx304njxjcsh",
-        "startTime": "2026-09-21T07:00:00.000Z",
-        "startLabel": "10:00",
-        "endTime": "2026-09-21T08:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 120,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
-          "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
-        }
-      },
-      {
-        "id": "cmu7ftxxc0091bx3043pp5em8",
-        "startTime": "2026-09-21T07:00:00.000Z",
-        "startLabel": "10:00",
-        "endTime": "2026-09-21T08:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 130,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
-          "name": "Marie Tremblay",
-          "gender": "female",
-          "avatarEmoji": "💆‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
-          "slug": "deep-tissue",
-          "icon": "💪",
-          "basePrice": 130
-        }
-      },
-      {
-        "id": "cmu7ftxyk009cbx303emmh1ls",
-        "startTime": "2026-09-21T07:00:00.000Z",
-        "startLabel": "10:00",
-        "endTime": "2026-09-21T08:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
-          "name": "Marie Tremblay",
-          "gender": "female",
-          "avatarEmoji": "💆‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7ftxzu009nbx30i5v26fl9",
-        "startTime": "2026-09-21T07:00:00.000Z",
-        "startLabel": "10:00",
-        "endTime": "2026-09-21T07:50:00.000Z",
-        "durationMin": 50,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 95,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
-          "slug": "aromatherapy",
-          "icon": "🌸",
-          "basePrice": 95
-        }
-      },
-      {
-        "id": "cmu7fty12009ybx30upsprro4",
-        "startTime": "2026-09-21T07:00:00.000Z",
-        "startLabel": "10:00",
-        "endTime": "2026-09-21T08:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty2b00a9bx302sm98gpw",
-        "startTime": "2026-09-21T07:00:00.000Z",
-        "startLabel": "10:00",
-        "endTime": "2026-09-21T08:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty3i00akbx30ic7n4aqk",
-        "startTime": "2026-09-21T07:00:00.000Z",
-        "startLabel": "10:00",
-        "endTime": "2026-09-21T08:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty4o00avbx30vmm6re1x",
-        "startTime": "2026-09-21T07:00:00.000Z",
-        "startLabel": "10:00",
-        "endTime": "2026-09-21T08:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 130,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
-        },
-        "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
-          "slug": "deep-tissue",
-          "icon": "💪",
-          "basePrice": 130
-        }
-      },
-      {
-        "id": "cmu7fty5u00b6bx30sb9l8b01",
-        "startTime": "2026-09-21T07:00:00.000Z",
-        "startLabel": "10:00",
-        "endTime": "2026-09-21T08:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty7700bhbx300nue5c9x",
-        "startTime": "2026-09-21T07:00:00.000Z",
-        "startLabel": "10:00",
-        "endTime": "2026-09-21T07:50:00.000Z",
-        "durationMin": 50,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 95,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwr000jbx30pk4y4del",
-          "name": "Miguel Santos",
-          "gender": "male",
-          "avatarEmoji": "🦶"
-        },
-        "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
-          "slug": "aromatherapy",
-          "icon": "🌸",
-          "basePrice": 95
-        }
-      },
-      {
-        "id": "cmu7fty8e00bsbx30re9wyura",
+        "id": "cmu8a1cov0072bl307ohm7qi4",
         "startTime": "2026-09-21T07:00:00.000Z",
         "startLabel": "10:00",
         "endTime": "2026-09-21T08:15:00.000Z",
@@ -255,21 +15,261 @@
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1j000ebl30yppqsqr6",
+          "name": "Олена Коваль",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "🧖‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7fty9j00c3bx30vvuk9fbj",
+        "id": "cmu8a1cpq007dbl3022niox7h",
+        "startTime": "2026-09-21T07:00:00.000Z",
+        "startLabel": "10:00",
+        "endTime": "2026-09-21T08:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 130,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
+          "gender": "female",
+          "avatarEmoji": "💆‍♀️"
+        },
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "slug": "deep-tissue",
+          "icon": "💪",
+          "basePrice": 130
+        }
+      },
+      {
+        "id": "cmu8a1cql007obl30cuo38k3h",
+        "startTime": "2026-09-21T07:00:00.000Z",
+        "startLabel": "10:00",
+        "endTime": "2026-09-21T08:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
+          "gender": "female",
+          "avatarEmoji": "💆‍♀️"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cri007zbl30q4luqu4e",
+        "startTime": "2026-09-21T07:00:00.000Z",
+        "startLabel": "10:00",
+        "endTime": "2026-09-21T07:50:00.000Z",
+        "durationMin": 50,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 95,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
+          "slug": "aromatherapy",
+          "icon": "🌸",
+          "basePrice": 95
+        }
+      },
+      {
+        "id": "cmu8a1csi008abl30chsmty2b",
+        "startTime": "2026-09-21T07:00:00.000Z",
+        "startLabel": "10:00",
+        "endTime": "2026-09-21T08:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1ctm008lbl30nlpdo5yb",
+        "startTime": "2026-09-21T07:00:00.000Z",
+        "startLabel": "10:00",
+        "endTime": "2026-09-21T08:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1cur008wbl30zjvt5j82",
+        "startTime": "2026-09-21T07:00:00.000Z",
+        "startLabel": "10:00",
+        "endTime": "2026-09-21T08:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cvr0097bl30lypkmwzt",
+        "startTime": "2026-09-21T07:00:00.000Z",
+        "startLabel": "10:00",
+        "endTime": "2026-09-21T08:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 130,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "slug": "deep-tissue",
+          "icon": "💪",
+          "basePrice": 130
+        }
+      },
+      {
+        "id": "cmu8a1cwq009ibl30e8m4bw45",
+        "startTime": "2026-09-21T07:00:00.000Z",
+        "startLabel": "10:00",
+        "endTime": "2026-09-21T08:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cxp009tbl30pn6ups2c",
+        "startTime": "2026-09-21T07:00:00.000Z",
+        "startLabel": "10:00",
+        "endTime": "2026-09-21T07:50:00.000Z",
+        "durationMin": 50,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 95,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c20000jbl30lafp3m2c",
+          "name": "Miguel Santos",
+          "gender": "male",
+          "avatarEmoji": "🦶"
+        },
+        "service": {
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
+          "slug": "aromatherapy",
+          "icon": "🌸",
+          "basePrice": 95
+        }
+      },
+      {
+        "id": "cmu8a1cyp00a4bl30htkiiu4r",
+        "startTime": "2026-09-21T07:00:00.000Z",
+        "startLabel": "10:00",
+        "endTime": "2026-09-21T08:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c23000kbl305671m76m",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu8a1czo00afbl3011lrrvjk",
         "startTime": "2026-09-21T07:00:00.000Z",
         "startLabel": "10:00",
         "endTime": "2026-09-21T08:00:00.000Z",
@@ -279,21 +279,21 @@
         "price": 105,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx5000lbx30253slcsy",
+          "id": "cmu8a1c26000lbl30udttnifo",
           "name": "Kim Nguyen",
           "gender": "female",
           "avatarEmoji": "✨"
         },
         "service": {
-          "id": "cmu7ftwxy000sbx30gposfnvr",
-          "name": "Догляд за обличчям",
+          "id": "cmu8a1c2w000sbl30nsrr1ljy",
+          "name": "Facial Treatment",
           "slug": "facial",
           "icon": "✨",
           "basePrice": 105
         }
       },
       {
-        "id": "cmu7fu01a00s2bx3013m3mvkh",
+        "id": "cmu8a1f2o00ttbl30tov4lwev",
         "startTime": "2026-09-21T07:00:00.000Z",
         "startLabel": "10:00",
         "endTime": "2026-09-21T10:00:00.000Z",
@@ -303,13 +303,13 @@
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -317,7 +317,7 @@
         }
       },
       {
-        "id": "cmu7fu01e00s3bx30053x7hld",
+        "id": "cmu8a1f2r00tubl3024392ifm",
         "startTime": "2026-09-21T07:00:00.000Z",
         "startLabel": "10:00",
         "endTime": "2026-09-21T10:00:00.000Z",
@@ -327,13 +327,13 @@
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -341,23 +341,23 @@
         }
       },
       {
-        "id": "cmu7fu01i00s4bx30rllkew1i",
+        "id": "cmu8a1f2w00tvbl308bqus5wm",
         "startTime": "2026-09-21T07:00:00.000Z",
         "startLabel": "10:00",
         "endTime": "2026-09-21T10:00:00.000Z",
         "durationMin": 180,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -365,23 +365,23 @@
         }
       },
       {
-        "id": "cmu7fu0fk00vkbx30dd60ifks",
+        "id": "cmu8a1fhj00xkbl30sv5ul2o2",
         "startTime": "2026-09-21T07:00:00.000Z",
         "startLabel": "10:00",
         "endTime": "2026-09-21T09:30:00.000Z",
         "durationMin": 150,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -389,7 +389,7 @@
         }
       },
       {
-        "id": "cmu7fu0fo00vlbx30otbp9tsm",
+        "id": "cmu8a1fho00xlbl307z20hmgf",
         "startTime": "2026-09-21T07:00:00.000Z",
         "startLabel": "10:00",
         "endTime": "2026-09-21T09:30:00.000Z",
@@ -399,13 +399,13 @@
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -413,7 +413,7 @@
         }
       },
       {
-        "id": "cmu7fu0fr00vmbx30lw77x2yl",
+        "id": "cmu8a1fhs00xmbl30q5lo0dqa",
         "startTime": "2026-09-21T07:00:00.000Z",
         "startLabel": "10:00",
         "endTime": "2026-09-21T09:30:00.000Z",
@@ -423,13 +423,13 @@
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -437,247 +437,7 @@
         }
       },
       {
-        "id": "cmu7ftxw8008rbx30u0qkxwxw",
-        "startTime": "2026-09-21T08:00:00.000Z",
-        "startLabel": "11:00",
-        "endTime": "2026-09-21T09:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 120,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
-          "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
-        }
-      },
-      {
-        "id": "cmu7ftxxg0092bx30ssjt07ze",
-        "startTime": "2026-09-21T08:00:00.000Z",
-        "startLabel": "11:00",
-        "endTime": "2026-09-21T09:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 130,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
-          "name": "Marie Tremblay",
-          "gender": "female",
-          "avatarEmoji": "💆‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
-          "slug": "deep-tissue",
-          "icon": "💪",
-          "basePrice": 130
-        }
-      },
-      {
-        "id": "cmu7ftxyo009dbx30muooxw8o",
-        "startTime": "2026-09-21T08:00:00.000Z",
-        "startLabel": "11:00",
-        "endTime": "2026-09-21T09:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
-          "name": "Marie Tremblay",
-          "gender": "female",
-          "avatarEmoji": "💆‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7ftxzy009obx300w9m5lod",
-        "startTime": "2026-09-21T08:00:00.000Z",
-        "startLabel": "11:00",
-        "endTime": "2026-09-21T08:50:00.000Z",
-        "durationMin": 50,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 95,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
-          "slug": "aromatherapy",
-          "icon": "🌸",
-          "basePrice": 95
-        }
-      },
-      {
-        "id": "cmu7fty16009zbx30i03k28kz",
-        "startTime": "2026-09-21T08:00:00.000Z",
-        "startLabel": "11:00",
-        "endTime": "2026-09-21T09:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty2e00aabx30padgg1qs",
-        "startTime": "2026-09-21T08:00:00.000Z",
-        "startLabel": "11:00",
-        "endTime": "2026-09-21T09:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty3m00albx30avu8p9mu",
-        "startTime": "2026-09-21T08:00:00.000Z",
-        "startLabel": "11:00",
-        "endTime": "2026-09-21T09:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty4s00awbx30mupclvr8",
-        "startTime": "2026-09-21T08:00:00.000Z",
-        "startLabel": "11:00",
-        "endTime": "2026-09-21T09:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 130,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
-        },
-        "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
-          "slug": "deep-tissue",
-          "icon": "💪",
-          "basePrice": 130
-        }
-      },
-      {
-        "id": "cmu7fty5z00b7bx304vy4yuzy",
-        "startTime": "2026-09-21T08:00:00.000Z",
-        "startLabel": "11:00",
-        "endTime": "2026-09-21T09:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty7b00bibx30barq0oqf",
-        "startTime": "2026-09-21T08:00:00.000Z",
-        "startLabel": "11:00",
-        "endTime": "2026-09-21T08:50:00.000Z",
-        "durationMin": 50,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 95,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwr000jbx30pk4y4del",
-          "name": "Miguel Santos",
-          "gender": "male",
-          "avatarEmoji": "🦶"
-        },
-        "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
-          "slug": "aromatherapy",
-          "icon": "🌸",
-          "basePrice": 95
-        }
-      },
-      {
-        "id": "cmu7fty8i00btbx30mkc4vv8w",
+        "id": "cmu8a1coy0073bl30pgqzaj07",
         "startTime": "2026-09-21T08:00:00.000Z",
         "startLabel": "11:00",
         "endTime": "2026-09-21T09:15:00.000Z",
@@ -687,21 +447,261 @@
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1j000ebl30yppqsqr6",
+          "name": "Олена Коваль",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "🧖‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7fty9n00c4bx30hgewe84f",
+        "id": "cmu8a1cpt007ebl304ibdt2vw",
+        "startTime": "2026-09-21T08:00:00.000Z",
+        "startLabel": "11:00",
+        "endTime": "2026-09-21T09:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 130,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
+          "gender": "female",
+          "avatarEmoji": "💆‍♀️"
+        },
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "slug": "deep-tissue",
+          "icon": "💪",
+          "basePrice": 130
+        }
+      },
+      {
+        "id": "cmu8a1cqo007pbl30bq6uwoc2",
+        "startTime": "2026-09-21T08:00:00.000Z",
+        "startLabel": "11:00",
+        "endTime": "2026-09-21T09:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
+          "gender": "female",
+          "avatarEmoji": "💆‍♀️"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1crl0080bl303tf4fhqh",
+        "startTime": "2026-09-21T08:00:00.000Z",
+        "startLabel": "11:00",
+        "endTime": "2026-09-21T08:50:00.000Z",
+        "durationMin": 50,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 95,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
+          "slug": "aromatherapy",
+          "icon": "🌸",
+          "basePrice": 95
+        }
+      },
+      {
+        "id": "cmu8a1cso008bbl30feh0wjrl",
+        "startTime": "2026-09-21T08:00:00.000Z",
+        "startLabel": "11:00",
+        "endTime": "2026-09-21T09:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1ctp008mbl30lu5pgqtb",
+        "startTime": "2026-09-21T08:00:00.000Z",
+        "startLabel": "11:00",
+        "endTime": "2026-09-21T09:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1cuv008xbl30m3p01bvz",
+        "startTime": "2026-09-21T08:00:00.000Z",
+        "startLabel": "11:00",
+        "endTime": "2026-09-21T09:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cvu0098bl30tjezt4g7",
+        "startTime": "2026-09-21T08:00:00.000Z",
+        "startLabel": "11:00",
+        "endTime": "2026-09-21T09:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 130,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "slug": "deep-tissue",
+          "icon": "💪",
+          "basePrice": 130
+        }
+      },
+      {
+        "id": "cmu8a1cwt009jbl308xauzrkf",
+        "startTime": "2026-09-21T08:00:00.000Z",
+        "startLabel": "11:00",
+        "endTime": "2026-09-21T09:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cxs009ubl30w66caj23",
+        "startTime": "2026-09-21T08:00:00.000Z",
+        "startLabel": "11:00",
+        "endTime": "2026-09-21T08:50:00.000Z",
+        "durationMin": 50,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 95,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c20000jbl30lafp3m2c",
+          "name": "Miguel Santos",
+          "gender": "male",
+          "avatarEmoji": "🦶"
+        },
+        "service": {
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
+          "slug": "aromatherapy",
+          "icon": "🌸",
+          "basePrice": 95
+        }
+      },
+      {
+        "id": "cmu8a1cys00a5bl30mw5jcmqa",
+        "startTime": "2026-09-21T08:00:00.000Z",
+        "startLabel": "11:00",
+        "endTime": "2026-09-21T09:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c23000kbl305671m76m",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu8a1czq00agbl30sekyjzou",
         "startTime": "2026-09-21T08:00:00.000Z",
         "startLabel": "11:00",
         "endTime": "2026-09-21T09:00:00.000Z",
@@ -711,261 +711,21 @@
         "price": 105,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx5000lbx30253slcsy",
+          "id": "cmu8a1c26000lbl30udttnifo",
           "name": "Kim Nguyen",
           "gender": "female",
           "avatarEmoji": "✨"
         },
         "service": {
-          "id": "cmu7ftwxy000sbx30gposfnvr",
-          "name": "Догляд за обличчям",
+          "id": "cmu8a1c2w000sbl30nsrr1ljy",
+          "name": "Facial Treatment",
           "slug": "facial",
           "icon": "✨",
           "basePrice": 105
         }
       },
       {
-        "id": "cmu7ftxwc008sbx308rad68jx",
-        "startTime": "2026-09-21T09:00:00.000Z",
-        "startLabel": "12:00",
-        "endTime": "2026-09-21T10:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 120,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
-          "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
-        }
-      },
-      {
-        "id": "cmu7ftxxk0093bx30nif3z1xv",
-        "startTime": "2026-09-21T09:00:00.000Z",
-        "startLabel": "12:00",
-        "endTime": "2026-09-21T10:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 130,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
-          "name": "Marie Tremblay",
-          "gender": "female",
-          "avatarEmoji": "💆‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
-          "slug": "deep-tissue",
-          "icon": "💪",
-          "basePrice": 130
-        }
-      },
-      {
-        "id": "cmu7ftxys009ebx30ybgykf1n",
-        "startTime": "2026-09-21T09:00:00.000Z",
-        "startLabel": "12:00",
-        "endTime": "2026-09-21T10:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
-          "name": "Marie Tremblay",
-          "gender": "female",
-          "avatarEmoji": "💆‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty01009pbx306hcjeukf",
-        "startTime": "2026-09-21T09:00:00.000Z",
-        "startLabel": "12:00",
-        "endTime": "2026-09-21T09:50:00.000Z",
-        "durationMin": 50,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 95,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
-          "slug": "aromatherapy",
-          "icon": "🌸",
-          "basePrice": 95
-        }
-      },
-      {
-        "id": "cmu7fty1a00a0bx30he5bbgtl",
-        "startTime": "2026-09-21T09:00:00.000Z",
-        "startLabel": "12:00",
-        "endTime": "2026-09-21T10:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty2i00abbx30qnq0fyve",
-        "startTime": "2026-09-21T09:00:00.000Z",
-        "startLabel": "12:00",
-        "endTime": "2026-09-21T10:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty3p00ambx300l9plbli",
-        "startTime": "2026-09-21T09:00:00.000Z",
-        "startLabel": "12:00",
-        "endTime": "2026-09-21T10:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty4w00axbx30osgke8je",
-        "startTime": "2026-09-21T09:00:00.000Z",
-        "startLabel": "12:00",
-        "endTime": "2026-09-21T10:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 130,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
-        },
-        "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
-          "slug": "deep-tissue",
-          "icon": "💪",
-          "basePrice": 130
-        }
-      },
-      {
-        "id": "cmu7fty6300b8bx30f68xn914",
-        "startTime": "2026-09-21T09:00:00.000Z",
-        "startLabel": "12:00",
-        "endTime": "2026-09-21T10:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty7f00bjbx303sac9g4k",
-        "startTime": "2026-09-21T09:00:00.000Z",
-        "startLabel": "12:00",
-        "endTime": "2026-09-21T09:50:00.000Z",
-        "durationMin": 50,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 95,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwr000jbx30pk4y4del",
-          "name": "Miguel Santos",
-          "gender": "male",
-          "avatarEmoji": "🦶"
-        },
-        "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
-          "slug": "aromatherapy",
-          "icon": "🌸",
-          "basePrice": 95
-        }
-      },
-      {
-        "id": "cmu7fty8m00bubx307sd852yj",
+        "id": "cmu8a1cp00074bl302rfwk63n",
         "startTime": "2026-09-21T09:00:00.000Z",
         "startLabel": "12:00",
         "endTime": "2026-09-21T10:15:00.000Z",
@@ -975,21 +735,261 @@
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1j000ebl30yppqsqr6",
+          "name": "Олена Коваль",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "🧖‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7fty9r00c5bx309j4xd54n",
+        "id": "cmu8a1cpw007fbl30ox18518t",
+        "startTime": "2026-09-21T09:00:00.000Z",
+        "startLabel": "12:00",
+        "endTime": "2026-09-21T10:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 130,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
+          "gender": "female",
+          "avatarEmoji": "💆‍♀️"
+        },
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "slug": "deep-tissue",
+          "icon": "💪",
+          "basePrice": 130
+        }
+      },
+      {
+        "id": "cmu8a1cqr007qbl30yjfrrrw9",
+        "startTime": "2026-09-21T09:00:00.000Z",
+        "startLabel": "12:00",
+        "endTime": "2026-09-21T10:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
+          "gender": "female",
+          "avatarEmoji": "💆‍♀️"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cro0081bl30difu2vlk",
+        "startTime": "2026-09-21T09:00:00.000Z",
+        "startLabel": "12:00",
+        "endTime": "2026-09-21T09:50:00.000Z",
+        "durationMin": 50,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 95,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
+          "slug": "aromatherapy",
+          "icon": "🌸",
+          "basePrice": 95
+        }
+      },
+      {
+        "id": "cmu8a1csr008cbl30jz20sdhc",
+        "startTime": "2026-09-21T09:00:00.000Z",
+        "startLabel": "12:00",
+        "endTime": "2026-09-21T10:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1cts008nbl306fl26uhf",
+        "startTime": "2026-09-21T09:00:00.000Z",
+        "startLabel": "12:00",
+        "endTime": "2026-09-21T10:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1cuz008ybl30792yeg1h",
+        "startTime": "2026-09-21T09:00:00.000Z",
+        "startLabel": "12:00",
+        "endTime": "2026-09-21T10:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cvx0099bl30rmrq5l67",
+        "startTime": "2026-09-21T09:00:00.000Z",
+        "startLabel": "12:00",
+        "endTime": "2026-09-21T10:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 130,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "slug": "deep-tissue",
+          "icon": "💪",
+          "basePrice": 130
+        }
+      },
+      {
+        "id": "cmu8a1cww009kbl306m9pr9uj",
+        "startTime": "2026-09-21T09:00:00.000Z",
+        "startLabel": "12:00",
+        "endTime": "2026-09-21T10:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cxv009vbl30tszk9rjr",
+        "startTime": "2026-09-21T09:00:00.000Z",
+        "startLabel": "12:00",
+        "endTime": "2026-09-21T09:50:00.000Z",
+        "durationMin": 50,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 95,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c20000jbl30lafp3m2c",
+          "name": "Miguel Santos",
+          "gender": "male",
+          "avatarEmoji": "🦶"
+        },
+        "service": {
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
+          "slug": "aromatherapy",
+          "icon": "🌸",
+          "basePrice": 95
+        }
+      },
+      {
+        "id": "cmu8a1cyv00a6bl3029isvs1z",
+        "startTime": "2026-09-21T09:00:00.000Z",
+        "startLabel": "12:00",
+        "endTime": "2026-09-21T10:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c23000kbl305671m76m",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu8a1czt00ahbl30ob6c5jnc",
         "startTime": "2026-09-21T09:00:00.000Z",
         "startLabel": "12:00",
         "endTime": "2026-09-21T10:00:00.000Z",
@@ -999,21 +999,21 @@
         "price": 105,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx5000lbx30253slcsy",
+          "id": "cmu8a1c26000lbl30udttnifo",
           "name": "Kim Nguyen",
           "gender": "female",
           "avatarEmoji": "✨"
         },
         "service": {
-          "id": "cmu7ftwxy000sbx30gposfnvr",
-          "name": "Догляд за обличчям",
+          "id": "cmu8a1c2w000sbl30nsrr1ljy",
+          "name": "Facial Treatment",
           "slug": "facial",
           "icon": "✨",
           "basePrice": 105
         }
       },
       {
-        "id": "cmu7fu01m00s5bx30pxdts2so",
+        "id": "cmu8a1f3000twbl30hm4s02oy",
         "startTime": "2026-09-21T09:00:00.000Z",
         "startLabel": "12:00",
         "endTime": "2026-09-21T12:00:00.000Z",
@@ -1023,13 +1023,13 @@
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -1037,31 +1037,7 @@
         }
       },
       {
-        "id": "cmu7fu01r00s6bx301w45y6hg",
-        "startTime": "2026-09-21T09:00:00.000Z",
-        "startLabel": "12:00",
-        "endTime": "2026-09-21T12:00:00.000Z",
-        "durationMin": 180,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 189,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
-          "name": "Nordic Relaxation",
-          "slug": "pkg-nordic-relaxation",
-          "icon": "🧖",
-          "basePrice": 189
-        }
-      },
-      {
-        "id": "cmu7fu01v00s7bx30bgkc3r96",
+        "id": "cmu8a1f3600txbl308srytxrn",
         "startTime": "2026-09-21T09:00:00.000Z",
         "startLabel": "12:00",
         "endTime": "2026-09-21T12:00:00.000Z",
@@ -1071,13 +1047,37 @@
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
+          "name": "Nordic Relaxation",
+          "slug": "pkg-nordic-relaxation",
+          "icon": "🧖",
+          "basePrice": 189
+        }
+      },
+      {
+        "id": "cmu8a1f3a00tybl30akflr84f",
+        "startTime": "2026-09-21T09:00:00.000Z",
+        "startLabel": "12:00",
+        "endTime": "2026-09-21T12:00:00.000Z",
+        "durationMin": 180,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 189,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -1085,7 +1085,7 @@
         }
       },
       {
-        "id": "cmu7fu0fw00vnbx30catnawbq",
+        "id": "cmu8a1fhw00xnbl30meycxkii",
         "startTime": "2026-09-21T09:00:00.000Z",
         "startLabel": "12:00",
         "endTime": "2026-09-21T11:30:00.000Z",
@@ -1095,13 +1095,13 @@
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -1109,7 +1109,7 @@
         }
       },
       {
-        "id": "cmu7fu0g000vobx30ijgtn8yg",
+        "id": "cmu8a1fi000xobl304is05sr3",
         "startTime": "2026-09-21T09:00:00.000Z",
         "startLabel": "12:00",
         "endTime": "2026-09-21T11:30:00.000Z",
@@ -1119,13 +1119,13 @@
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -1133,23 +1133,23 @@
         }
       },
       {
-        "id": "cmu7fu0g400vpbx30nhm5qo18",
+        "id": "cmu8a1fi400xpbl304udo6kg6",
         "startTime": "2026-09-21T09:00:00.000Z",
         "startLabel": "12:00",
         "endTime": "2026-09-21T11:30:00.000Z",
         "durationMin": 150,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -1157,247 +1157,7 @@
         }
       },
       {
-        "id": "cmu7ftxwg008tbx30p7xj8yv0",
-        "startTime": "2026-09-21T10:00:00.000Z",
-        "startLabel": "13:00",
-        "endTime": "2026-09-21T11:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 120,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
-          "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
-        }
-      },
-      {
-        "id": "cmu7ftxxo0094bx30sgev5mrx",
-        "startTime": "2026-09-21T10:00:00.000Z",
-        "startLabel": "13:00",
-        "endTime": "2026-09-21T11:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 130,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
-          "name": "Marie Tremblay",
-          "gender": "female",
-          "avatarEmoji": "💆‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
-          "slug": "deep-tissue",
-          "icon": "💪",
-          "basePrice": 130
-        }
-      },
-      {
-        "id": "cmu7ftxyw009fbx30rd5syvzy",
-        "startTime": "2026-09-21T10:00:00.000Z",
-        "startLabel": "13:00",
-        "endTime": "2026-09-21T11:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
-          "name": "Marie Tremblay",
-          "gender": "female",
-          "avatarEmoji": "💆‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty05009qbx30spq9f01q",
-        "startTime": "2026-09-21T10:00:00.000Z",
-        "startLabel": "13:00",
-        "endTime": "2026-09-21T10:50:00.000Z",
-        "durationMin": 50,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 95,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
-          "slug": "aromatherapy",
-          "icon": "🌸",
-          "basePrice": 95
-        }
-      },
-      {
-        "id": "cmu7fty1e00a1bx303thm6jp2",
-        "startTime": "2026-09-21T10:00:00.000Z",
-        "startLabel": "13:00",
-        "endTime": "2026-09-21T11:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty2m00acbx303327jmwh",
-        "startTime": "2026-09-21T10:00:00.000Z",
-        "startLabel": "13:00",
-        "endTime": "2026-09-21T11:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty3t00anbx309pbtsxzb",
-        "startTime": "2026-09-21T10:00:00.000Z",
-        "startLabel": "13:00",
-        "endTime": "2026-09-21T11:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty5100aybx30oj59nh2z",
-        "startTime": "2026-09-21T10:00:00.000Z",
-        "startLabel": "13:00",
-        "endTime": "2026-09-21T11:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 130,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
-        },
-        "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
-          "slug": "deep-tissue",
-          "icon": "💪",
-          "basePrice": 130
-        }
-      },
-      {
-        "id": "cmu7fty6700b9bx30f3lhrb7d",
-        "startTime": "2026-09-21T10:00:00.000Z",
-        "startLabel": "13:00",
-        "endTime": "2026-09-21T11:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty7j00bkbx30yqfaaazy",
-        "startTime": "2026-09-21T10:00:00.000Z",
-        "startLabel": "13:00",
-        "endTime": "2026-09-21T10:50:00.000Z",
-        "durationMin": 50,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 95,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwr000jbx30pk4y4del",
-          "name": "Miguel Santos",
-          "gender": "male",
-          "avatarEmoji": "🦶"
-        },
-        "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
-          "slug": "aromatherapy",
-          "icon": "🌸",
-          "basePrice": 95
-        }
-      },
-      {
-        "id": "cmu7fty8q00bvbx3034pajicd",
+        "id": "cmu8a1cp30075bl30w4kyv2cb",
         "startTime": "2026-09-21T10:00:00.000Z",
         "startLabel": "13:00",
         "endTime": "2026-09-21T11:15:00.000Z",
@@ -1407,21 +1167,261 @@
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1j000ebl30yppqsqr6",
+          "name": "Олена Коваль",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "🧖‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7fty9u00c6bx30zefe8jp4",
+        "id": "cmu8a1cpy007gbl305o136k1i",
+        "startTime": "2026-09-21T10:00:00.000Z",
+        "startLabel": "13:00",
+        "endTime": "2026-09-21T11:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 130,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
+          "gender": "female",
+          "avatarEmoji": "💆‍♀️"
+        },
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "slug": "deep-tissue",
+          "icon": "💪",
+          "basePrice": 130
+        }
+      },
+      {
+        "id": "cmu8a1cqu007rbl301x1q2705",
+        "startTime": "2026-09-21T10:00:00.000Z",
+        "startLabel": "13:00",
+        "endTime": "2026-09-21T11:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
+          "gender": "female",
+          "avatarEmoji": "💆‍♀️"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1crs0082bl30c3bkw7n9",
+        "startTime": "2026-09-21T10:00:00.000Z",
+        "startLabel": "13:00",
+        "endTime": "2026-09-21T10:50:00.000Z",
+        "durationMin": 50,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 95,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
+          "slug": "aromatherapy",
+          "icon": "🌸",
+          "basePrice": 95
+        }
+      },
+      {
+        "id": "cmu8a1csv008dbl308xnevw53",
+        "startTime": "2026-09-21T10:00:00.000Z",
+        "startLabel": "13:00",
+        "endTime": "2026-09-21T11:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1ctu008obl30085uzu5g",
+        "startTime": "2026-09-21T10:00:00.000Z",
+        "startLabel": "13:00",
+        "endTime": "2026-09-21T11:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1cv2008zbl30p92nadai",
+        "startTime": "2026-09-21T10:00:00.000Z",
+        "startLabel": "13:00",
+        "endTime": "2026-09-21T11:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cw0009abl30yl8gs6t5",
+        "startTime": "2026-09-21T10:00:00.000Z",
+        "startLabel": "13:00",
+        "endTime": "2026-09-21T11:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 130,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "slug": "deep-tissue",
+          "icon": "💪",
+          "basePrice": 130
+        }
+      },
+      {
+        "id": "cmu8a1cx0009lbl301eyby0eb",
+        "startTime": "2026-09-21T10:00:00.000Z",
+        "startLabel": "13:00",
+        "endTime": "2026-09-21T11:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cxy009wbl30hicypuo3",
+        "startTime": "2026-09-21T10:00:00.000Z",
+        "startLabel": "13:00",
+        "endTime": "2026-09-21T10:50:00.000Z",
+        "durationMin": 50,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 95,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c20000jbl30lafp3m2c",
+          "name": "Miguel Santos",
+          "gender": "male",
+          "avatarEmoji": "🦶"
+        },
+        "service": {
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
+          "slug": "aromatherapy",
+          "icon": "🌸",
+          "basePrice": 95
+        }
+      },
+      {
+        "id": "cmu8a1cyy00a7bl30af8a2iqj",
+        "startTime": "2026-09-21T10:00:00.000Z",
+        "startLabel": "13:00",
+        "endTime": "2026-09-21T11:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c23000kbl305671m76m",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu8a1czw00aibl30ppsn0jmw",
         "startTime": "2026-09-21T10:00:00.000Z",
         "startLabel": "13:00",
         "endTime": "2026-09-21T11:00:00.000Z",
@@ -1431,21 +1431,21 @@
         "price": 105,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx5000lbx30253slcsy",
+          "id": "cmu8a1c26000lbl30udttnifo",
           "name": "Kim Nguyen",
           "gender": "female",
           "avatarEmoji": "✨"
         },
         "service": {
-          "id": "cmu7ftwxy000sbx30gposfnvr",
-          "name": "Догляд за обличчям",
+          "id": "cmu8a1c2w000sbl30nsrr1ljy",
+          "name": "Facial Treatment",
           "slug": "facial",
           "icon": "✨",
           "basePrice": 105
         }
       },
       {
-        "id": "cmu7ftxwl008ubx30s5e3e7hi",
+        "id": "cmu8a1cp60076bl303532heaw",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T12:15:00.000Z",
@@ -1455,45 +1455,45 @@
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "id": "cmu8a1c1j000ebl30yppqsqr6",
           "name": "Олена Коваль",
           "gender": "female",
           "avatarEmoji": "🧖‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7ftxxr0095bx30rcvk2fgx",
+        "id": "cmu8a1cq1007hbl30dw71qqbo",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T12:00:00.000Z",
         "durationMin": 60,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 130,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
           "slug": "deep-tissue",
           "icon": "💪",
           "basePrice": 130
         }
       },
       {
-        "id": "cmu7ftxz0009gbx306vwmio8p",
+        "id": "cmu8a1cqx007sbl30ipr265oh",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T12:00:00.000Z",
@@ -1503,21 +1503,21 @@
         "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "slug": "back-massage",
           "icon": "💆",
           "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty0c009rbx30hdl3cv72",
+        "id": "cmu8a1crv0083bl30ov1fegql",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T11:50:00.000Z",
@@ -1527,21 +1527,21 @@
         "price": 95,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "slug": "aromatherapy",
           "icon": "🌸",
           "basePrice": 95
         }
       },
       {
-        "id": "cmu7fty1h00a2bx30ejaw8uy6",
+        "id": "cmu8a1csz008ebl3071mudfhs",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T12:00:00.000Z",
@@ -1551,69 +1551,69 @@
         "price": 110,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
           "slug": "swedish",
           "icon": "🌿",
           "basePrice": 110
         }
       },
       {
-        "id": "cmu7fty2q00adbx301i4llon6",
+        "id": "cmu8a1ctx008pbl30uuw2j9ad",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T12:00:00.000Z",
         "durationMin": 60,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 110,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
           "name": "Emily Wilson",
           "gender": "female",
           "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
           "slug": "swedish",
           "icon": "🌿",
           "basePrice": 110
         }
       },
       {
-        "id": "cmu7fty3x00aobx30b8yst3ia",
+        "id": "cmu8a1cv60090bl30j32x3h7m",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T12:00:00.000Z",
         "durationMin": 60,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
           "name": "Emily Wilson",
           "gender": "female",
           "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "slug": "back-massage",
           "icon": "💆",
           "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty5400azbx3099exofjf",
+        "id": "cmu8a1cw4009bbl30bsbiwldm",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T12:00:00.000Z",
@@ -1623,133 +1623,133 @@
         "price": 130,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
           "name": "James O'Neil",
           "gender": "male",
           "avatarEmoji": "💪"
         },
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
           "slug": "deep-tissue",
           "icon": "💪",
           "basePrice": 130
         }
       },
       {
-        "id": "cmu7fty6b00babx3012hu1dnh",
+        "id": "cmu8a1cx3009mbl304szhiqhd",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T12:00:00.000Z",
         "durationMin": 60,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
           "name": "James O'Neil",
           "gender": "male",
           "avatarEmoji": "💪"
         },
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "slug": "back-massage",
           "icon": "💆",
           "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty7n00blbx30jyqug32b",
+        "id": "cmu8a1cy2009xbl3053iumbzm",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T11:50:00.000Z",
         "durationMin": 50,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 95,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwr000jbx30pk4y4del",
+          "id": "cmu8a1c20000jbl30lafp3m2c",
           "name": "Miguel Santos",
           "gender": "male",
           "avatarEmoji": "🦶"
         },
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "slug": "aromatherapy",
           "icon": "🌸",
           "basePrice": 95
         }
       },
       {
-        "id": "cmu7fty8u00bwbx30azxcwuhf",
+        "id": "cmu8a1cz200a8bl304tzhoq5n",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T12:15:00.000Z",
         "durationMin": 75,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7fty9y00c7bx30bp160ud2",
+        "id": "cmu8a1d0000ajbl30szbsfecs",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T12:00:00.000Z",
         "durationMin": 60,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 105,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx5000lbx30253slcsy",
+          "id": "cmu8a1c26000lbl30udttnifo",
           "name": "Kim Nguyen",
           "gender": "female",
           "avatarEmoji": "✨"
         },
         "service": {
-          "id": "cmu7ftwxy000sbx30gposfnvr",
-          "name": "Догляд за обличчям",
+          "id": "cmu8a1c2w000sbl30nsrr1ljy",
+          "name": "Facial Treatment",
           "slug": "facial",
           "icon": "✨",
           "basePrice": 105
         }
       },
       {
-        "id": "cmu7fu01z00s8bx30fr5gx1dt",
+        "id": "cmu8a1f3f00tzbl30u9l2lbn0",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T14:00:00.000Z",
         "durationMin": 180,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -1757,31 +1757,7 @@
         }
       },
       {
-        "id": "cmu7fu02300s9bx306gfhskoz",
-        "startTime": "2026-09-21T11:00:00.000Z",
-        "startLabel": "14:00",
-        "endTime": "2026-09-21T14:00:00.000Z",
-        "durationMin": 180,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 189,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
-          "name": "Nordic Relaxation",
-          "slug": "pkg-nordic-relaxation",
-          "icon": "🧖",
-          "basePrice": 189
-        }
-      },
-      {
-        "id": "cmu7fu02700sabx30suhj1tql",
+        "id": "cmu8a1f3i00u0bl30v6g5q2ou",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T14:00:00.000Z",
@@ -1791,13 +1767,13 @@
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -1805,7 +1781,31 @@
         }
       },
       {
-        "id": "cmu7fu0g800vqbx30sz8dlux6",
+        "id": "cmu8a1f3n00u1bl30s8jq7cy4",
+        "startTime": "2026-09-21T11:00:00.000Z",
+        "startLabel": "14:00",
+        "endTime": "2026-09-21T14:00:00.000Z",
+        "durationMin": 180,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 189,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c23000kbl305671m76m",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
+          "name": "Nordic Relaxation",
+          "slug": "pkg-nordic-relaxation",
+          "icon": "🧖",
+          "basePrice": 189
+        }
+      },
+      {
+        "id": "cmu8a1fi800xqbl30b8ss20qf",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T13:30:00.000Z",
@@ -1815,13 +1815,13 @@
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -1829,7 +1829,7 @@
         }
       },
       {
-        "id": "cmu7fu0gc00vrbx30cbhzrhuw",
+        "id": "cmu8a1fic00xrbl308bwejtw2",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T13:30:00.000Z",
@@ -1839,13 +1839,13 @@
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -1853,23 +1853,23 @@
         }
       },
       {
-        "id": "cmu7fu0gg00vsbx30ixc8hfgo",
+        "id": "cmu8a1fif00xsbl30j7jtwypf",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
         "endTime": "2026-09-21T13:30:00.000Z",
         "durationMin": 150,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -1877,79 +1877,79 @@
         }
       },
       {
-        "id": "cmu7ftxwp008vbx30lfs4g2hq",
+        "id": "cmu8a1cp90077bl306h82yqnq",
         "startTime": "2026-09-21T12:00:00.000Z",
         "startLabel": "15:00",
         "endTime": "2026-09-21T13:15:00.000Z",
         "durationMin": 75,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "id": "cmu8a1c1j000ebl30yppqsqr6",
           "name": "Олена Коваль",
           "gender": "female",
           "avatarEmoji": "🧖‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7ftxxv0096bx30snc3lx10",
+        "id": "cmu8a1cq4007ibl30rea5pmi3",
         "startTime": "2026-09-21T12:00:00.000Z",
         "startLabel": "15:00",
         "endTime": "2026-09-21T13:00:00.000Z",
         "durationMin": 60,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 130,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
           "slug": "deep-tissue",
           "icon": "💪",
           "basePrice": 130
         }
       },
       {
-        "id": "cmu7ftxz3009hbx30ruvepxaa",
+        "id": "cmu8a1cr0007tbl30y35c6r6l",
         "startTime": "2026-09-21T12:00:00.000Z",
         "startLabel": "15:00",
         "endTime": "2026-09-21T13:00:00.000Z",
         "durationMin": 60,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "slug": "back-massage",
           "icon": "💆",
           "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty0g009sbx30sds9nnpk",
+        "id": "cmu8a1cry0084bl301e2nmfoe",
         "startTime": "2026-09-21T12:00:00.000Z",
         "startLabel": "15:00",
         "endTime": "2026-09-21T12:50:00.000Z",
@@ -1959,21 +1959,21 @@
         "price": 95,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "slug": "aromatherapy",
           "icon": "🌸",
           "basePrice": 95
         }
       },
       {
-        "id": "cmu7fty1l00a3bx30atuvee8k",
+        "id": "cmu8a1ct2008fbl301yb6ndnv",
         "startTime": "2026-09-21T12:00:00.000Z",
         "startLabel": "15:00",
         "endTime": "2026-09-21T13:00:00.000Z",
@@ -1983,93 +1983,45 @@
         "price": 110,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
           "slug": "swedish",
           "icon": "🌿",
           "basePrice": 110
         }
       },
       {
-        "id": "cmu7fty2u00aebx30dwzi826l",
-        "startTime": "2026-09-21T12:00:00.000Z",
-        "startLabel": "15:00",
-        "endTime": "2026-09-21T13:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty4100apbx300ild9e1y",
-        "startTime": "2026-09-21T12:00:00.000Z",
-        "startLabel": "15:00",
-        "endTime": "2026-09-21T13:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty5800b0bx30tm6c1t95",
+        "id": "cmu8a1cu6008qbl30z8h9i3gw",
         "startTime": "2026-09-21T12:00:00.000Z",
         "startLabel": "15:00",
         "endTime": "2026-09-21T13:00:00.000Z",
         "durationMin": 60,
         "isBooked": true,
         "isFlashSale": false,
-        "price": 130,
+        "price": 110,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
-          "slug": "deep-tissue",
-          "icon": "💪",
-          "basePrice": 130
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
         }
       },
       {
-        "id": "cmu7fty6f00bbbx3068olkf3b",
+        "id": "cmu8a1cv90091bl30up70g10a",
         "startTime": "2026-09-21T12:00:00.000Z",
         "startLabel": "15:00",
         "endTime": "2026-09-21T13:00:00.000Z",
@@ -2079,21 +2031,69 @@
         "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "slug": "back-massage",
           "icon": "💆",
           "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty7r00bmbx30djipu7ku",
+        "id": "cmu8a1cw7009cbl301c0thw2k",
+        "startTime": "2026-09-21T12:00:00.000Z",
+        "startLabel": "15:00",
+        "endTime": "2026-09-21T13:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 130,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "slug": "deep-tissue",
+          "icon": "💪",
+          "basePrice": 130
+        }
+      },
+      {
+        "id": "cmu8a1cx6009nbl30qnfn50zs",
+        "startTime": "2026-09-21T12:00:00.000Z",
+        "startLabel": "15:00",
+        "endTime": "2026-09-21T13:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cy5009ybl30aongm8g3",
         "startTime": "2026-09-21T12:00:00.000Z",
         "startLabel": "15:00",
         "endTime": "2026-09-21T12:50:00.000Z",
@@ -2103,69 +2103,69 @@
         "price": 95,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwr000jbx30pk4y4del",
+          "id": "cmu8a1c20000jbl30lafp3m2c",
           "name": "Miguel Santos",
           "gender": "male",
           "avatarEmoji": "🦶"
         },
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "slug": "aromatherapy",
           "icon": "🌸",
           "basePrice": 95
         }
       },
       {
-        "id": "cmu7fty8y00bxbx30ou9t5rgt",
+        "id": "cmu8a1cz600a9bl30oou8lfic",
         "startTime": "2026-09-21T12:00:00.000Z",
         "startLabel": "15:00",
         "endTime": "2026-09-21T13:15:00.000Z",
         "durationMin": 75,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7ftya100c8bx30grfrnl03",
+        "id": "cmu8a1d0300akbl30o4zb6k8v",
         "startTime": "2026-09-21T12:00:00.000Z",
         "startLabel": "15:00",
         "endTime": "2026-09-21T13:00:00.000Z",
         "durationMin": 60,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 105,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx5000lbx30253slcsy",
+          "id": "cmu8a1c26000lbl30udttnifo",
           "name": "Kim Nguyen",
           "gender": "female",
           "avatarEmoji": "✨"
         },
         "service": {
-          "id": "cmu7ftwxy000sbx30gposfnvr",
-          "name": "Догляд за обличчям",
+          "id": "cmu8a1c2w000sbl30nsrr1ljy",
+          "name": "Facial Treatment",
           "slug": "facial",
           "icon": "✨",
           "basePrice": 105
         }
       },
       {
-        "id": "cmu7ftxwt008wbx30ww0d6ynv",
+        "id": "cmu8a1cpc0078bl30rhinboxm",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
         "endTime": "2026-09-21T14:15:00.000Z",
@@ -2175,21 +2175,21 @@
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "id": "cmu8a1c1j000ebl30yppqsqr6",
           "name": "Олена Коваль",
           "gender": "female",
           "avatarEmoji": "🧖‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7ftxxz0097bx30n5vjx96u",
+        "id": "cmu8a1cq7007jbl30k6dk7idq",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
         "endTime": "2026-09-21T14:00:00.000Z",
@@ -2199,165 +2199,21 @@
         "price": 130,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
           "slug": "deep-tissue",
           "icon": "💪",
           "basePrice": 130
         }
       },
       {
-        "id": "cmu7ftxz8009ibx30xrbcef79",
-        "startTime": "2026-09-21T13:00:00.000Z",
-        "startLabel": "16:00",
-        "endTime": "2026-09-21T14:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
-          "name": "Marie Tremblay",
-          "gender": "female",
-          "avatarEmoji": "💆‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty0j009tbx30hnm8vmyv",
-        "startTime": "2026-09-21T13:00:00.000Z",
-        "startLabel": "16:00",
-        "endTime": "2026-09-21T13:50:00.000Z",
-        "durationMin": 50,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 95,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
-          "slug": "aromatherapy",
-          "icon": "🌸",
-          "basePrice": 95
-        }
-      },
-      {
-        "id": "cmu7fty1p00a4bx30pwlb1lpq",
-        "startTime": "2026-09-21T13:00:00.000Z",
-        "startLabel": "16:00",
-        "endTime": "2026-09-21T14:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty2z00afbx30ysnaocsv",
-        "startTime": "2026-09-21T13:00:00.000Z",
-        "startLabel": "16:00",
-        "endTime": "2026-09-21T14:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty4500aqbx30cl99crf6",
-        "startTime": "2026-09-21T13:00:00.000Z",
-        "startLabel": "16:00",
-        "endTime": "2026-09-21T14:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty5c00b1bx30fuqhozbg",
-        "startTime": "2026-09-21T13:00:00.000Z",
-        "startLabel": "16:00",
-        "endTime": "2026-09-21T14:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 130,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
-        },
-        "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
-          "slug": "deep-tissue",
-          "icon": "💪",
-          "basePrice": 130
-        }
-      },
-      {
-        "id": "cmu7fty6n00bcbx300ytub79w",
+        "id": "cmu8a1cr3007ubl3024vgolea",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
         "endTime": "2026-09-21T14:00:00.000Z",
@@ -2367,21 +2223,21 @@
         "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
+          "gender": "female",
+          "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "slug": "back-massage",
           "icon": "💆",
           "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty7u00bnbx30f7oxvhml",
+        "id": "cmu8a1cs10085bl303lwqoznp",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
         "endTime": "2026-09-21T13:50:00.000Z",
@@ -2391,21 +2247,165 @@
         "price": 95,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwr000jbx30pk4y4del",
-          "name": "Miguel Santos",
-          "gender": "male",
-          "avatarEmoji": "🦶"
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "slug": "aromatherapy",
           "icon": "🌸",
           "basePrice": 95
         }
       },
       {
-        "id": "cmu7fty9100bybx30u1v8w5qi",
+        "id": "cmu8a1ct6008gbl30bkik79kq",
+        "startTime": "2026-09-21T13:00:00.000Z",
+        "startLabel": "16:00",
+        "endTime": "2026-09-21T14:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1cua008rbl30rajja7xh",
+        "startTime": "2026-09-21T13:00:00.000Z",
+        "startLabel": "16:00",
+        "endTime": "2026-09-21T14:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1cvc0092bl306ljdg7ou",
+        "startTime": "2026-09-21T13:00:00.000Z",
+        "startLabel": "16:00",
+        "endTime": "2026-09-21T14:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cwa009dbl30q6zmt6jn",
+        "startTime": "2026-09-21T13:00:00.000Z",
+        "startLabel": "16:00",
+        "endTime": "2026-09-21T14:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 130,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "slug": "deep-tissue",
+          "icon": "💪",
+          "basePrice": 130
+        }
+      },
+      {
+        "id": "cmu8a1cxa009obl300xydn74h",
+        "startTime": "2026-09-21T13:00:00.000Z",
+        "startLabel": "16:00",
+        "endTime": "2026-09-21T14:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cy8009zbl30vz15pvtj",
+        "startTime": "2026-09-21T13:00:00.000Z",
+        "startLabel": "16:00",
+        "endTime": "2026-09-21T13:50:00.000Z",
+        "durationMin": 50,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 95,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c20000jbl30lafp3m2c",
+          "name": "Miguel Santos",
+          "gender": "male",
+          "avatarEmoji": "🦶"
+        },
+        "service": {
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
+          "slug": "aromatherapy",
+          "icon": "🌸",
+          "basePrice": 95
+        }
+      },
+      {
+        "id": "cmu8a1cz900aabl30f5eukl6d",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
         "endTime": "2026-09-21T14:15:00.000Z",
@@ -2415,21 +2415,21 @@
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7ftya400c9bx30pac8sz9s",
+        "id": "cmu8a1d0600albl30nofy1jm1",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
         "endTime": "2026-09-21T14:00:00.000Z",
@@ -2439,37 +2439,37 @@
         "price": 105,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx5000lbx30253slcsy",
+          "id": "cmu8a1c26000lbl30udttnifo",
           "name": "Kim Nguyen",
           "gender": "female",
           "avatarEmoji": "✨"
         },
         "service": {
-          "id": "cmu7ftwxy000sbx30gposfnvr",
-          "name": "Догляд за обличчям",
+          "id": "cmu8a1c2w000sbl30nsrr1ljy",
+          "name": "Facial Treatment",
           "slug": "facial",
           "icon": "✨",
           "basePrice": 105
         }
       },
       {
-        "id": "cmu7fu02a00sbbx30clwssygu",
+        "id": "cmu8a1f3r00u2bl304854wmz8",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
         "endTime": "2026-09-21T16:00:00.000Z",
         "durationMin": 180,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -2477,7 +2477,7 @@
         }
       },
       {
-        "id": "cmu7fu02e00scbx30xp6mchpw",
+        "id": "cmu8a1f3v00u3bl30iok6g2g7",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
         "endTime": "2026-09-21T16:00:00.000Z",
@@ -2487,13 +2487,13 @@
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -2501,7 +2501,7 @@
         }
       },
       {
-        "id": "cmu7fu02i00sdbx30n0hr5ezo",
+        "id": "cmu8a1f3z00u4bl30hkqm4o6r",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
         "endTime": "2026-09-21T16:00:00.000Z",
@@ -2511,13 +2511,13 @@
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -2525,7 +2525,7 @@
         }
       },
       {
-        "id": "cmu7fu0gk00vtbx30qhyj8wam",
+        "id": "cmu8a1fij00xtbl30wgcot4a0",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
         "endTime": "2026-09-21T15:30:00.000Z",
@@ -2535,13 +2535,13 @@
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -2549,23 +2549,23 @@
         }
       },
       {
-        "id": "cmu7fu0go00vubx30qx82wukk",
+        "id": "cmu8a1fin00xubl30s7byt6et",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
         "endTime": "2026-09-21T15:30:00.000Z",
         "durationMin": 150,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -2573,23 +2573,23 @@
         }
       },
       {
-        "id": "cmu7fu0gs00vvbx30qnm0xxq7",
+        "id": "cmu8a1fir00xvbl30qdidh5yo",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
         "endTime": "2026-09-21T15:30:00.000Z",
         "durationMin": 150,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -2597,31 +2597,31 @@
         }
       },
       {
-        "id": "cmu7ftxwx008xbx302nak0pkr",
+        "id": "cmu8a1cpe0079bl30gkpboure",
         "startTime": "2026-09-21T14:00:00.000Z",
         "startLabel": "17:00",
         "endTime": "2026-09-21T15:15:00.000Z",
         "durationMin": 75,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "id": "cmu8a1c1j000ebl30yppqsqr6",
           "name": "Олена Коваль",
           "gender": "female",
           "avatarEmoji": "🧖‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7ftxy30098bx300wwd4lkk",
+        "id": "cmu8a1cqa007kbl30t9ixppg5",
         "startTime": "2026-09-21T14:00:00.000Z",
         "startLabel": "17:00",
         "endTime": "2026-09-21T15:00:00.000Z",
@@ -2631,21 +2631,21 @@
         "price": 130,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
           "slug": "deep-tissue",
           "icon": "💪",
           "basePrice": 130
         }
       },
       {
-        "id": "cmu7ftxzc009jbx301fafzgmv",
+        "id": "cmu8a1cr6007vbl308kwfai0b",
         "startTime": "2026-09-21T14:00:00.000Z",
         "startLabel": "17:00",
         "endTime": "2026-09-21T15:00:00.000Z",
@@ -2655,21 +2655,165 @@
         "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "slug": "back-massage",
           "icon": "💆",
           "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty0o009ubx30w8ubrvrc",
+        "id": "cmu8a1cs40086bl30z34djhpn",
+        "startTime": "2026-09-21T14:00:00.000Z",
+        "startLabel": "17:00",
+        "endTime": "2026-09-21T14:50:00.000Z",
+        "durationMin": 50,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 95,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
+          "slug": "aromatherapy",
+          "icon": "🌸",
+          "basePrice": 95
+        }
+      },
+      {
+        "id": "cmu8a1cta008hbl30jh1fbedu",
+        "startTime": "2026-09-21T14:00:00.000Z",
+        "startLabel": "17:00",
+        "endTime": "2026-09-21T15:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1cud008sbl303xwbolrs",
+        "startTime": "2026-09-21T14:00:00.000Z",
+        "startLabel": "17:00",
+        "endTime": "2026-09-21T15:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1cvf0093bl30wlv0yl98",
+        "startTime": "2026-09-21T14:00:00.000Z",
+        "startLabel": "17:00",
+        "endTime": "2026-09-21T15:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cwd009ebl30t3m3si5u",
+        "startTime": "2026-09-21T14:00:00.000Z",
+        "startLabel": "17:00",
+        "endTime": "2026-09-21T15:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 130,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "slug": "deep-tissue",
+          "icon": "💪",
+          "basePrice": 130
+        }
+      },
+      {
+        "id": "cmu8a1cxd009pbl30u2gs0100",
+        "startTime": "2026-09-21T14:00:00.000Z",
+        "startLabel": "17:00",
+        "endTime": "2026-09-21T15:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cyc00a0bl30s9w4d6ul",
         "startTime": "2026-09-21T14:00:00.000Z",
         "startLabel": "17:00",
         "endTime": "2026-09-21T14:50:00.000Z",
@@ -2679,165 +2823,21 @@
         "price": 95,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
-          "slug": "aromatherapy",
-          "icon": "🌸",
-          "basePrice": 95
-        }
-      },
-      {
-        "id": "cmu7fty1t00a5bx306tc0ft0u",
-        "startTime": "2026-09-21T14:00:00.000Z",
-        "startLabel": "17:00",
-        "endTime": "2026-09-21T15:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty3400agbx30bwsw9foc",
-        "startTime": "2026-09-21T14:00:00.000Z",
-        "startLabel": "17:00",
-        "endTime": "2026-09-21T15:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty4900arbx30smwixmyb",
-        "startTime": "2026-09-21T14:00:00.000Z",
-        "startLabel": "17:00",
-        "endTime": "2026-09-21T15:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty5g00b2bx304c87jbnx",
-        "startTime": "2026-09-21T14:00:00.000Z",
-        "startLabel": "17:00",
-        "endTime": "2026-09-21T15:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 130,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
-        },
-        "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
-          "slug": "deep-tissue",
-          "icon": "💪",
-          "basePrice": 130
-        }
-      },
-      {
-        "id": "cmu7fty6r00bdbx306r0ogaa7",
-        "startTime": "2026-09-21T14:00:00.000Z",
-        "startLabel": "17:00",
-        "endTime": "2026-09-21T15:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty7y00bobx30ilc9uk73",
-        "startTime": "2026-09-21T14:00:00.000Z",
-        "startLabel": "17:00",
-        "endTime": "2026-09-21T14:50:00.000Z",
-        "durationMin": 50,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 95,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwr000jbx30pk4y4del",
+          "id": "cmu8a1c20000jbl30lafp3m2c",
           "name": "Miguel Santos",
           "gender": "male",
           "avatarEmoji": "🦶"
         },
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "slug": "aromatherapy",
           "icon": "🌸",
           "basePrice": 95
         }
       },
       {
-        "id": "cmu7fty9500bzbx30go2lzm3c",
+        "id": "cmu8a1czc00abbl305xyfdhf7",
         "startTime": "2026-09-21T14:00:00.000Z",
         "startLabel": "17:00",
         "endTime": "2026-09-21T15:15:00.000Z",
@@ -2847,93 +2847,93 @@
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7ftya800cabx3074b0ogll",
+        "id": "cmu8a1d0900ambl30726hz9aw",
         "startTime": "2026-09-21T14:00:00.000Z",
         "startLabel": "17:00",
         "endTime": "2026-09-21T15:00:00.000Z",
         "durationMin": 60,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 105,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx5000lbx30253slcsy",
+          "id": "cmu8a1c26000lbl30udttnifo",
           "name": "Kim Nguyen",
           "gender": "female",
           "avatarEmoji": "✨"
         },
         "service": {
-          "id": "cmu7ftwxy000sbx30gposfnvr",
-          "name": "Догляд за обличчям",
+          "id": "cmu8a1c2w000sbl30nsrr1ljy",
+          "name": "Facial Treatment",
           "slug": "facial",
           "icon": "✨",
           "basePrice": 105
         }
       },
       {
-        "id": "cmu7ftxx1008ybx30xmbytqdj",
+        "id": "cmu8a1cph007abl30hesg3ap0",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T16:15:00.000Z",
         "durationMin": 75,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "id": "cmu8a1c1j000ebl30yppqsqr6",
           "name": "Олена Коваль",
           "gender": "female",
           "avatarEmoji": "🧖‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7ftxy70099bx30alsvx7jj",
+        "id": "cmu8a1cqc007lbl30qpaj1zku",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T16:00:00.000Z",
         "durationMin": 60,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 130,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
           "slug": "deep-tissue",
           "icon": "💪",
           "basePrice": 130
         }
       },
       {
-        "id": "cmu7ftxzi009kbx30yv3kqmyt",
+        "id": "cmu8a1cr9007wbl305d214k4t",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T16:00:00.000Z",
@@ -2943,21 +2943,21 @@
         "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "slug": "back-massage",
           "icon": "💆",
           "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty0r009vbx30vr4oinjb",
+        "id": "cmu8a1cs70087bl30flbcsl0k",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T15:50:00.000Z",
@@ -2967,21 +2967,21 @@
         "price": 95,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "slug": "aromatherapy",
           "icon": "🌸",
           "basePrice": 95
         }
       },
       {
-        "id": "cmu7fty1x00a6bx30pbuhh9ec",
+        "id": "cmu8a1ctd008ibl3058qgwqiz",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T16:00:00.000Z",
@@ -2991,69 +2991,69 @@
         "price": 110,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
           "slug": "swedish",
           "icon": "🌿",
           "basePrice": 110
         }
       },
       {
-        "id": "cmu7fty3700ahbx30qk8xco1x",
-        "startTime": "2026-09-21T15:00:00.000Z",
-        "startLabel": "18:00",
-        "endTime": "2026-09-21T16:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty4d00asbx30ba2pc9u9",
+        "id": "cmu8a1cuh008tbl30rg988oti",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T16:00:00.000Z",
         "durationMin": 60,
         "isBooked": true,
         "isFlashSale": false,
-        "price": 100,
+        "price": 110,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
           "name": "Emily Wilson",
           "gender": "female",
           "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1cvi0094bl30z5lvv0te",
+        "startTime": "2026-09-21T15:00:00.000Z",
+        "startLabel": "18:00",
+        "endTime": "2026-09-21T16:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "slug": "back-massage",
           "icon": "💆",
           "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty5j00b3bx30f77drw7k",
+        "id": "cmu8a1cwg009fbl30teb43vxg",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T16:00:00.000Z",
@@ -3063,45 +3063,45 @@
         "price": 130,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
           "name": "James O'Neil",
           "gender": "male",
           "avatarEmoji": "💪"
         },
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
           "slug": "deep-tissue",
           "icon": "💪",
           "basePrice": 130
         }
       },
       {
-        "id": "cmu7fty6v00bebx30i1mlykzi",
+        "id": "cmu8a1cxg009qbl30gkrrcdbe",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T16:00:00.000Z",
         "durationMin": 60,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
           "name": "James O'Neil",
           "gender": "male",
           "avatarEmoji": "💪"
         },
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "slug": "back-massage",
           "icon": "💆",
           "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty8100bpbx30mk20x6qv",
+        "id": "cmu8a1cyf00a1bl30g3i3tz3t",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T15:50:00.000Z",
@@ -3111,45 +3111,45 @@
         "price": 95,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwr000jbx30pk4y4del",
+          "id": "cmu8a1c20000jbl30lafp3m2c",
           "name": "Miguel Santos",
           "gender": "male",
           "avatarEmoji": "🦶"
         },
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "slug": "aromatherapy",
           "icon": "🌸",
           "basePrice": 95
         }
       },
       {
-        "id": "cmu7fty9800c0bx302o78qvyx",
+        "id": "cmu8a1czf00acbl30hy3xbayv",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T16:15:00.000Z",
         "durationMin": 75,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7ftyad00cbbx30pfiykftc",
+        "id": "cmu8a1d0c00anbl30jrna9zsf",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T16:00:00.000Z",
@@ -3159,21 +3159,21 @@
         "price": 105,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx5000lbx30253slcsy",
+          "id": "cmu8a1c26000lbl30udttnifo",
           "name": "Kim Nguyen",
           "gender": "female",
           "avatarEmoji": "✨"
         },
         "service": {
-          "id": "cmu7ftwxy000sbx30gposfnvr",
-          "name": "Догляд за обличчям",
+          "id": "cmu8a1c2w000sbl30nsrr1ljy",
+          "name": "Facial Treatment",
           "slug": "facial",
           "icon": "✨",
           "basePrice": 105
         }
       },
       {
-        "id": "cmu7fu02m00sebx30feomc1lj",
+        "id": "cmu8a1f4400u5bl30e3d9fsb8",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T18:00:00.000Z",
@@ -3183,13 +3183,13 @@
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -3197,7 +3197,7 @@
         }
       },
       {
-        "id": "cmu7fu02q00sfbx30lm9ly3xy",
+        "id": "cmu8a1f4800u6bl30euhips0n",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T18:00:00.000Z",
@@ -3207,13 +3207,13 @@
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -3221,7 +3221,7 @@
         }
       },
       {
-        "id": "cmu7fu02t00sgbx30sej5wu5l",
+        "id": "cmu8a1f4b00u7bl30w5hb0x7z",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T18:00:00.000Z",
@@ -3231,13 +3231,13 @@
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -3245,31 +3245,7 @@
         }
       },
       {
-        "id": "cmu7fu0gv00vwbx30a6h6t5gl",
-        "startTime": "2026-09-21T15:00:00.000Z",
-        "startLabel": "18:00",
-        "endTime": "2026-09-21T17:30:00.000Z",
-        "durationMin": 150,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 260,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
-          "name": "Marie Tremblay",
-          "gender": "female",
-          "avatarEmoji": "💆‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
-          "name": "Romantic Duo",
-          "slug": "pkg-romantic-duo",
-          "icon": "💑",
-          "basePrice": 260
-        }
-      },
-      {
-        "id": "cmu7fu0gz00vxbx30lkfbzsnu",
+        "id": "cmu8a1fiu00xwbl30pakvro4k",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T17:30:00.000Z",
@@ -3279,13 +3255,13 @@
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
           "gender": "female",
-          "avatarEmoji": "🌸"
+          "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -3293,7 +3269,7 @@
         }
       },
       {
-        "id": "cmu7fu0h300vybx30ry1576k0",
+        "id": "cmu8a1fiy00xxbl30qnxlnurd",
         "startTime": "2026-09-21T15:00:00.000Z",
         "startLabel": "18:00",
         "endTime": "2026-09-21T17:30:00.000Z",
@@ -3303,13 +3279,37 @@
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c3s0015bl30iwl7026z",
+          "name": "Romantic Duo",
+          "slug": "pkg-romantic-duo",
+          "icon": "💑",
+          "basePrice": 260
+        }
+      },
+      {
+        "id": "cmu8a1fj200xybl305h87jt39",
+        "startTime": "2026-09-21T15:00:00.000Z",
+        "startLabel": "18:00",
+        "endTime": "2026-09-21T17:30:00.000Z",
+        "durationMin": 150,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 260,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -3317,247 +3317,7 @@
         }
       },
       {
-        "id": "cmu7ftxx5008zbx30r5wmip4r",
-        "startTime": "2026-09-21T16:00:00.000Z",
-        "startLabel": "19:00",
-        "endTime": "2026-09-21T17:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 120,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
-          "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
-        }
-      },
-      {
-        "id": "cmu7ftxyc009abx30ois5pw87",
-        "startTime": "2026-09-21T16:00:00.000Z",
-        "startLabel": "19:00",
-        "endTime": "2026-09-21T17:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 130,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
-          "name": "Marie Tremblay",
-          "gender": "female",
-          "avatarEmoji": "💆‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
-          "slug": "deep-tissue",
-          "icon": "💪",
-          "basePrice": 130
-        }
-      },
-      {
-        "id": "cmu7ftxzl009lbx305y7dppae",
-        "startTime": "2026-09-21T16:00:00.000Z",
-        "startLabel": "19:00",
-        "endTime": "2026-09-21T17:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
-          "name": "Marie Tremblay",
-          "gender": "female",
-          "avatarEmoji": "💆‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty0u009wbx304iak2481",
-        "startTime": "2026-09-21T16:00:00.000Z",
-        "startLabel": "19:00",
-        "endTime": "2026-09-21T16:50:00.000Z",
-        "durationMin": 50,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 95,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
-          "slug": "aromatherapy",
-          "icon": "🌸",
-          "basePrice": 95
-        }
-      },
-      {
-        "id": "cmu7fty2300a7bx30e2swww4t",
-        "startTime": "2026-09-21T16:00:00.000Z",
-        "startLabel": "19:00",
-        "endTime": "2026-09-21T17:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
-          "name": "Sarah Chen",
-          "gender": "female",
-          "avatarEmoji": "🌸"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty3b00aibx303j08slil",
-        "startTime": "2026-09-21T16:00:00.000Z",
-        "startLabel": "19:00",
-        "endTime": "2026-09-21T17:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 110,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "slug": "swedish",
-          "icon": "🌿",
-          "basePrice": 110
-        }
-      },
-      {
-        "id": "cmu7fty4h00atbx30a6h13iot",
-        "startTime": "2026-09-21T16:00:00.000Z",
-        "startLabel": "19:00",
-        "endTime": "2026-09-21T17:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
-          "name": "Emily Wilson",
-          "gender": "female",
-          "avatarEmoji": "🌿"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty5m00b4bx308bkp8umc",
-        "startTime": "2026-09-21T16:00:00.000Z",
-        "startLabel": "19:00",
-        "endTime": "2026-09-21T17:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 130,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
-        },
-        "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
-          "slug": "deep-tissue",
-          "icon": "💪",
-          "basePrice": 130
-        }
-      },
-      {
-        "id": "cmu7fty7000bfbx30w1aviv65",
-        "startTime": "2026-09-21T16:00:00.000Z",
-        "startLabel": "19:00",
-        "endTime": "2026-09-21T17:00:00.000Z",
-        "durationMin": 60,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 100,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
-          "name": "James O'Neil",
-          "gender": "male",
-          "avatarEmoji": "💪"
-        },
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "slug": "back-massage",
-          "icon": "💆",
-          "basePrice": 100
-        }
-      },
-      {
-        "id": "cmu7fty8600bqbx30dcipwiza",
-        "startTime": "2026-09-21T16:00:00.000Z",
-        "startLabel": "19:00",
-        "endTime": "2026-09-21T16:50:00.000Z",
-        "durationMin": 50,
-        "isBooked": true,
-        "isFlashSale": false,
-        "price": 95,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwwr000jbx30pk4y4del",
-          "name": "Miguel Santos",
-          "gender": "male",
-          "avatarEmoji": "🦶"
-        },
-        "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
-          "slug": "aromatherapy",
-          "icon": "🌸",
-          "basePrice": 95
-        }
-      },
-      {
-        "id": "cmu7fty9c00c1bx30dgi6ufh9",
+        "id": "cmu8a1cpk007bbl30unt0dn8b",
         "startTime": "2026-09-21T16:00:00.000Z",
         "startLabel": "19:00",
         "endTime": "2026-09-21T17:15:00.000Z",
@@ -3567,21 +3327,261 @@
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1j000ebl30yppqsqr6",
+          "name": "Олена Коваль",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "🧖‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7ftyah00ccbx30rn6v65b3",
+        "id": "cmu8a1cqf007mbl30hfm2ccql",
+        "startTime": "2026-09-21T16:00:00.000Z",
+        "startLabel": "19:00",
+        "endTime": "2026-09-21T17:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 130,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
+          "gender": "female",
+          "avatarEmoji": "💆‍♀️"
+        },
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "slug": "deep-tissue",
+          "icon": "💪",
+          "basePrice": 130
+        }
+      },
+      {
+        "id": "cmu8a1crc007xbl30xy2oo7mf",
+        "startTime": "2026-09-21T16:00:00.000Z",
+        "startLabel": "19:00",
+        "endTime": "2026-09-21T17:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
+          "gender": "female",
+          "avatarEmoji": "💆‍♀️"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1csa0088bl301ove8n25",
+        "startTime": "2026-09-21T16:00:00.000Z",
+        "startLabel": "19:00",
+        "endTime": "2026-09-21T16:50:00.000Z",
+        "durationMin": 50,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 95,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
+          "slug": "aromatherapy",
+          "icon": "🌸",
+          "basePrice": 95
+        }
+      },
+      {
+        "id": "cmu8a1ctg008jbl308imws1xc",
+        "startTime": "2026-09-21T16:00:00.000Z",
+        "startLabel": "19:00",
+        "endTime": "2026-09-21T17:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1r000gbl30ef53l90t",
+          "name": "Sarah Chen",
+          "gender": "female",
+          "avatarEmoji": "🌸"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1cul008ubl303rd1d17j",
+        "startTime": "2026-09-21T16:00:00.000Z",
+        "startLabel": "19:00",
+        "endTime": "2026-09-21T17:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 110,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
+          "slug": "swedish",
+          "icon": "🌿",
+          "basePrice": 110
+        }
+      },
+      {
+        "id": "cmu8a1cvl0095bl30p2qyhqcr",
+        "startTime": "2026-09-21T16:00:00.000Z",
+        "startLabel": "19:00",
+        "endTime": "2026-09-21T17:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cwk009gbl30s1y70syv",
+        "startTime": "2026-09-21T16:00:00.000Z",
+        "startLabel": "19:00",
+        "endTime": "2026-09-21T17:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 130,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "slug": "deep-tissue",
+          "icon": "💪",
+          "basePrice": 130
+        }
+      },
+      {
+        "id": "cmu8a1cxk009rbl30pvbxc9qe",
+        "startTime": "2026-09-21T16:00:00.000Z",
+        "startLabel": "19:00",
+        "endTime": "2026-09-21T17:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
+          "name": "James O'Neil",
+          "gender": "male",
+          "avatarEmoji": "💪"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cyj00a2bl308ra057dj",
+        "startTime": "2026-09-21T16:00:00.000Z",
+        "startLabel": "19:00",
+        "endTime": "2026-09-21T16:50:00.000Z",
+        "durationMin": 50,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 95,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c20000jbl30lafp3m2c",
+          "name": "Miguel Santos",
+          "gender": "male",
+          "avatarEmoji": "🦶"
+        },
+        "service": {
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
+          "slug": "aromatherapy",
+          "icon": "🌸",
+          "basePrice": 95
+        }
+      },
+      {
+        "id": "cmu8a1czi00adbl30jiswymho",
+        "startTime": "2026-09-21T16:00:00.000Z",
+        "startLabel": "19:00",
+        "endTime": "2026-09-21T17:15:00.000Z",
+        "durationMin": 75,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 120,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c23000kbl305671m76m",
+          "name": "Anna Berg",
+          "gender": "female",
+          "avatarEmoji": "🪨"
+        },
+        "service": {
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
+          "slug": "hot-stone",
+          "icon": "🪨",
+          "basePrice": 120
+        }
+      },
+      {
+        "id": "cmu8a1d0f00aobl30uqixa7r0",
         "startTime": "2026-09-21T16:00:00.000Z",
         "startLabel": "19:00",
         "endTime": "2026-09-21T17:00:00.000Z",
@@ -3591,45 +3591,45 @@
         "price": 105,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx5000lbx30253slcsy",
+          "id": "cmu8a1c26000lbl30udttnifo",
           "name": "Kim Nguyen",
           "gender": "female",
           "avatarEmoji": "✨"
         },
         "service": {
-          "id": "cmu7ftwxy000sbx30gposfnvr",
-          "name": "Догляд за обличчям",
+          "id": "cmu8a1c2w000sbl30nsrr1ljy",
+          "name": "Facial Treatment",
           "slug": "facial",
           "icon": "✨",
           "basePrice": 105
         }
       },
       {
-        "id": "cmu7ftxx80090bx30r7h22n2k",
+        "id": "cmu8a1cpn007cbl30il9e1dte",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T18:15:00.000Z",
         "durationMin": 75,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
+          "id": "cmu8a1c1j000ebl30yppqsqr6",
           "name": "Олена Коваль",
           "gender": "female",
           "avatarEmoji": "🧖‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7ftxyf009bbx307zkdqo05",
+        "id": "cmu8a1cqi007nbl30eevocenu",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T18:00:00.000Z",
@@ -3639,21 +3639,21 @@
         "price": 130,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
           "slug": "deep-tissue",
           "icon": "💪",
           "basePrice": 130
         }
       },
       {
-        "id": "cmu7ftxzp009mbx3028t1nsci",
+        "id": "cmu8a1crf007ybl30i7ig61eb",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T18:00:00.000Z",
@@ -3663,45 +3663,45 @@
         "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "slug": "back-massage",
           "icon": "💆",
           "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty0y009xbx30cux26ly6",
+        "id": "cmu8a1cse0089bl307m4bxq6p",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T17:50:00.000Z",
         "durationMin": 50,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 95,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "slug": "aromatherapy",
           "icon": "🌸",
           "basePrice": 95
         }
       },
       {
-        "id": "cmu7fty2700a8bx30sf6ji4g1",
+        "id": "cmu8a1ctj008kbl30jg5wy38s",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T18:00:00.000Z",
@@ -3711,21 +3711,21 @@
         "price": 110,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
           "slug": "swedish",
           "icon": "🌿",
           "basePrice": 110
         }
       },
       {
-        "id": "cmu7fty3f00ajbx30uozhir13",
+        "id": "cmu8a1cun008vbl302wlyyjbe",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T18:00:00.000Z",
@@ -3735,45 +3735,45 @@
         "price": 110,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
           "name": "Emily Wilson",
           "gender": "female",
           "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
           "slug": "swedish",
           "icon": "🌿",
           "basePrice": 110
         }
       },
       {
-        "id": "cmu7fty4k00aubx30zfbqqcou",
+        "id": "cmu8a1cvo0096bl30n1wjnkzn",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T18:00:00.000Z",
         "durationMin": 60,
-        "isBooked": true,
+        "isBooked": false,
         "isFlashSale": false,
         "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwj000hbx30sbzqi3xm",
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
           "name": "Emily Wilson",
           "gender": "female",
           "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "slug": "back-massage",
           "icon": "💆",
           "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty5q00b5bx30m0ezv4xw",
+        "id": "cmu8a1cwn009hbl30b69j8wgx",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T18:00:00.000Z",
@@ -3783,21 +3783,21 @@
         "price": 130,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
           "name": "James O'Neil",
           "gender": "male",
           "avatarEmoji": "💪"
         },
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
           "slug": "deep-tissue",
           "icon": "💪",
           "basePrice": 130
         }
       },
       {
-        "id": "cmu7fty7300bgbx304krmav4s",
+        "id": "cmu8a1cxn009sbl30j2446zsn",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T18:00:00.000Z",
@@ -3807,21 +3807,21 @@
         "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwn000ibx30juzagolx",
+          "id": "cmu8a1c1x000ibl30wpdc38xr",
           "name": "James O'Neil",
           "gender": "male",
           "avatarEmoji": "💪"
         },
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "slug": "back-massage",
           "icon": "💆",
           "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty8a00brbx30e1emjmxz",
+        "id": "cmu8a1cym00a3bl306rkn9d05",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T17:50:00.000Z",
@@ -3831,21 +3831,21 @@
         "price": 95,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwr000jbx30pk4y4del",
+          "id": "cmu8a1c20000jbl30lafp3m2c",
           "name": "Miguel Santos",
           "gender": "male",
           "avatarEmoji": "🦶"
         },
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "slug": "aromatherapy",
           "icon": "🌸",
           "basePrice": 95
         }
       },
       {
-        "id": "cmu7fty9f00c2bx30ki9gsjot",
+        "id": "cmu8a1czl00aebl30ygdxaryz",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T18:15:00.000Z",
@@ -3855,21 +3855,21 @@
         "price": 120,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "slug": "hot-stone",
           "icon": "🪨",
           "basePrice": 120
         }
       },
       {
-        "id": "cmu7ftyal00cdbx3058xxims2",
+        "id": "cmu8a1d0i00apbl30ae112jos",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T18:00:00.000Z",
@@ -3879,21 +3879,21 @@
         "price": 105,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx5000lbx30253slcsy",
+          "id": "cmu8a1c26000lbl30udttnifo",
           "name": "Kim Nguyen",
           "gender": "female",
           "avatarEmoji": "✨"
         },
         "service": {
-          "id": "cmu7ftwxy000sbx30gposfnvr",
-          "name": "Догляд за обличчям",
+          "id": "cmu8a1c2w000sbl30nsrr1ljy",
+          "name": "Facial Treatment",
           "slug": "facial",
           "icon": "✨",
           "basePrice": 105
         }
       },
       {
-        "id": "cmu7fu02z00shbx30wqhqa09t",
+        "id": "cmu8a1f4e00u8bl30dhh5ldn8",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T20:00:00.000Z",
@@ -3903,13 +3903,13 @@
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -3917,23 +3917,23 @@
         }
       },
       {
-        "id": "cmu7fu03300sibx309mly4vx3",
+        "id": "cmu8a1f4i00u9bl3064xows92",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T20:00:00.000Z",
         "durationMin": 180,
-        "isBooked": false,
+        "isBooked": true,
         "isFlashSale": false,
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -3941,7 +3941,7 @@
         }
       },
       {
-        "id": "cmu7fu03700sjbx303w69h5uw",
+        "id": "cmu8a1f4m00uabl3071w22ear",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T20:00:00.000Z",
@@ -3951,13 +3951,13 @@
         "price": 189,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "slug": "pkg-nordic-relaxation",
           "icon": "🧖",
@@ -3965,7 +3965,7 @@
         }
       },
       {
-        "id": "cmu7fu0h700vzbx302fem4g1f",
+        "id": "cmu8a1fj600xzbl302c2jxbef",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T19:30:00.000Z",
@@ -3975,13 +3975,13 @@
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww9000fbx306197gfol",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
           "name": "Marie Tremblay",
           "gender": "female",
           "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -3989,7 +3989,7 @@
         }
       },
       {
-        "id": "cmu7fu0hc00w0bx300xdff73b",
+        "id": "cmu8a1fj900y0bl30tkrzky7o",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T19:30:00.000Z",
@@ -3999,13 +3999,13 @@
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwwd000gbx3070b5j879",
+          "id": "cmu8a1c1r000gbl30ef53l90t",
           "name": "Sarah Chen",
           "gender": "female",
           "avatarEmoji": "🌸"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",
@@ -4013,7 +4013,7 @@
         }
       },
       {
-        "id": "cmu7fu0hg00w1bx30japrboet",
+        "id": "cmu8a1fjd00y1bl3093b334os",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
         "endTime": "2026-09-21T19:30:00.000Z",
@@ -4023,13 +4023,13 @@
         "price": 260,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
+          "id": "cmu8a1c23000kbl305671m76m",
           "name": "Anna Berg",
           "gender": "female",
           "avatarEmoji": "🪨"
         },
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "slug": "pkg-romantic-duo",
           "icon": "💑",

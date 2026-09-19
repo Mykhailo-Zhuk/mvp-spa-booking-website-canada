@@ -5,531 +5,531 @@
     "date": "2026-09-21",
     "slots": [
       {
-        "id": "cmu7ftxw4008qbx304njxjcsh",
+        "id": "cmu8a1cql007obl30cuo38k3h",
         "startTime": "2026-09-21T07:00:00.000Z",
         "startLabel": "10:00",
-        "endTime": "2026-09-21T08:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": true,
+        "endTime": "2026-09-21T08:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
           "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
+          "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty8e00bsbx30re9wyura",
+        "id": "cmu8a1cur008wbl30zjvt5j82",
         "startTime": "2026-09-21T07:00:00.000Z",
         "startLabel": "10:00",
-        "endTime": "2026-09-21T08:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": false,
+        "endTime": "2026-09-21T08:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7ftxw8008rbx30u0qkxwxw",
+        "id": "cmu8a1cqo007pbl30bq6uwoc2",
         "startTime": "2026-09-21T08:00:00.000Z",
         "startLabel": "11:00",
-        "endTime": "2026-09-21T09:15:00.000Z",
-        "durationMin": 75,
+        "endTime": "2026-09-21T09:00:00.000Z",
+        "durationMin": 60,
         "isBooked": false,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
           "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
+          "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty8i00btbx30mkc4vv8w",
+        "id": "cmu8a1cuv008xbl30m3p01bvz",
         "startTime": "2026-09-21T08:00:00.000Z",
         "startLabel": "11:00",
-        "endTime": "2026-09-21T09:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": true,
+        "endTime": "2026-09-21T09:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7ftxwc008sbx308rad68jx",
+        "id": "cmu8a1cqr007qbl30yjfrrrw9",
         "startTime": "2026-09-21T09:00:00.000Z",
         "startLabel": "12:00",
-        "endTime": "2026-09-21T10:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": true,
+        "endTime": "2026-09-21T10:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
           "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
+          "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty8m00bubx307sd852yj",
+        "id": "cmu8a1cuz008ybl30792yeg1h",
         "startTime": "2026-09-21T09:00:00.000Z",
         "startLabel": "12:00",
-        "endTime": "2026-09-21T10:15:00.000Z",
-        "durationMin": 75,
+        "endTime": "2026-09-21T10:00:00.000Z",
+        "durationMin": 60,
         "isBooked": false,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7ftxwg008tbx30p7xj8yv0",
+        "id": "cmu8a1cqu007rbl301x1q2705",
         "startTime": "2026-09-21T10:00:00.000Z",
         "startLabel": "13:00",
-        "endTime": "2026-09-21T11:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": true,
+        "endTime": "2026-09-21T11:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
           "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
+          "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty8q00bvbx3034pajicd",
+        "id": "cmu8a1cv2008zbl30p92nadai",
         "startTime": "2026-09-21T10:00:00.000Z",
         "startLabel": "13:00",
-        "endTime": "2026-09-21T11:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": false,
+        "endTime": "2026-09-21T11:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7ftxwl008ubx30s5e3e7hi",
+        "id": "cmu8a1cqx007sbl30ipr265oh",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
-        "endTime": "2026-09-21T12:15:00.000Z",
-        "durationMin": 75,
+        "endTime": "2026-09-21T12:00:00.000Z",
+        "durationMin": 60,
         "isBooked": false,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
           "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
+          "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty8u00bwbx30azxcwuhf",
+        "id": "cmu8a1cv60090bl30j32x3h7m",
         "startTime": "2026-09-21T11:00:00.000Z",
         "startLabel": "14:00",
-        "endTime": "2026-09-21T12:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": true,
+        "endTime": "2026-09-21T12:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7ftxwp008vbx30lfs4g2hq",
+        "id": "cmu8a1cr0007tbl30y35c6r6l",
         "startTime": "2026-09-21T12:00:00.000Z",
         "startLabel": "15:00",
-        "endTime": "2026-09-21T13:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": false,
+        "endTime": "2026-09-21T13:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
           "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
+          "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty8y00bxbx30ou9t5rgt",
+        "id": "cmu8a1cv90091bl30up70g10a",
         "startTime": "2026-09-21T12:00:00.000Z",
         "startLabel": "15:00",
-        "endTime": "2026-09-21T13:15:00.000Z",
-        "durationMin": 75,
+        "endTime": "2026-09-21T13:00:00.000Z",
+        "durationMin": 60,
         "isBooked": false,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7ftxwt008wbx30ww0d6ynv",
+        "id": "cmu8a1cr3007ubl3024vgolea",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
-        "endTime": "2026-09-21T14:15:00.000Z",
-        "durationMin": 75,
+        "endTime": "2026-09-21T14:00:00.000Z",
+        "durationMin": 60,
         "isBooked": true,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
           "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
+          "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty9100bybx30u1v8w5qi",
+        "id": "cmu8a1cvc0092bl306ljdg7ou",
         "startTime": "2026-09-21T13:00:00.000Z",
         "startLabel": "16:00",
-        "endTime": "2026-09-21T14:15:00.000Z",
-        "durationMin": 75,
+        "endTime": "2026-09-21T14:00:00.000Z",
+        "durationMin": 60,
         "isBooked": false,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7ftxwx008xbx302nak0pkr",
+        "id": "cmu8a1cr6007vbl308kwfai0b",
         "startTime": "2026-09-21T14:00:00.000Z",
         "startLabel": "17:00",
-        "endTime": "2026-09-21T15:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 120,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
-          "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
-        }
-      },
-      {
-        "id": "cmu7fty9500bzbx30go2lzm3c",
-        "startTime": "2026-09-21T14:00:00.000Z",
-        "startLabel": "17:00",
-        "endTime": "2026-09-21T15:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 120,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
-          "gender": "female",
-          "avatarEmoji": "🪨"
-        },
-        "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
-        }
-      },
-      {
-        "id": "cmu7ftxx1008ybx30xmbytqdj",
-        "startTime": "2026-09-21T15:00:00.000Z",
-        "startLabel": "18:00",
-        "endTime": "2026-09-21T16:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 120,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
-          "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
-        },
-        "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
-        }
-      },
-      {
-        "id": "cmu7fty9800c0bx302o78qvyx",
-        "startTime": "2026-09-21T15:00:00.000Z",
-        "startLabel": "18:00",
-        "endTime": "2026-09-21T16:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": false,
-        "isFlashSale": false,
-        "price": 120,
-        "originalPrice": null,
-        "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
-          "gender": "female",
-          "avatarEmoji": "🪨"
-        },
-        "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
-        }
-      },
-      {
-        "id": "cmu7ftxx5008zbx30r5wmip4r",
-        "startTime": "2026-09-21T16:00:00.000Z",
-        "startLabel": "19:00",
-        "endTime": "2026-09-21T17:15:00.000Z",
-        "durationMin": 75,
+        "endTime": "2026-09-21T15:00:00.000Z",
+        "durationMin": 60,
         "isBooked": true,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
           "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
+          "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty9c00c1bx30dgi6ufh9",
+        "id": "cmu8a1cvf0093bl30wlv0yl98",
+        "startTime": "2026-09-21T14:00:00.000Z",
+        "startLabel": "17:00",
+        "endTime": "2026-09-21T15:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cr9007wbl305d214k4t",
+        "startTime": "2026-09-21T15:00:00.000Z",
+        "startLabel": "18:00",
+        "endTime": "2026-09-21T16:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
+          "gender": "female",
+          "avatarEmoji": "💆‍♀️"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cvi0094bl30z5lvv0te",
+        "startTime": "2026-09-21T15:00:00.000Z",
+        "startLabel": "18:00",
+        "endTime": "2026-09-21T16:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1crc007xbl30xy2oo7mf",
         "startTime": "2026-09-21T16:00:00.000Z",
         "startLabel": "19:00",
-        "endTime": "2026-09-21T17:15:00.000Z",
-        "durationMin": 75,
+        "endTime": "2026-09-21T17:00:00.000Z",
+        "durationMin": 60,
         "isBooked": false,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7ftxx80090bx30r7h22n2k",
-        "startTime": "2026-09-21T17:00:00.000Z",
-        "startLabel": "20:00",
-        "endTime": "2026-09-21T18:15:00.000Z",
-        "durationMin": 75,
+        "id": "cmu8a1cvl0095bl30p2qyhqcr",
+        "startTime": "2026-09-21T16:00:00.000Z",
+        "startLabel": "19:00",
+        "endTime": "2026-09-21T17:00:00.000Z",
+        "durationMin": 60,
         "isBooked": false,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftww6000ebx30zl2jjm3t",
-          "name": "Олена Коваль",
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
           "gender": "female",
-          "avatarEmoji": "🧖‍♀️"
+          "avatarEmoji": "🌿"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       },
       {
-        "id": "cmu7fty9f00c2bx30ki9gsjot",
+        "id": "cmu8a1crf007ybl30i7ig61eb",
         "startTime": "2026-09-21T17:00:00.000Z",
         "startLabel": "20:00",
-        "endTime": "2026-09-21T18:15:00.000Z",
-        "durationMin": 75,
-        "isBooked": false,
+        "endTime": "2026-09-21T18:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": true,
         "isFlashSale": false,
-        "price": 120,
+        "price": 100,
         "originalPrice": null,
         "therapist": {
-          "id": "cmu7ftwx1000kbx30fzy6ponz",
-          "name": "Anna Berg",
+          "id": "cmu8a1c1n000fbl30yumiebbr",
+          "name": "Marie Tremblay",
           "gender": "female",
-          "avatarEmoji": "🪨"
+          "avatarEmoji": "💆‍♀️"
         },
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
-          "slug": "hot-stone",
-          "icon": "🪨",
-          "basePrice": 120
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
+        }
+      },
+      {
+        "id": "cmu8a1cvo0096bl30n1wjnkzn",
+        "startTime": "2026-09-21T17:00:00.000Z",
+        "startLabel": "20:00",
+        "endTime": "2026-09-21T18:00:00.000Z",
+        "durationMin": 60,
+        "isBooked": false,
+        "isFlashSale": false,
+        "price": 100,
+        "originalPrice": null,
+        "therapist": {
+          "id": "cmu8a1c1u000hbl30snlsnqrx",
+          "name": "Emily Wilson",
+          "gender": "female",
+          "avatarEmoji": "🌿"
+        },
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "slug": "back-massage",
+          "icon": "💆",
+          "basePrice": 100
         }
       }
     ]

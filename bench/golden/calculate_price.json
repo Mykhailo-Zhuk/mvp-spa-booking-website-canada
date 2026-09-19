@@ -2,7 +2,7 @@
   "status": 200,
   "type": "json",
   "json": {
-    "service_name": "Масаж гарячим камінням",
+    "service_name": "Hot Stone Massage",
     "base_price": 120,
     "tax_rate": 0.13,
     "tax": 15.6,

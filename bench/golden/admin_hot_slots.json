@@ -4,20 +4,20 @@
   "json": {
     "hot_slots": [
       {
-        "id": "cmu7ftyaz00chbx30583g7v0g",
+        "id": "cmu8a1d0v00atbl30ul1t73nk",
         "startTime": "2026-09-22T10:00:00.000Z",
         "startLabel": "13:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 13,
-        "fillRate": 0.1,
+        "fillRate": 0.11,
         "isHot": true,
         "price": 120,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "icon": "🪨"
         },
         "therapist": {
@@ -26,20 +26,42 @@
         }
       },
       {
-        "id": "cmu7ftydd00d3bx30e31ekifb",
+        "id": "cmu8a1d1w00b4bl30web9z50a",
         "startTime": "2026-09-22T10:00:00.000Z",
         "startLabel": "13:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 13,
-        "fillRate": 0.1,
+        "fillRate": 0.11,
+        "isHot": true,
+        "price": 130,
+        "originalPrice": null,
+        "isFlashSale": false,
+        "service": {
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
+          "icon": "💪"
+        },
+        "therapist": {
+          "name": "Marie Tremblay",
+          "avatarEmoji": "💆‍♀️"
+        }
+      },
+      {
+        "id": "cmu8a1d2z00bfbl30chb2r7n6",
+        "startTime": "2026-09-22T10:00:00.000Z",
+        "startLabel": "13:00",
+        "dayLabel": "2026-09-22",
+        "weekday": 2,
+        "hour": 13,
+        "fillRate": 0.11,
         "isHot": true,
         "price": 100,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "icon": "💆"
         },
         "therapist": {
@@ -48,20 +70,20 @@
         }
       },
       {
-        "id": "cmu7ftyei00debx3021ag9o7q",
+        "id": "cmu8a1d4700bqbl30f91b6uzg",
         "startTime": "2026-09-22T10:00:00.000Z",
         "startLabel": "13:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 13,
-        "fillRate": 0.1,
+        "fillRate": 0.11,
         "isHot": true,
         "price": 95,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "icon": "🌸"
         },
         "therapist": {
@@ -70,20 +92,20 @@
         }
       },
       {
-        "id": "cmu7ftyfp00dpbx30uwb22ipl",
+        "id": "cmu8a1d5f00c1bl308w8am5xi",
         "startTime": "2026-09-22T10:00:00.000Z",
         "startLabel": "13:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 13,
-        "fillRate": 0.1,
+        "fillRate": 0.11,
         "isHot": true,
         "price": 110,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
           "icon": "🌿"
         },
         "therapist": {
@@ -92,42 +114,20 @@
         }
       },
       {
-        "id": "cmu7ftygu00e0bx30apwsrnuy",
+        "id": "cmu8a1d7s00cnbl30qie52fmz",
         "startTime": "2026-09-22T10:00:00.000Z",
         "startLabel": "13:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 13,
-        "fillRate": 0.1,
-        "isHot": true,
-        "price": 110,
-        "originalPrice": null,
-        "isFlashSale": false,
-        "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
-          "icon": "🌿"
-        },
-        "therapist": {
-          "name": "Emily Wilson",
-          "avatarEmoji": "🌿"
-        }
-      },
-      {
-        "id": "cmu7ftyib00ebbx30sw2fyju5",
-        "startTime": "2026-09-22T10:00:00.000Z",
-        "startLabel": "13:00",
-        "dayLabel": "2026-09-22",
-        "weekday": 2,
-        "hour": 13,
-        "fillRate": 0.1,
+        "fillRate": 0.11,
         "isHot": true,
         "price": 100,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "icon": "💆"
         },
         "therapist": {
@@ -136,20 +136,20 @@
         }
       },
       {
-        "id": "cmu7ftyjl00embx30e6dkhslq",
+        "id": "cmu8a1d8z00cybl30m5adgx62",
         "startTime": "2026-09-22T10:00:00.000Z",
         "startLabel": "13:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 13,
-        "fillRate": 0.1,
+        "fillRate": 0.11,
         "isHot": true,
         "price": 130,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
           "icon": "💪"
         },
         "therapist": {
@@ -158,42 +158,20 @@
         }
       },
       {
-        "id": "cmu7ftyl200exbx30jg6p47ba",
+        "id": "cmu8a1dbf00dkbl307akn35mq",
         "startTime": "2026-09-22T10:00:00.000Z",
         "startLabel": "13:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 13,
-        "fillRate": 0.1,
-        "isHot": true,
-        "price": 100,
-        "originalPrice": null,
-        "isFlashSale": false,
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "icon": "💆"
-        },
-        "therapist": {
-          "name": "James O'Neil",
-          "avatarEmoji": "💪"
-        }
-      },
-      {
-        "id": "cmu7ftym700f8bx30zusmow3p",
-        "startTime": "2026-09-22T10:00:00.000Z",
-        "startLabel": "13:00",
-        "dayLabel": "2026-09-22",
-        "weekday": 2,
-        "hour": 13,
-        "fillRate": 0.1,
+        "fillRate": 0.11,
         "isHot": true,
         "price": 95,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "icon": "🌸"
         },
         "therapist": {
@@ -202,20 +180,20 @@
         }
       },
       {
-        "id": "cmu7ftynf00fjbx30cxx4zavf",
+        "id": "cmu8a1dck00dvbl30drz5jesy",
         "startTime": "2026-09-22T10:00:00.000Z",
         "startLabel": "13:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 13,
-        "fillRate": 0.1,
+        "fillRate": 0.11,
         "isHot": true,
         "price": 120,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "icon": "🪨"
         },
         "therapist": {
@@ -224,20 +202,20 @@
         }
       },
       {
-        "id": "cmu7ftyou00fubx309x14588v",
+        "id": "cmu8a1ddq00e6bl30h05zhedp",
         "startTime": "2026-09-22T10:00:00.000Z",
         "startLabel": "13:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 13,
-        "fillRate": 0.1,
+        "fillRate": 0.11,
         "isHot": true,
         "price": 105,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxy000sbx30gposfnvr",
-          "name": "Догляд за обличчям",
+          "id": "cmu8a1c2w000sbl30nsrr1ljy",
+          "name": "Facial Treatment",
           "icon": "✨"
         },
         "therapist": {
@@ -246,20 +224,20 @@
         }
       },
       {
-        "id": "cmu7ftyao00cebx303246gfrp",
+        "id": "cmu8a1d0l00aqbl30u867kns8",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 120,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "icon": "🪨"
         },
         "therapist": {
@@ -268,20 +246,20 @@
         }
       },
       {
-        "id": "cmu7ftybv00cpbx305hx4f0pr",
+        "id": "cmu8a1d1m00b1bl30g0rh70zp",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 130,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
           "icon": "💪"
         },
         "therapist": {
@@ -290,42 +268,20 @@
         }
       },
       {
-        "id": "cmu7ftyd100d0bx30g0s034t8",
+        "id": "cmu8a1d3u00bnbl30ki5nr0b4",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
-        "isHot": true,
-        "price": 100,
-        "originalPrice": null,
-        "isFlashSale": false,
-        "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
-          "icon": "💆"
-        },
-        "therapist": {
-          "name": "Marie Tremblay",
-          "avatarEmoji": "💆‍♀️"
-        }
-      },
-      {
-        "id": "cmu7ftye600dbbx30s2unpqft",
-        "startTime": "2026-09-22T07:00:00.000Z",
-        "startLabel": "10:00",
-        "dayLabel": "2026-09-22",
-        "weekday": 2,
-        "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 95,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "icon": "🌸"
         },
         "therapist": {
@@ -334,20 +290,20 @@
         }
       },
       {
-        "id": "cmu7ftyfd00dmbx30tbt21roy",
+        "id": "cmu8a1d5600bybl30u6egscwy",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 110,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
           "icon": "🌿"
         },
         "therapist": {
@@ -356,20 +312,20 @@
         }
       },
       {
-        "id": "cmu7ftygi00dxbx30pkbmdx0m",
+        "id": "cmu8a1d6c00c9bl30uwuoad2e",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 110,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxi000obx3085748gww",
-          "name": "Шведський масаж",
+          "id": "cmu8a1c2g000obl30rt3y6sjt",
+          "name": "Swedish Massage",
           "icon": "🌿"
         },
         "therapist": {
@@ -378,20 +334,20 @@
         }
       },
       {
-        "id": "cmu7ftyht00e8bx30wxx66fa4",
+        "id": "cmu8a1d7i00ckbl304hv2rdtq",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 100,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "icon": "💆"
         },
         "therapist": {
@@ -400,20 +356,20 @@
         }
       },
       {
-        "id": "cmu7ftyj800ejbx30zrxz81js",
+        "id": "cmu8a1d8n00cvbl30w8k3xqvg",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 130,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
           "icon": "💪"
         },
         "therapist": {
@@ -422,20 +378,20 @@
         }
       },
       {
-        "id": "cmu7ftykp00eubx309k0c6vb8",
+        "id": "cmu8a1d9u00d6bl30zkil67ii",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 100,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxa000mbx30f7dt0x9g",
-          "name": "Масаж спини",
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
           "icon": "💆"
         },
         "therapist": {
@@ -444,20 +400,20 @@
         }
       },
       {
-        "id": "cmu7ftylx00f5bx300k12ueav",
+        "id": "cmu8a1db300dhbl301augmp8d",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 95,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "icon": "🌸"
         },
         "therapist": {
@@ -466,20 +422,20 @@
         }
       },
       {
-        "id": "cmu7ftyn300fgbx30v9lfxuju",
+        "id": "cmu8a1dca00dsbl309vgjv20p",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 120,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "icon": "🪨"
         },
         "therapist": {
@@ -488,20 +444,20 @@
         }
       },
       {
-        "id": "cmu7ftyoi00frbx30gzgxhkko",
+        "id": "cmu8a1ddd00e3bl30wlp3ut83",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 105,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxy000sbx30gposfnvr",
-          "name": "Догляд за обличчям",
+          "id": "cmu8a1c2w000sbl30nsrr1ljy",
+          "name": "Facial Treatment",
           "icon": "✨"
         },
         "therapist": {
@@ -510,19 +466,19 @@
         }
       },
       {
-        "id": "cmu7fu03b00skbx30hpip35ek",
+        "id": "cmu8a1f4r00ubbl304to9f1mg",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 189,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "icon": "🧖"
         },
@@ -532,41 +488,19 @@
         }
       },
       {
-        "id": "cmu7fu03e00slbx30otjglfa8",
+        "id": "cmu8a1f5000udbl30cbfe0wm7",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 189,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
-          "name": "Nordic Relaxation",
-          "icon": "🧖"
-        },
-        "therapist": {
-          "name": "Sarah Chen",
-          "avatarEmoji": "🌸"
-        }
-      },
-      {
-        "id": "cmu7fu03i00smbx30eomsiv0r",
-        "startTime": "2026-09-22T07:00:00.000Z",
-        "startLabel": "10:00",
-        "dayLabel": "2026-09-22",
-        "weekday": 2,
-        "hour": 10,
-        "fillRate": 0.12,
-        "isHot": true,
-        "price": 189,
-        "originalPrice": null,
-        "isFlashSale": false,
-        "service": {
-          "id": "cmu7ftwz20014bx30n3m1sytp",
+          "id": "cmu8a1c3o0014bl30f8igjxt4",
           "name": "Nordic Relaxation",
           "icon": "🧖"
         },
@@ -576,19 +510,63 @@
         }
       },
       {
-        "id": "cmu7fu0hs00w4bx302ls7okll",
+        "id": "cmu8a1fjh00y2bl30m6kkx7y8",
         "startTime": "2026-09-22T07:00:00.000Z",
         "startLabel": "10:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
         "hour": 10,
-        "fillRate": 0.12,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 260,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwz60015bx301ddk9ahv",
+          "id": "cmu8a1c3s0015bl30iwl7026z",
+          "name": "Romantic Duo",
+          "icon": "💑"
+        },
+        "therapist": {
+          "name": "Marie Tremblay",
+          "avatarEmoji": "💆‍♀️"
+        }
+      },
+      {
+        "id": "cmu8a1fjl00y3bl302v9y7kz4",
+        "startTime": "2026-09-22T07:00:00.000Z",
+        "startLabel": "10:00",
+        "dayLabel": "2026-09-22",
+        "weekday": 2,
+        "hour": 10,
+        "fillRate": 0.15,
+        "isHot": true,
+        "price": 260,
+        "originalPrice": null,
+        "isFlashSale": false,
+        "service": {
+          "id": "cmu8a1c3s0015bl30iwl7026z",
+          "name": "Romantic Duo",
+          "icon": "💑"
+        },
+        "therapist": {
+          "name": "Sarah Chen",
+          "avatarEmoji": "🌸"
+        }
+      },
+      {
+        "id": "cmu8a1fjp00y4bl30cr4zc0yy",
+        "startTime": "2026-09-22T07:00:00.000Z",
+        "startLabel": "10:00",
+        "dayLabel": "2026-09-22",
+        "weekday": 2,
+        "hour": 10,
+        "fillRate": 0.15,
+        "isHot": true,
+        "price": 260,
+        "originalPrice": null,
+        "isFlashSale": false,
+        "service": {
+          "id": "cmu8a1c3s0015bl30iwl7026z",
           "name": "Romantic Duo",
           "icon": "💑"
         },
@@ -598,20 +576,20 @@
         }
       },
       {
-        "id": "cmu7ftyb200cibx30d2gliark",
-        "startTime": "2026-09-22T11:00:00.000Z",
-        "startLabel": "14:00",
+        "id": "cmu8a1d0o00arbl30ld3x57yp",
+        "startTime": "2026-09-22T08:00:00.000Z",
+        "startLabel": "11:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
-        "hour": 14,
-        "fillRate": 0.12,
+        "hour": 11,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 120,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxe000nbx304nt6r8q1",
-          "name": "Масаж гарячим камінням",
+          "id": "cmu8a1c2d000nbl30pbzqoer4",
+          "name": "Hot Stone Massage",
           "icon": "🪨"
         },
         "therapist": {
@@ -620,20 +598,20 @@
         }
       },
       {
-        "id": "cmu7ftycb00ctbx30uhy3tj4p",
-        "startTime": "2026-09-22T11:00:00.000Z",
-        "startLabel": "14:00",
+        "id": "cmu8a1d1p00b2bl30k3ei5a6b",
+        "startTime": "2026-09-22T08:00:00.000Z",
+        "startLabel": "11:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
-        "hour": 14,
-        "fillRate": 0.12,
+        "hour": 11,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 130,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxm000pbx30zmwr9dn5",
-          "name": "Глибокий масаж тканин",
+          "id": "cmu8a1c2k000pbl30cby8sv4b",
+          "name": "Deep Tissue Massage",
           "icon": "💪"
         },
         "therapist": {
@@ -642,20 +620,42 @@
         }
       },
       {
-        "id": "cmu7ftyem00dfbx30x5r927wx",
-        "startTime": "2026-09-22T11:00:00.000Z",
-        "startLabel": "14:00",
+        "id": "cmu8a1d2r00bdbl30zx1ls2ce",
+        "startTime": "2026-09-22T08:00:00.000Z",
+        "startLabel": "11:00",
         "dayLabel": "2026-09-22",
         "weekday": 2,
-        "hour": 14,
-        "fillRate": 0.12,
+        "hour": 11,
+        "fillRate": 0.15,
+        "isHot": true,
+        "price": 100,
+        "originalPrice": null,
+        "isFlashSale": false,
+        "service": {
+          "id": "cmu8a1c2a000mbl30vm1x1b9j",
+          "name": "Back Massage",
+          "icon": "💆"
+        },
+        "therapist": {
+          "name": "Marie Tremblay",
+          "avatarEmoji": "💆‍♀️"
+        }
+      },
+      {
+        "id": "cmu8a1d3y00bobl300hmxu2xo",
+        "startTime": "2026-09-22T08:00:00.000Z",
+        "startLabel": "11:00",
+        "dayLabel": "2026-09-22",
+        "weekday": 2,
+        "hour": 11,
+        "fillRate": 0.15,
         "isHot": true,
         "price": 95,
         "originalPrice": null,
         "isFlashSale": false,
         "service": {
-          "id": "cmu7ftwxp000qbx30fyl6ctji",
-          "name": "Ароматерапія",
+          "id": "cmu8a1c2n000qbl30fwafkzrt",
+          "name": "Aromatherapy",
           "icon": "🌸"
         },
         "therapist": {
@@ -664,6 +664,6 @@
         }
       }
     ],
-    "total_scanned": 739
+    "total_scanned": 774
   }
 }

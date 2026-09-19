@@ -2,8 +2,8 @@
   "status": 200,
   "type": "json",
   "json": {
-    "revenue_today": 0,
-    "revenue_today_label": "$0.00",
+    "revenue_today": 2404.15,
+    "revenue_today_label": "$2,404.15",
     "flash_revenue_today": 0,
     "active_promos": [],
     "delivery": {

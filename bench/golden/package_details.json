@@ -2,54 +2,62 @@
   "status": 200,
   "type": "json",
   "json": {
-    "id": "cmu7ftwy3000tbx30x8evfnb0",
+    "id": "cmu8a1c31000tbl30jjxiifro",
     "slug": "nordic-relaxation",
     "title_en": "Nordic Relaxation",
     "title_fr": "Relaxation nordique",
+    "title_uk": "Нордичне розслаблення",
     "description_en": "A full evening of Finnish sauna, open-air jacuzzi and cedar barrel bath (bain de cèdre). Includes robes, slippers, free parking and ginger tea. Champagne is available at an extra cost.",
     "description_fr": "Une soirée complète : sauna finlandais, jacuzzi en plein air et bain de cèdre. Comprend peignoirs, pantoufles, stationnement gratuit et thé au gingembre. Le champagne est disponible en supplément.",
+    "description_uk": "Цілий вечір фінської сауни, відкритого джакузі та кедрової бочки (bain de cèdre). Включено халати, тапці, безкоштовний паркінг та імбирний чай. Шампанське — за додаткову плату.",
     "price": 189,
     "duration_min": 180,
     "inclusions": [
       {
-        "id": "cmu7ftwyg000ubx30ykpl9nev",
+        "id": "cmu8a1c3a000ubl30wky5uqe3",
         "item_name_en": "2 bathrobes (S–XXL)",
         "item_name_fr": "2 peignoirs (S–XXL)",
+        "item_name_uk": "2 халати (S–XXL)",
         "icon": "👘",
         "tooltip": "Sizes S–XXL. Material: cotton. Included free of charge."
       },
       {
-        "id": "cmu7ftwyg000vbx3062qmx3tp",
+        "id": "cmu8a1c3a000vbl30wpasjy4r",
         "item_name_en": "Slippers",
         "item_name_fr": "Pantoufles",
+        "item_name_uk": "Тапці",
         "icon": "🩴",
         "tooltip": "One pair per guest, free."
       },
       {
-        "id": "cmu7ftwyg000wbx30n07beb5m",
+        "id": "cmu8a1c3a000wbl30fafqraxg",
         "item_name_en": "Free parking",
         "item_name_fr": "Stationnement gratuit",
+        "item_name_uk": "Безкоштовний паркінг",
         "icon": "🚗",
         "tooltip": "On-site lot, 2 min walk to reception."
       },
       {
-        "id": "cmu7ftwyg000xbx30lmyz7jmy",
+        "id": "cmu8a1c3a000xbl30ahzuj94h",
         "item_name_en": "Ginger tea",
         "item_name_fr": "Thé au gingembre",
+        "item_name_uk": "Імбирний чай",
         "icon": "🍵",
         "tooltip": "Unlimited refills in the relaxation zone."
       },
       {
-        "id": "cmu7ftwyg000ybx30gi0n6chd",
+        "id": "cmu8a1c3a000ybl30yj3dnebj",
         "item_name_en": "Cedar barrel bath (bain de cèdre)",
         "item_name_fr": "Bain de cèdre",
+        "item_name_uk": "Кедрова бочка (bain de cèdre)",
         "icon": "🛁",
         "tooltip": "45 min private cedar tub at 38°C."
       },
       {
-        "id": "cmu7ftwyg000zbx3062e02fzv",
+        "id": "cmu8a1c3a000zbl30m96920v7",
         "item_name_en": "Finnish sauna & open-air jacuzzi",
         "item_name_fr": "Sauna finlandais & jacuzzi extérieur",
+        "item_name_uk": "Фінська сауна та відкрите джакузі",
         "icon": "♨️",
         "tooltip": "Included in the package duration."
       }
