@@ -41,31 +41,34 @@ export async function GET() {
     return arr.reduce((a, b) => a + b, 0) / arr.length;
   };
 
-  const hot = slots
-    .map((s) => {
-      const weekday = s.startTime.getDay();
-      const hour = s.startTime.getHours();
-      const fillRate = avgFill(weekday, hour);
-      const activeFlash = s.promotion && s.promotion.isActive && s.promotion.endTime > new Date();
-      return {
-        id: s.id,
-        startTime: s.startTime.toISOString(),
-        startLabel: formatTime(s.startTime),
-        dayLabel: isoDay(s.startTime),
-        weekday,
-        hour,
-        fillRate,
-        isHot: fillRate < 0.3,
-        price: activeFlash ? s.promotion!.discountedPrice : s.price,
-        originalPrice: activeFlash ? s.promotion!.originalPrice : null,
-        isFlashSale: !!activeFlash,
-        service: { id: s.service.id, name: s.service.nameEn, icon: s.service.icon },
-        therapist: { name: s.therapist.name, avatarEmoji: s.therapist.avatarEmoji },
-      };
-    })
-    .filter((s) => s.isHot)
-    .sort((a, b) => a.fillRate - b.fillRate)
-    .slice(0, 30);
+  const now = new Date();
+  const hot = [];
+  for (const s of slots) {
+    const weekday = s.startTime.getDay();
+    const hour = s.startTime.getHours();
+    const fillRate = avgFill(weekday, hour);
+    // Skip non-burning slots up front instead of building a full object for every
+    // slot and discarding most of them later — the sort/tie behaviour is unchanged
+    // because fillRate is the only sort key and V8's sort is stable.
+    if (fillRate >= 0.3) continue;
+    const activeFlash = s.promotion && s.promotion.isActive && s.promotion.endTime > now;
+    hot.push({
+      id: s.id,
+      startTime: s.startTime.toISOString(),
+      startLabel: formatTime(s.startTime),
+      dayLabel: isoDay(s.startTime),
+      weekday,
+      hour,
+      fillRate,
+      isHot: true,
+      price: activeFlash ? s.promotion!.discountedPrice : s.price,
+      originalPrice: activeFlash ? s.promotion!.originalPrice : null,
+      isFlashSale: !!activeFlash,
+      service: { id: s.service.id, name: s.service.nameEn, icon: s.service.icon },
+      therapist: { name: s.therapist.name, avatarEmoji: s.therapist.avatarEmoji },
+    });
+  }
+  hot.sort((a, b) => a.fillRate - b.fillRate);
 
-  return NextResponse.json({ hot_slots: hot, total_scanned: slots.length });
+  return NextResponse.json({ hot_slots: hot.slice(0, 30), total_scanned: slots.length });
 }
