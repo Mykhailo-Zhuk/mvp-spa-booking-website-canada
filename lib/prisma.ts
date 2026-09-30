@@ -37,7 +37,13 @@ function ensureSeededDemoDb(targetPath: string): void {
     try {
       const db = new Database(targetPath);
       const cols = db.prepare("PRAGMA table_info(User)").all() as { name: string }[];
-      if (!cols.some((c) => c.name === "password")) {
+      const slotRow = db.prepare("SELECT count(*) as count, max(startTime) as maxDate FROM Slot").get() as {
+        count: number;
+        maxDate: string | null;
+      } | undefined;
+
+      // If user lacks password or slots table is empty / outdated
+      if (!cols.some((c) => c.name === "password") || !slotRow || slotRow.count < 1000) {
         needsCopy = true;
       }
       db.close();
@@ -54,13 +60,62 @@ function ensureSeededDemoDb(targetPath: string): void {
     }
   }
 
-  // Fallback safety: ensure required columns exist even on warm reused containers
+  // Ensure schema compatibility and maintain rolling upcoming slot dates
   try {
     const db = new Database(targetPath);
+
+    // 1. Ensure password column
     const cols = db.prepare("PRAGMA table_info(User)").all() as { name: string }[];
     if (!cols.some((c) => c.name === "password")) {
       db.prepare("ALTER TABLE User ADD COLUMN password TEXT NOT NULL DEFAULT 'password123'").run();
     }
+
+    // 2. Ensure future slots always exist (shift forward by whole weeks so weekdays and occupancy stay aligned)
+    const slotRow = db.prepare("SELECT min(startTime) as minDate, max(startTime) as maxDate FROM Slot").get() as {
+      minDate: string | null;
+      maxDate: string | null;
+    } | undefined;
+
+    if (slotRow && slotRow.maxDate) {
+      const now = Date.now();
+      const maxTime = new Date(slotRow.maxDate).getTime();
+      const targetLead = 4 * 86400000; // ensure at least 4 days of upcoming slots
+      if (maxTime < now + targetLead) {
+        const weeks = Math.ceil((now + targetLead - maxTime) / (7 * 86400000));
+        const shiftMs = weeks * 7 * 86400000;
+        const shiftTransaction = db.transaction(() => {
+          const slots = db.prepare("SELECT id, startTime, endTime, flashSaleEndsAt FROM Slot").all() as {
+            id: string;
+            startTime: string;
+            endTime: string;
+            flashSaleEndsAt: string | null;
+          }[];
+          const updateSlot = db.prepare("UPDATE Slot SET startTime = ?, endTime = ?, flashSaleEndsAt = ? WHERE id = ?");
+          for (const s of slots) {
+            const newStart = new Date(new Date(s.startTime).getTime() + shiftMs).toISOString();
+            const newEnd = new Date(new Date(s.endTime).getTime() + shiftMs).toISOString();
+            const newFlash = s.flashSaleEndsAt
+              ? new Date(new Date(s.flashSaleEndsAt).getTime() + shiftMs).toISOString()
+              : null;
+            updateSlot.run(newStart, newEnd, newFlash, s.id);
+          }
+
+          const promos = db.prepare("SELECT id, startTime, endTime FROM Promotion").all() as {
+            id: string;
+            startTime: string;
+            endTime: string;
+          }[];
+          const updatePromo = db.prepare("UPDATE Promotion SET startTime = ?, endTime = ? WHERE id = ?");
+          for (const p of promos) {
+            const pStart = new Date(new Date(p.startTime).getTime() + shiftMs).toISOString();
+            const pEnd = new Date(new Date(p.endTime).getTime() + shiftMs).toISOString();
+            updatePromo.run(pStart, pEnd, p.id);
+          }
+        });
+        shiftTransaction();
+      }
+    }
+
     db.close();
   } catch {
     // Adapter or queries will handle errors if any
