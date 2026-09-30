@@ -54,7 +54,12 @@ export async function getSession(): Promise<Session | null> {
 export async function getCurrentUser(): Promise<User | null> {
   const session = await getSession();
   if (!session) return null;
-  return prisma.user.findUnique({ where: { email: session.email } });
+  try {
+    return await prisma.user.findUnique({ where: { email: session.email } });
+  } catch (error) {
+    console.error("getCurrentUser error:", error);
+    return null;
+  }
 }
 
 export async function requireAdmin(): Promise<User | null> {

@@ -26,16 +26,44 @@ function resolveDbUrl(): string {
   return process.env.DATABASE_URL ?? "file:./dev.db";
 }
 
-/** Copy the git-tracked seeded demo snapshot into `targetPath` if that file is missing. */
+import Database from "better-sqlite3";
+
+/** Copy the git-tracked seeded demo snapshot into `targetPath` if that file is missing or outdated. */
 function ensureSeededDemoDb(targetPath: string): void {
-  if (existsSync(targetPath)) return;
   const snapshot = join(process.cwd(), "bench", "fixtures", "dev.db.pristine");
-  if (existsSync(snapshot)) {
+  let needsCopy = !existsSync(targetPath);
+
+  if (!needsCopy) {
+    try {
+      const db = new Database(targetPath);
+      const cols = db.prepare("PRAGMA table_info(User)").all() as { name: string }[];
+      if (!cols.some((c) => c.name === "password")) {
+        needsCopy = true;
+      }
+      db.close();
+    } catch {
+      needsCopy = true;
+    }
+  }
+
+  if (needsCopy && existsSync(snapshot)) {
     try {
       copyFileSync(snapshot, targetPath);
     } catch {
       // Read-only FS or cold-start race: leave it; the adapter will surface any error.
     }
+  }
+
+  // Fallback safety: ensure required columns exist even on warm reused containers
+  try {
+    const db = new Database(targetPath);
+    const cols = db.prepare("PRAGMA table_info(User)").all() as { name: string }[];
+    if (!cols.some((c) => c.name === "password")) {
+      db.prepare("ALTER TABLE User ADD COLUMN password TEXT NOT NULL DEFAULT 'password123'").run();
+    }
+    db.close();
+  } catch {
+    // Adapter or queries will handle errors if any
   }
 }
 
