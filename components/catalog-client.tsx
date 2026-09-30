@@ -31,7 +31,11 @@ export default function CatalogClient({ locale, base, services }: { locale: Loca
   const initialDate = searchParams.get("date") ?? isoDay(new Date());
   const [date, setDate] = useState<string>(initialDate);
   const [gender, setGender] = useState<(typeof GENDERS)[number]>("any");
-  const [serviceId, setServiceId] = useState<string>(initialService);
+  const [serviceId, setServiceId] = useState<string>(() => {
+    if (!initialService) return "";
+    const found = services.find((s) => s.id === initialService || s.slug === initialService);
+    return found ? found.id : initialService;
+  });
   const [province, setProvince] = useState<string>(DEFAULT_PROVINCE);
   const [slots, setSlots] = useState<Slot[]>([]);
   const [loading, setLoading] = useState(true);
@@ -40,7 +44,15 @@ export default function CatalogClient({ locale, base, services }: { locale: Loca
   const [price, setPrice] = useState<{ slotId: string; data: PriceRes } | null>(null);
 
   const days = useMemo(() => Array.from({ length: 7 }, (_, i) => addDays(new Date(), i)), []);
-  const autoAdvanced = useRef(false);
+
+  // Sync if URL search params change
+  useEffect(() => {
+    const sParam = searchParams.get("service");
+    if (sParam !== null) {
+      const found = services.find((s) => s.id === sParam || s.slug === sParam);
+      setServiceId(found ? found.id : sParam);
+    }
+  }, [searchParams, services]);
 
   // Fetch real slots on every filter change (plan Task 1.1: AJAX update + spinner).
   useEffect(() => {
@@ -54,13 +66,6 @@ export default function CatalogClient({ locale, base, services }: { locale: Loca
       .then((r) => r.json())
       .then((d) => {
         if (cancelled) return;
-        const free = (d.slots ?? []).filter((s: Slot) => !s.isBooked);
-        // If the chosen day has no free slots left, jump to the next day (once).
-        if (!autoAdvanced.current && date === isoDay(new Date()) && free.length === 0) {
-          autoAdvanced.current = true;
-          setDate(isoDay(addDays(new Date(), 1)));
-          return;
-        }
         setSlots(d.slots ?? []);
         setSelected(null);
         setPrice(null);
@@ -68,7 +73,7 @@ export default function CatalogClient({ locale, base, services }: { locale: Loca
       })
       .catch(() => { if (!cancelled) setLoading(false); });
     return () => { cancelled = true; };
-  }, [date, gender, serviceId]);
+  }, [date, gender, serviceId, locale]);
 
   // Recompute price whenever selection / province / tip changes (backend tax logic).
   useEffect(() => {
@@ -123,9 +128,9 @@ export default function CatalogClient({ locale, base, services }: { locale: Loca
           {GENDERS.map((g) => (
             <button
               key={g}
-              onClick={() => setGender(g)}
-              className={`h-11 flex-1 rounded-full text-sm font-semibold ${
-                gender === g ? "bg-forest text-cream" : "bg-sand text-forest"
+              onClick={() => setGender(gender === g && g !== "any" ? "any" : g)}
+              className={`h-11 flex-1 rounded-full text-sm font-semibold transition cursor-pointer ${
+                gender === g ? "bg-forest text-cream shadow-sm" : "bg-sand text-forest hover:bg-sand/80"
               }`}
             >
               {g === "any" ? t(locale, "catalog.any") : g === "female" ? t(locale, "catalog.female") : t(locale, "catalog.male")}
@@ -135,8 +140,8 @@ export default function CatalogClient({ locale, base, services }: { locale: Loca
         <div className="flex gap-2 overflow-x-auto no-scrollbar">
           <button
             onClick={() => setServiceId("")}
-            className={`h-10 shrink-0 rounded-full px-3 text-sm font-medium ${
-              serviceId === "" ? "bg-pine text-white" : "bg-sand text-forest"
+            className={`h-10 shrink-0 rounded-full px-3 text-sm font-medium transition cursor-pointer ${
+              serviceId === "" ? "bg-pine text-white shadow-sm" : "bg-sand text-forest hover:bg-sand/80"
             }`}
           >
             {t(locale, "catalog.allServices")}
@@ -144,9 +149,9 @@ export default function CatalogClient({ locale, base, services }: { locale: Loca
           {services.map((s) => (
             <button
               key={s.id}
-              onClick={() => setServiceId(s.id)}
-              className={`h-10 shrink-0 rounded-full px-3 text-sm font-medium ${
-                serviceId === s.id ? "bg-pine text-white" : "bg-sand text-forest"
+              onClick={() => setServiceId(serviceId === s.id ? "" : s.id)}
+              className={`h-10 shrink-0 rounded-full px-3 text-sm font-medium transition cursor-pointer ${
+                serviceId === s.id ? "bg-pine text-white shadow-sm" : "bg-sand text-forest hover:bg-sand/80"
               }`}
             >
               {s.icon} {s.name}
@@ -162,7 +167,29 @@ export default function CatalogClient({ locale, base, services }: { locale: Loca
         </div>
       ) : openSlots.length === 0 ? (
         <div className="rounded-2xl border border-sand bg-white px-4 py-10 text-center text-sm text-forest/60">
-          {t(locale, "catalog.noSlots")}
+          <p>{t(locale, "catalog.noSlots")}</p>
+          {(serviceId || gender !== "any") && (
+            <div className="mt-3 flex justify-center gap-2">
+              {serviceId && (
+                <button
+                  type="button"
+                  onClick={() => setServiceId("")}
+                  className="inline-flex items-center justify-center rounded-full bg-sand px-4 py-2 text-xs font-semibold text-forest transition hover:bg-sand/70 cursor-pointer"
+                >
+                  ↻ {t(locale, "catalog.allServices")}
+                </button>
+              )}
+              {gender !== "any" && (
+                <button
+                  type="button"
+                  onClick={() => setGender("any")}
+                  className="inline-flex items-center justify-center rounded-full bg-sand px-4 py-2 text-xs font-semibold text-forest transition hover:bg-sand/70 cursor-pointer"
+                >
+                  ↻ {t(locale, "catalog.any")}
+                </button>
+              )}
+            </div>
+          )}
         </div>
       ) : (
         <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
@@ -201,27 +228,7 @@ export default function CatalogClient({ locale, base, services }: { locale: Loca
         </div>
       )}
 
-      {/* Booked slots (grey, per plan Task 1.1 scenario) */}
-      {!loading && slots.some((s) => s.isBooked) && (
-        <div>
-          <div className="mb-1 text-xs font-semibold uppercase tracking-wide text-forest/50">
-            {t(locale, "catalog.booked")} ({slots.filter((s) => s.isBooked).length})
-          </div>
-          <div className="grid grid-cols-2 gap-2 opacity-60 sm:grid-cols-3">
-            {slots
-              .filter((s) => s.isBooked)
-              .map((s) => (
-                <div key={s.id} className="flex items-center gap-2 rounded-xl bg-forest/5 px-2.5 py-2">
-                  <span className="text-sm">{s.therapist.avatarEmoji}</span>
-                  <span className="min-w-0">
-                    <span className="block text-xs font-semibold text-forest/60">{s.startLabel}</span>
-                    <span className="block truncate text-[11px] text-forest/40">{s.therapist.name}</span>
-                  </span>
-                </div>
-              ))}
-          </div>
-        </div>
-      )}
+
 
       {/* Sticky price calculator footer (plan: always visible while scrolling) */}
       <div className="sticky bottom-20 z-30 rounded-2xl border border-sand bg-white/95 p-4 shadow-lg backdrop-blur md:bottom-4">

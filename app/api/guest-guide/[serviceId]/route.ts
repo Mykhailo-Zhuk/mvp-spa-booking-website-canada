@@ -8,10 +8,16 @@ export const dynamic = "force-dynamic";
 export async function GET(req: Request, ctx: { params: Promise<{ serviceId: string }> }) {
   const { serviceId } = await ctx.params;
   const locale = (new URL(req.url).searchParams.get("locale") ?? "en") as Locale;
-  const steps = await prisma.guestGuideStep.findMany({
+  let steps = await prisma.guestGuideStep.findMany({
     where: { serviceId },
     orderBy: { stepNumber: "asc" },
   });
+  if (steps.length === 0) {
+    steps = await prisma.guestGuideStep.findMany({
+      orderBy: { stepNumber: "asc" },
+      take: 5,
+    });
+  }
   if (steps.length === 0) {
     return NextResponse.json({ steps: [], serviceName: null });
   }

@@ -1,6 +1,7 @@
 // Profile — demo session info + sign out.
 import { redirect } from "next/navigation";
 import SignOutButton from "@/components/sign-out-button";
+import ChangePasswordCard from "@/components/change-password-card";
 import { getCurrentUser } from "@/lib/auth";
 import { PROVINCES } from "@/lib/taxes";
 import type { Locale } from "@/lib/i18n";
@@ -38,6 +39,7 @@ export default async function ProfilePage({ params }: { params: Promise<{ locale
           <div className="flex justify-between"><span className="text-forest/60">Phone</span><b>{user.phone ?? "—"}</b></div>
         </div>
       </div>
+      <ChangePasswordCard locale={locale} />
       <SignOutButton locale={locale} />
       <p className="text-center text-[11px] text-forest/50">Demo session — no real credentials stored.</p>
     </div>

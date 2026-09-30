@@ -1,11 +1,29 @@
-// Demo auth (plan: Sofia logs into /admin; customers identify for bookings).
-// Simple signed-ish cookie session. Not production auth — no passwords stored.
-
+import crypto from "crypto";
 import { cookies } from "next/headers";
 import { prisma } from "./prisma";
 import type { User } from "@/app/generated/prisma/client";
 
 export const SESSION_COOKIE = "spa_demo_session";
+
+export function hashPassword(password: string): string {
+  const salt = crypto.randomBytes(16).toString("hex");
+  const hash = crypto.scryptSync(password, salt, 64).toString("hex");
+  return `${salt}:${hash}`;
+}
+
+export function verifyPassword(password: string, stored: string | null | undefined): boolean {
+  if (!stored || !password) return false;
+  if (!stored.includes(":")) {
+    return password === stored;
+  }
+  try {
+    const [salt, key] = stored.split(":");
+    const hash = crypto.scryptSync(password, salt, 64).toString("hex");
+    return key === hash;
+  } catch {
+    return false;
+  }
+}
 
 export interface Session {
   email: string;

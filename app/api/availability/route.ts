@@ -23,7 +23,12 @@ export async function GET(req: Request) {
 
   const where: Record<string, unknown> = { startTime: { gte: start, lt: end } };
   if (gender && gender !== "any") where.therapist = { gender };
-  if (serviceId) where.serviceId = serviceId;
+  if (serviceId) {
+    where.OR = [
+      { serviceId },
+      { service: { slug: serviceId } },
+    ];
+  }
   if (therapistId) where.therapistId = therapistId;
 
   const slots = await prisma.slot.findMany({

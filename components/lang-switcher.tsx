@@ -37,7 +37,7 @@ export default function LangSwitcher({ locale }: { locale: Locale }) {
       <button
         onClick={() => setOpen((v) => !v)}
         aria-label="Language / Langue"
-        className="flex h-11 min-w-11 items-center justify-center gap-1 rounded-full bg-sand px-3 text-sm font-semibold text-forest"
+        className="flex h-11 min-w-11 items-center justify-center gap-1 rounded-full bg-sand px-3 text-sm font-semibold text-forest cursor-pointer transition hover:bg-sand/80"
       >
         🌐 <span className="hidden sm:inline">{locale.toUpperCase()}</span>
       </button>
@@ -47,7 +47,7 @@ export default function LangSwitcher({ locale }: { locale: Locale }) {
             <button
               key={l}
               onClick={() => choose(l)}
-              className={`block w-full px-4 py-3 text-left text-sm font-medium hover:bg-cream ${
+              className={`block w-full px-4 py-3 text-left text-sm font-medium hover:bg-cream cursor-pointer transition ${
                 l === locale ? "bg-cream text-pine" : "text-forest"
               }`}
             >

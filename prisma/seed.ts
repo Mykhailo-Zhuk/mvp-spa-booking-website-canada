@@ -2,6 +2,7 @@
 // Seed script — Canadian demo data for the Spa Booking Website.
 // Run: npx tsx prisma/seed.ts
 import { prisma } from "../lib/prisma";
+import { hashPassword } from "../lib/auth";
 import type { Slot, Therapist, Service, Package } from "../app/generated/prisma/client";
 
 const pad = (n: number) => String(n).padStart(2, "0");
@@ -38,6 +39,7 @@ async function main() {
       data: {
         email: "natalia@demo.ca",
         name: "Наталя Гриценко",
+        password: hashPassword("password123"),
         phone: "+1 416 555 0110",
         province: "ON",
         latitude: 43.6532,
@@ -51,6 +53,7 @@ async function main() {
       data: {
         email: "priya@demo.ca",
         name: "Priya Sharma",
+        password: hashPassword("password123"),
         phone: "+1 604 555 0121",
         province: "BC",
         latitude: 49.2827,
@@ -63,6 +66,7 @@ async function main() {
       data: {
         email: "david@demo.ca",
         name: "David Miller",
+        password: hashPassword("password123"),
         phone: "+1 613 555 0132",
         province: "ON",
         latitude: 45.4215,
@@ -76,6 +80,7 @@ async function main() {
       data: {
         email: "sofia@demo.ca",
         name: "Sofia Dubois",
+        password: hashPassword("admin123"),
         phone: "+1 403 555 0143",
         province: "AB",
         latitude: 51.1784,
@@ -86,7 +91,12 @@ async function main() {
     }),
     // Hidden system user used for "booked by someone else" slots
     prisma.user.create({
-      data: { email: "demo@spa.ca", name: "Demo Guest", province: "AB" },
+      data: {
+        email: "demo@spa.ca",
+        name: "Demo Guest",
+        password: hashPassword("password123"),
+        province: "AB",
+      },
     }),
   ]);
 
@@ -350,14 +360,15 @@ async function main() {
   });
 
   // ---------- Slots (next 7 days) + pre-booked ----------
+  // Ensure every service has coverage by both male and female therapists
   const specialtyToServices: Record<string, string[]> = {
-    "hot-stone": ["hot-stone"],
-    "deep-tissue": ["deep-tissue", "back-massage"],
-    aromatherapy: ["aromatherapy", "swedish"],
-    swedish: ["swedish", "back-massage"],
-    sports: ["deep-tissue", "back-massage"],
-    reflexology: ["aromatherapy"],
-    facial: ["facial"],
+    "hot-stone": ["hot-stone", "smudge-ceremony", "back-massage"],
+    "deep-tissue": ["deep-tissue", "back-massage", "swedish"],
+    aromatherapy: ["aromatherapy", "swedish", "smudge-ceremony", "back-massage"],
+    swedish: ["swedish", "back-massage", "deep-tissue"],
+    sports: ["deep-tissue", "back-massage", "swedish", "hot-stone", "smudge-ceremony"],
+    reflexology: ["aromatherapy", "facial", "back-massage", "smudge-ceremony", "swedish"],
+    facial: ["facial", "smudge-ceremony", "aromatherapy", "back-massage"],
   };
 
   let slotCount = 0;
@@ -369,7 +380,6 @@ async function main() {
     return randState / 0x7fffffff;
   };
 
-  const currentHour = new Date().getHours();
   for (let day = 0; day <= 7; day++) {
     const weekday = at(day, 0).getDay();
     for (const therapist of therapists) {
@@ -377,7 +387,6 @@ async function main() {
       for (const slug of serviceSlugs) {
         const service = services[slug];
         for (let hour = 10; hour <= 20; hour++) {
-          if (day === 0 && hour <= currentHour) continue; // skip past slots today
           const start = at(day, hour);
           const end = new Date(start.getTime() + service.durationMin * 60000);
           // Higher chance of being booked on weekends
@@ -400,13 +409,12 @@ async function main() {
     }
   }
 
-  // Package service slots (rotating therapists, packages aren't therapist-bound in demo)
-  const packageTherapists = [therapists[1], therapists[2], therapists[6]];
+  // Package service slots (rotating therapists including both genders)
+  const packageTherapists = [therapists[1], therapists[2], therapists[4], therapists[5], therapists[6]];
   for (const { svc } of pkgServices) {
     for (let day = 0; day <= 7; day++) {
       const weekday = at(day, 0).getDay();
       for (let hour = 10; hour <= 20; hour += 2) {
-        if (day === 0 && hour <= currentHour) continue;
         for (const therapist of packageTherapists) {
           const start = at(day, hour);
           const end = new Date(start.getTime() + svc.durationMin * 60000);
